@@ -1,2 +1,2 @@
 # pgtranslation
-A PostgreSQL Vietnamese translation.
+A PostgreSQL message translations for Vietnamese.
