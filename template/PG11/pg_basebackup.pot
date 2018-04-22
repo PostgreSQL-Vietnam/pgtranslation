@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the pg_basebackup (PostgreSQL) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pg_basebackup (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:16+0000\n"
-"PO-Revision-Date: 2018-04-23 02:27+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: vi_VN\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
 #: ../../common/fe_memutils.c:98
@@ -129,8 +129,7 @@ msgstr ""
 
 #: pg_basebackup.c:280
 #, c-format
-msgid ""
-"%s: invalid tablespace mapping format \"%s\", must be \"OLDDIR=NEWDIR\"\n"
+msgid "%s: invalid tablespace mapping format \"%s\", must be \"OLDDIR=NEWDIR\"\n"
 msgstr ""
 
 #: pg_basebackup.c:293
@@ -217,8 +216,7 @@ msgstr ""
 
 #: pg_basebackup.c:356
 #, c-format
-msgid ""
-"  -Z, --compress=0-9     compress tar output with given compression level\n"
+msgid "  -Z, --compress=0-9     compress tar output with given compression level\n"
 msgstr ""
 
 #: pg_basebackup.c:357
@@ -252,9 +250,7 @@ msgstr ""
 
 #: pg_basebackup.c:363
 #, c-format
-msgid ""
-"  -N, --no-sync          do not wait for changes to be written safely to "
-"disk\n"
+msgid "  -N, --no-sync          do not wait for changes to be written safely to disk\n"
 msgstr ""
 
 #: pg_basebackup.c:364
@@ -269,8 +265,7 @@ msgstr ""
 
 #: pg_basebackup.c:366
 #, c-format
-msgid ""
-"      --no-slot          prevent creation of temporary replication slot\n"
+msgid "      --no-slot          prevent creation of temporary replication slot\n"
 msgstr ""
 
 #: pg_basebackup.c:367
@@ -321,8 +316,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  -s, --status-interval=INTERVAL\n"
-"                         time between status packets sent to server (in "
-"seconds)\n"
+"                         time between status packets sent to server (in seconds)\n"
 msgstr ""
 
 #: pg_basebackup.c:378 pg_receivewal.c:99 pg_recvlogical.c:106
@@ -337,9 +331,7 @@ msgstr ""
 
 #: pg_basebackup.c:380 pg_receivewal.c:101 pg_recvlogical.c:108
 #, c-format
-msgid ""
-"  -W, --password         force password prompt (should happen "
-"automatically)\n"
+msgid "  -W, --password         force password prompt (should happen automatically)\n"
 msgstr ""
 
 #: pg_basebackup.c:381 pg_receivewal.c:105 pg_recvlogical.c:109
@@ -410,18 +402,21 @@ msgstr ""
 msgid "%*s/%s kB (100%%), %d/%d tablespace %*s"
 msgid_plural "%*s/%s kB (100%%), %d/%d tablespaces %*s"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_basebackup.c:797
 #, c-format
 msgid "%*s/%s kB (%d%%), %d/%d tablespace (%s%-*.*s)"
 msgid_plural "%*s/%s kB (%d%%), %d/%d tablespaces (%s%-*.*s)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_basebackup.c:813
 #, c-format
 msgid "%*s/%s kB (%d%%), %d/%d tablespace"
 msgid_plural "%*s/%s kB (%d%%), %d/%d tablespaces"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_basebackup.c:838
 #, c-format
@@ -564,9 +559,7 @@ msgstr ""
 
 #: pg_basebackup.c:1847
 #, c-format
-msgid ""
-"%s: server returned unexpected response to BASE_BACKUP command; got %d rows "
-"and %d fields, expected %d rows and %d fields\n"
+msgid "%s: server returned unexpected response to BASE_BACKUP command; got %d rows and %d fields, expected %d rows and %d fields\n"
 msgstr ""
 
 #: pg_basebackup.c:1855
@@ -681,9 +674,7 @@ msgstr ""
 
 #: pg_basebackup.c:2253
 #, c-format
-msgid ""
-"%s: invalid wal-method option \"%s\", must be \"fetch\", \"stream\", or "
-"\"none\"\n"
+msgid "%s: invalid wal-method option \"%s\", must be \"fetch\", \"stream\", or \"none\"\n"
 msgstr ""
 
 #: pg_basebackup.c:2281 pg_receivewal.c:585
@@ -693,8 +684,7 @@ msgstr ""
 
 #: pg_basebackup.c:2293
 #, c-format
-msgid ""
-"%s: invalid checkpoint argument \"%s\", must be \"fast\" or \"spread\"\n"
+msgid "%s: invalid checkpoint argument \"%s\", must be \"fast\" or \"spread\"\n"
 msgstr ""
 
 #: pg_basebackup.c:2320 pg_receivewal.c:557 pg_recvlogical.c:826
@@ -796,8 +786,7 @@ msgstr ""
 
 #: pg_receivewal.c:82
 #, c-format
-msgid ""
-"  -D, --directory=DIR    receive write-ahead log files into this directory\n"
+msgid "  -D, --directory=DIR    receive write-ahead log files into this directory\n"
 msgstr ""
 
 #: pg_receivewal.c:83 pg_recvlogical.c:85
@@ -807,9 +796,7 @@ msgstr ""
 
 #: pg_receivewal.c:84 pg_recvlogical.c:89
 #, c-format
-msgid ""
-"      --if-not-exists    do not error if slot already exists when creating a "
-"slot\n"
+msgid "      --if-not-exists    do not error if slot already exists when creating a slot\n"
 msgstr ""
 
 #: pg_receivewal.c:85 pg_recvlogical.c:91
@@ -819,23 +806,19 @@ msgstr ""
 
 #: pg_receivewal.c:86
 #, c-format
-msgid ""
-"      --no-sync          do not wait for changes to be written safely to "
-"disk\n"
+msgid "      --no-sync          do not wait for changes to be written safely to disk\n"
 msgstr ""
 
 #: pg_receivewal.c:87 pg_recvlogical.c:96
 #, c-format
 msgid ""
 "  -s, --status-interval=SECS\n"
-"                         time between status packets sent to server "
-"(default: %d)\n"
+"                         time between status packets sent to server (default: %d)\n"
 msgstr ""
 
 #: pg_receivewal.c:90
 #, c-format
-msgid ""
-"      --synchronous      flush write-ahead log immediately after writing\n"
+msgid "      --synchronous      flush write-ahead log immediately after writing\n"
 msgstr ""
 
 #: pg_receivewal.c:93
@@ -852,16 +835,12 @@ msgstr ""
 
 #: pg_receivewal.c:103 pg_recvlogical.c:81
 #, c-format
-msgid ""
-"      --create-slot      create a new replication slot (for the slot's name "
-"see --slot)\n"
+msgid "      --create-slot      create a new replication slot (for the slot's name see --slot)\n"
 msgstr ""
 
 #: pg_receivewal.c:104 pg_recvlogical.c:82
 #, c-format
-msgid ""
-"      --drop-slot        drop the replication slot (for the slot's name see "
-"--slot)\n"
+msgid "      --drop-slot        drop the replication slot (for the slot's name see --slot)\n"
 msgstr ""
 
 #: pg_receivewal.c:116
@@ -911,9 +890,7 @@ msgstr ""
 
 #: pg_receivewal.c:317
 #, c-format
-msgid ""
-"%s: compressed segment file \"%s\" has incorrect uncompressed size %d, "
-"skipping\n"
+msgid "%s: compressed segment file \"%s\" has incorrect uncompressed size %d, skipping\n"
 msgstr ""
 
 #: pg_receivewal.c:423
@@ -949,9 +926,7 @@ msgstr ""
 
 #: pg_receivewal.c:728
 #, c-format
-msgid ""
-"%s: replication connection using slot \"%s\" is unexpectedly database "
-"specific\n"
+msgid "%s: replication connection using slot \"%s\" is unexpectedly database specific\n"
 msgstr ""
 
 #: pg_receivewal.c:740 pg_recvlogical.c:978
@@ -991,9 +966,7 @@ msgstr ""
 
 #: pg_recvlogical.c:83
 #, c-format
-msgid ""
-"      --start            start streaming in a replication slot (for the "
-"slot's name see --slot)\n"
+msgid "      --start            start streaming in a replication slot (for the slot's name see --slot)\n"
 msgstr ""
 
 #: pg_recvlogical.c:86
@@ -1005,15 +978,12 @@ msgstr ""
 #, c-format
 msgid ""
 "  -F  --fsync-interval=SECS\n"
-"                         time between fsyncs to the output file (default: "
-"%d)\n"
+"                         time between fsyncs to the output file (default: %d)\n"
 msgstr ""
 
 #: pg_recvlogical.c:90
 #, c-format
-msgid ""
-"  -I, --startpos=LSN     where in an existing slot should the streaming "
-"start\n"
+msgid "  -I, --startpos=LSN     where in an existing slot should the streaming start\n"
 msgstr ""
 
 #: pg_recvlogical.c:92
@@ -1178,9 +1148,9 @@ msgstr ""
 #: receivelog.c:154
 #, c-format
 msgid "%s: write-ahead log file \"%s\" has %d byte, should be 0 or %d\n"
-msgid_plural ""
-"%s: write-ahead log file \"%s\" has %d bytes, should be 0 or %d\n"
+msgid_plural "%s: write-ahead log file \"%s\" has %d bytes, should be 0 or %d\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #: receivelog.c:170
 #, c-format
@@ -1214,30 +1184,22 @@ msgstr ""
 
 #: receivelog.c:386
 #, c-format
-msgid ""
-"%s: incompatible server version %s; client does not support streaming from "
-"server versions older than %s\n"
+msgid "%s: incompatible server version %s; client does not support streaming from server versions older than %s\n"
 msgstr ""
 
 #: receivelog.c:396
 #, c-format
-msgid ""
-"%s: incompatible server version %s; client does not support streaming from "
-"server versions newer than %s\n"
+msgid "%s: incompatible server version %s; client does not support streaming from server versions newer than %s\n"
 msgstr ""
 
 #: receivelog.c:501 streamutil.c:437 streamutil.c:476
 #, c-format
-msgid ""
-"%s: could not identify system: got %d rows and %d fields, expected %d rows "
-"and %d or more fields\n"
+msgid "%s: could not identify system: got %d rows and %d fields, expected %d rows and %d or more fields\n"
 msgstr ""
 
 #: receivelog.c:509
 #, c-format
-msgid ""
-"%s: system identifier does not match between base backup and streaming "
-"connection\n"
+msgid "%s: system identifier does not match between base backup and streaming connection\n"
 msgstr ""
 
 #: receivelog.c:517
@@ -1247,22 +1209,17 @@ msgstr ""
 
 #: receivelog.c:559
 #, c-format
-msgid ""
-"%s: unexpected response to TIMELINE_HISTORY command: got %d rows and %d "
-"fields, expected %d rows and %d fields\n"
+msgid "%s: unexpected response to TIMELINE_HISTORY command: got %d rows and %d fields, expected %d rows and %d fields\n"
 msgstr ""
 
 #: receivelog.c:631
 #, c-format
-msgid ""
-"%s: server reported unexpected next timeline %u, following timeline %u\n"
+msgid "%s: server reported unexpected next timeline %u, following timeline %u\n"
 msgstr ""
 
 #: receivelog.c:638
 #, c-format
-msgid ""
-"%s: server stopped streaming timeline %u at %X/%X, but reported next "
-"timeline %u to begin at %X/%X\n"
+msgid "%s: server stopped streaming timeline %u at %X/%X, but reported next timeline %u to begin at %X/%X\n"
 msgstr ""
 
 #: receivelog.c:680
@@ -1272,9 +1229,7 @@ msgstr ""
 
 #: receivelog.c:729
 #, c-format
-msgid ""
-"%s: unexpected result set after end-of-timeline: got %d rows and %d fields, "
-"expected %d rows and %d fields\n"
+msgid "%s: unexpected result set after end-of-timeline: got %d rows and %d fields, expected %d rows and %d fields\n"
 msgstr ""
 
 #: receivelog.c:739
@@ -1338,9 +1293,7 @@ msgstr ""
 
 #: streamutil.c:312
 #, c-format
-msgid ""
-"%s: could not fetch WAL segment size: got %d rows and %d fields, expected %d "
-"rows and %d or more fields\n"
+msgid "%s: could not fetch WAL segment size: got %d rows and %d fields, expected %d rows and %d or more fields\n"
 msgstr ""
 
 #: streamutil.c:322
@@ -1350,16 +1303,12 @@ msgstr ""
 
 #: streamutil.c:339
 #, c-format
-msgid ""
-"%s: WAL segment size must be a power of two between 1MB and 1GB, but the "
-"remote server reported a value of %d bytes\n"
+msgid "%s: WAL segment size must be a power of two between 1MB and 1GB, but the remote server reported a value of %d bytes\n"
 msgstr ""
 
 #: streamutil.c:384
 #, c-format
-msgid ""
-"%s: could not fetch group access flag: got %d rows and %d fields, expected "
-"%d rows and %d or more fields\n"
+msgid "%s: could not fetch group access flag: got %d rows and %d fields, expected %d rows and %d or more fields\n"
 msgstr ""
 
 #: streamutil.c:393
@@ -1369,16 +1318,12 @@ msgstr ""
 
 #: streamutil.c:554
 #, c-format
-msgid ""
-"%s: could not create replication slot \"%s\": got %d rows and %d fields, "
-"expected %d rows and %d fields\n"
+msgid "%s: could not create replication slot \"%s\": got %d rows and %d fields, expected %d rows and %d fields\n"
 msgstr ""
 
 #: streamutil.c:599
 #, c-format
-msgid ""
-"%s: could not drop replication slot \"%s\": got %d rows and %d fields, "
-"expected %d rows and %d fields\n"
+msgid "%s: could not drop replication slot \"%s\": got %d rows and %d fields, expected %d rows and %d fields\n"
 msgstr ""
 
 #: walmethods.c:436 walmethods.c:906

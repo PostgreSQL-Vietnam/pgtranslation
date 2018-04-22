@@ -3,20 +3,19 @@
 # This file is distributed under the same license as the pg_rewind (PostgreSQL) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pg_rewind (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:17+0000\n"
-"PO-Revision-Date: 2018-04-23 02:30+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
 
 #: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
 #: ../../common/fe_memutils.c:98 parsexlog.c:75 parsexlog.c:129 parsexlog.c:187
@@ -86,9 +85,7 @@ msgstr ""
 
 #: copy_fetch.c:136
 #, c-format
-msgid ""
-"\"%s\" is a symbolic link, but symbolic links are not supported on this "
-"platform\n"
+msgid "\"%s\" is a symbolic link, but symbolic links are not supported on this platform\n"
 msgstr ""
 
 #: copy_fetch.c:143
@@ -319,8 +316,7 @@ msgstr ""
 
 #: libpq_fetch.c:280
 #, c-format
-msgid ""
-"unexpected data types in result set while fetching remote files: %u %u %u\n"
+msgid "unexpected data types in result set while fetching remote files: %u %u %u\n"
 msgstr ""
 
 #: libpq_fetch.c:288
@@ -466,8 +462,7 @@ msgstr ""
 
 #: pg_rewind.c:70
 #, c-format
-msgid ""
-"      --source-pgdata=DIRECTORY  source data directory to synchronize with\n"
+msgid "      --source-pgdata=DIRECTORY  source data directory to synchronize with\n"
 msgstr ""
 
 #: pg_rewind.c:71
@@ -492,8 +487,7 @@ msgstr ""
 
 #: pg_rewind.c:75
 #, c-format
-msgid ""
-"  -V, --version                  output version information, then exit\n"
+msgid "  -V, --version                  output version information, then exit\n"
 msgstr ""
 
 #: pg_rewind.c:76
@@ -618,8 +612,7 @@ msgstr ""
 
 #: pg_rewind.c:406
 #, c-format
-msgid ""
-"target server needs to use either data checksums or \"wal_log_hints = on\"\n"
+msgid "target server needs to use either data checksums or \"wal_log_hints = on\"\n"
 msgstr ""
 
 #: pg_rewind.c:417
@@ -655,8 +648,7 @@ msgstr ""
 
 #: pg_rewind.c:568
 #, c-format
-msgid ""
-"could not find common ancestor of the source and target cluster's timelines\n"
+msgid "could not find common ancestor of the source and target cluster's timelines\n"
 msgstr ""
 
 #: pg_rewind.c:609
@@ -676,9 +668,7 @@ msgstr ""
 
 #: pg_rewind.c:651
 #, c-format
-msgid ""
-"WAL segment size must be a power of two between 1MB and 1GB, but the control "
-"file specifies %d bytes\n"
+msgid "WAL segment size must be a power of two between 1MB and 1GB, but the control file specifies %d bytes\n"
 msgstr ""
 
 #: pg_rewind.c:725
@@ -794,23 +784,17 @@ msgstr ""
 
 #: xlogreader.c:776
 #, c-format
-msgid ""
-"WAL file is from different database system: WAL file database system "
-"identifier is %s, pg_control database system identifier is %s"
+msgid "WAL file is from different database system: WAL file database system identifier is %s, pg_control database system identifier is %s"
 msgstr ""
 
 #: xlogreader.c:783
 #, c-format
-msgid ""
-"WAL file is from different database system: incorrect segment size in page "
-"header"
+msgid "WAL file is from different database system: incorrect segment size in page header"
 msgstr ""
 
 #: xlogreader.c:789
 #, c-format
-msgid ""
-"WAL file is from different database system: incorrect XLOG_BLCKSZ in page "
-"header"
+msgid "WAL file is from different database system: incorrect XLOG_BLCKSZ in page header"
 msgstr ""
 
 #: xlogreader.c:815
@@ -840,9 +824,7 @@ msgstr ""
 
 #: xlogreader.c:1151
 #, c-format
-msgid ""
-"BKPIMAGE_HAS_HOLE set, but hole offset %u length %u block image length %u at "
-"%X/%X"
+msgid "BKPIMAGE_HAS_HOLE set, but hole offset %u length %u block image length %u at %X/%X"
 msgstr ""
 
 #: xlogreader.c:1167
@@ -857,9 +839,7 @@ msgstr ""
 
 #: xlogreader.c:1197
 #, c-format
-msgid ""
-"neither BKPIMAGE_HAS_HOLE nor BKPIMAGE_IS_COMPRESSED set, but block image "
-"length is %u at %X/%X"
+msgid "neither BKPIMAGE_HAS_HOLE nor BKPIMAGE_IS_COMPRESSED set, but block image length is %u at %X/%X"
 msgstr ""
 
 #: xlogreader.c:1213
