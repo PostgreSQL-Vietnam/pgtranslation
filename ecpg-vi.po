@@ -1,57 +1,57 @@
 # LANGUAGE message translation file for ecpg
 # Copyright (C) 2018 PostgreSQL Global Development Group
 # This file is distributed under the same license as the ecpg (PostgreSQL) package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <kakalot49@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ecpg (PostgreSQL) 10\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-21 22:10+0900\n"
-"PO-Revision-Date: 2018-04-21 22:27+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-04-22 23:02+0900\n"
+"Language-Team: pgvn_translators@postgresql.vn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
+"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
 "Language: vi_VN\n"
 
 #: descriptor.c:64
 #, c-format
 msgid "variable \"%s\" must have a numeric type"
-msgstr ""
+msgstr "biến \"%s\" phải là kiểu numeric"
 
 #: descriptor.c:124 descriptor.c:146
 #, c-format
 msgid "descriptor \"%s\" does not exist"
-msgstr ""
+msgstr "descriptor \"%s\" không tồn tại"
 
 #: descriptor.c:161 descriptor.c:213
 #, c-format
 msgid "descriptor header item \"%d\" does not exist"
-msgstr ""
+msgstr "descriptor header item \"%d\" không tồn tại"
 
 #: descriptor.c:183
 #, c-format
 msgid "nullable is always 1"
-msgstr ""
+msgstr "giá trị có thể là NULL luôn là 1"
 
 #: descriptor.c:186
 #, c-format
 msgid "key_member is always 0"
-msgstr ""
+msgstr "key_member luôn là 0"
 
 #: descriptor.c:280
 #, c-format
 msgid "descriptor item \"%s\" is not implemented"
-msgstr ""
+msgstr "descriptor item \"%s\" chưa được thực thi"
 
 #: descriptor.c:290
 #, c-format
 msgid "descriptor item \"%s\" cannot be set"
-msgstr ""
+msgstr "không thể thiết lập descriptor item \"%s\""
 
 #: ecpg.c:35
 #, c-format
@@ -59,6 +59,8 @@ msgid ""
 "%s is the PostgreSQL embedded SQL preprocessor for C programs.\n"
 "\n"
 msgstr ""
+"%s là tiền xử lý nhúng SQL của PostgreSQL cho ngôn ngữ C.\n"
+"\n"
 
 #: ecpg.c:37
 #, c-format
@@ -67,11 +69,14 @@ msgid ""
 "  %s [OPTION]... FILE...\n"
 "\n"
 msgstr ""
+"Cách dùng:\n"
+"  %s [TÙY CHỌN]... TỆP...\n"
+"\n"
 
 #: ecpg.c:40
 #, c-format
 msgid "Options:\n"
-msgstr ""
+msgstr "Tùy chọn:\n"
 
 #: ecpg.c:41
 #, c-format
@@ -79,6 +84,8 @@ msgid ""
 "  -c             automatically generate C code from embedded SQL code;\n"
 "                 this affects EXEC SQL TYPE\n"
 msgstr ""
+"  -c             tự động sinh mã C từ mã SQL nhúng;\n"
+"                 điều này ảnh hưởng tới EXEC SQL TYPE\n"
 
 #: ecpg.c:43
 #, c-format
@@ -86,37 +93,41 @@ msgid ""
 "  -C MODE        set compatibility mode; MODE can be one of\n"
 "                 \"INFORMIX\", \"INFORMIX_SE\"\n"
 msgstr ""
+"  -C CHẾ ĐỘ        thiết lập chế độ tương thích; CHẾ ĐỘ có thể là \n"
+"                 \"INFORMIX\" hoặc \"INFORMIX_SE\"\n"
 
 #: ecpg.c:46
 #, c-format
 msgid "  -d             generate parser debug output\n"
-msgstr ""
+msgstr "  -d             xuất debug log cho trình phân tích cú pháp\n"
 
 #: ecpg.c:48
 #, c-format
 msgid "  -D SYMBOL      define SYMBOL\n"
-msgstr ""
+msgstr "  -D SYMBOL      định nghĩa SYMBOL\n"
 
 #: ecpg.c:49
 #, c-format
 msgid ""
 "  -h             parse a header file, this option includes option \"-c\"\n"
 msgstr ""
+"  -h             phân tích cú pháp header file, tùy chọn này bao gồm cả tùy "
+"chọn \"-c\"\n"
 
 #: ecpg.c:50
 #, c-format
 msgid "  -i             parse system include files as well\n"
-msgstr ""
+msgstr "  -i             phân tích cả cú pháp của các include files\n"
 
 #: ecpg.c:51
 #, c-format
 msgid "  -I DIRECTORY   search DIRECTORY for include files\n"
-msgstr ""
+msgstr "  -I THƯ MỤC   tìm kiếm THƯ MỤC cho các include files\n"
 
 #: ecpg.c:52
 #, c-format
 msgid "  -o OUTFILE     write result to OUTFILE\n"
-msgstr ""
+msgstr "  -o OUTFILE     ghi kết quả ra OUTFILE\n"
 
 #: ecpg.c:53
 #, c-format
@@ -124,26 +135,29 @@ msgid ""
 "  -r OPTION      specify run-time behavior; OPTION can be:\n"
 "                 \"no_indicator\", \"prepare\", \"questionmarks\"\n"
 msgstr ""
+"  -r TÙY CHỌN      chỉ định cách thức run-time; TÙY CHỌN có thể là:\n"
+"                 \"no_indicator\", \"prepare\" hay \"questionmarks\"\n"
 
 #: ecpg.c:55
 #, c-format
 msgid "  --regression   run in regression testing mode\n"
-msgstr ""
+msgstr "  --regression   chạy trong chế độ regression test\n"
 
 #: ecpg.c:56
 #, c-format
 msgid "  -t             turn on autocommit of transactions\n"
 msgstr ""
+"  -t             thiết lập autocommit thành on trong các transactions\n"
 
 #: ecpg.c:57
 #, c-format
 msgid "  -V, --version  output version information, then exit\n"
-msgstr ""
+msgstr "  -V, --version  xuât thông tin phiên bản, sau đó thoát\n"
 
 #: ecpg.c:58
 #, c-format
 msgid "  -?, --help     show this help, then exit\n"
-msgstr ""
+msgstr "  -?, --help     xuất nội dung help này, sau đó thoát\n"
 
 #: ecpg.c:59
 #, c-format
@@ -152,6 +166,9 @@ msgid ""
 "If no output file is specified, the name is formed by adding .c to the\n"
 "input file name, after stripping off .pgc if present.\n"
 msgstr ""
+"\n"
+"Nếu file xuất ra (OUTFILE) không được chỉ định, tên của file .c sẽ được \n"
+"lấy từ file .pgc input sau khi đã bỏ đi phần mở rộng .pgc\n"
 
 #: ecpg.c:61
 #, c-format
@@ -159,26 +176,29 @@ msgid ""
 "\n"
 "Report bugs to <pgsql-bugs@postgresql.org>.\n"
 msgstr ""
+"\n"
+"Báo cáo bugs qua email <pgsql-bugs@postgresql.org>.\n"
 
 #: ecpg.c:139
 #, c-format
 msgid "%s: could not locate my own executable path\n"
-msgstr ""
+msgstr "%s: không thể xác định ví trí đường dẫn để thực thi\n"
 
 #: ecpg.c:174 ecpg.c:327 ecpg.c:338
 #, c-format
 msgid "%s: could not open file \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể mở file \"%s\": %s\n"
 
 #: ecpg.c:213 ecpg.c:226 ecpg.c:242 ecpg.c:268
 #, c-format
 msgid "Try \"%s --help\" for more information.\n"
-msgstr ""
+msgstr "Thử \"%s --help\" để biết thêm thông tin.\n"
 
 #: ecpg.c:237
 #, c-format
 msgid "%s: parser debug support (-d) not available\n"
 msgstr ""
+"%s: chế độ hỗ trợ debug (-d) cho trình phân tích cú pháp chưa sẵn sàng\n"
 
 #: ecpg.c:256
 #, c-format
