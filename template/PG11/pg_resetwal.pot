@@ -3,20 +3,19 @@
 # This file is distributed under the same license as the pg_resetwal (PostgreSQL) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pg_resetwal (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:16+0000\n"
-"PO-Revision-Date: 2018-04-23 02:30+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
 
 #: ../../common/restricted_token.c:68
 #, c-format
@@ -80,8 +79,7 @@ msgstr ""
 
 #: pg_resetwal.c:205 pg_resetwal.c:212
 #, c-format
-msgid ""
-"%s: transaction ID (-c) must be either 0 or greater than or equal to 2\n"
+msgid "%s: transaction ID (-c) must be either 0 or greater than or equal to 2\n"
 msgstr ""
 
 #: pg_resetwal.c:227
@@ -111,8 +109,7 @@ msgstr ""
 
 #: pg_resetwal.c:308
 #, c-format
-msgid ""
-"%s: argument of --wal-segsize must be a power of 2 between 1 and 1024\n"
+msgid "%s: argument of --wal-segsize must be a power of 2 between 1 and 1024\n"
 msgstr ""
 
 #: pg_resetwal.c:326
@@ -191,8 +188,7 @@ msgstr ""
 #, c-format
 msgid ""
 "%s: data directory is of wrong version\n"
-"File \"%s\" contains \"%s\", which is not compatible with this program's "
-"version \"%s\".\n"
+"File \"%s\" contains \"%s\", which is not compatible with this program's version \"%s\".\n"
 msgstr ""
 
 #: pg_resetwal.c:614
@@ -210,9 +206,7 @@ msgstr ""
 
 #: pg_resetwal.c:658
 #, c-format
-msgid ""
-"%s: pg_control specifies invalid WAL segment size (%d bytes); proceed with "
-"caution \n"
+msgid "%s: pg_control specifies invalid WAL segment size (%d bytes); proceed with caution \n"
 msgstr ""
 
 #: pg_resetwal.c:667
@@ -537,8 +531,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  -c, --commit-timestamp-ids=XID,XID\n"
-"                                 set oldest and newest transactions "
-"bearing\n"
+"                                 set oldest and newest transactions bearing\n"
 "                                 commit timestamp (zero means no change)\n"
 msgstr ""
 
@@ -559,21 +552,17 @@ msgstr ""
 
 #: pg_resetwal.c:1319
 #, c-format
-msgid ""
-"  -l, --next-wal-file=WALFILE    set minimum starting location for new "
-"WAL\n"
+msgid "  -l, --next-wal-file=WALFILE    set minimum starting location for new WAL\n"
 msgstr ""
 
 #: pg_resetwal.c:1320
 #, c-format
-msgid ""
-"  -m, --multixact-ids=MXID,MXID  set next and oldest multitransaction ID\n"
+msgid "  -m, --multixact-ids=MXID,MXID  set next and oldest multitransaction ID\n"
 msgstr ""
 
 #: pg_resetwal.c:1321
 #, c-format
-msgid ""
-"  -n, --dry-run                  no update, just show what would be done\n"
+msgid "  -n, --dry-run                  no update, just show what would be done\n"
 msgstr ""
 
 #: pg_resetwal.c:1322
@@ -588,8 +577,7 @@ msgstr ""
 
 #: pg_resetwal.c:1324
 #, c-format
-msgid ""
-"  -V, --version                  output version information, then exit\n"
+msgid "  -V, --version                  output version information, then exit\n"
 msgstr ""
 
 #: pg_resetwal.c:1325

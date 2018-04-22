@@ -3,20 +3,19 @@
 # This file is distributed under the same license as the libpq (PostgreSQL) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: libpq (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:08+0000\n"
-"PO-Revision-Date: 2018-04-23 02:26+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
 
 #: fe-auth-scram.c:189
 msgid "malformed SCRAM message (empty message)\n"
@@ -41,8 +40,7 @@ msgstr ""
 
 #: fe-auth-scram.c:285
 #, c-format
-msgid ""
-"malformed SCRAM message (expected character \"=\" for attribute \"%c\")\n"
+msgid "malformed SCRAM message (expected character \"=\" for attribute \"%c\")\n"
 msgstr ""
 
 #: fe-auth-scram.c:326
@@ -150,9 +148,7 @@ msgid "out of memory allocating SASL buffer (%d)\n"
 msgstr ""
 
 #: fe-auth.c:677
-msgid ""
-"AuthenticationSASLFinal received from server, but SASL authentication was "
-"not completed\n"
+msgid "AuthenticationSASLFinal received from server, but SASL authentication was not completed\n"
 msgstr ""
 
 #: fe-auth.c:754
@@ -483,8 +479,7 @@ msgstr ""
 
 #: fe-connect.c:4670
 #, c-format
-msgid ""
-"nested service specifications not supported in service file \"%s\", line %d\n"
+msgid "nested service specifications not supported in service file \"%s\", line %d\n"
 msgstr ""
 
 #: fe-connect.c:5390
@@ -494,9 +489,7 @@ msgstr ""
 
 #: fe-connect.c:5467
 #, c-format
-msgid ""
-"end of string reached when looking for matching \"]\" in IPv6 host address "
-"in URI: \"%s\"\n"
+msgid "end of string reached when looking for matching \"]\" in IPv6 host address in URI: \"%s\"\n"
 msgstr ""
 
 #: fe-connect.c:5474
@@ -506,9 +499,7 @@ msgstr ""
 
 #: fe-connect.c:5489
 #, c-format
-msgid ""
-"unexpected character \"%c\" at position %d in URI (expected \":\" or \"/\"): "
-"\"%s\"\n"
+msgid "unexpected character \"%c\" at position %d in URI (expected \":\" or \"/\"): \"%s\"\n"
 msgstr ""
 
 #: fe-connect.c:5618
@@ -547,9 +538,7 @@ msgstr ""
 
 #: fe-connect.c:6426
 #, c-format
-msgid ""
-"WARNING: password file \"%s\" has group or world access; permissions should "
-"be u=rw (0600) or less\n"
+msgid "WARNING: password file \"%s\" has group or world access; permissions should be u=rw (0600) or less\n"
 msgstr ""
 
 #: fe-connect.c:6518
@@ -815,16 +804,12 @@ msgstr ""
 
 #: fe-protocol2.c:594
 #, c-format
-msgid ""
-"server sent data (\"D\" message) without prior row description (\"T\" "
-"message)"
+msgid "server sent data (\"D\" message) without prior row description (\"T\" message)"
 msgstr ""
 
 #: fe-protocol2.c:612
 #, c-format
-msgid ""
-"server sent binary data (\"B\" message) without prior row description (\"T\" "
-"message)"
+msgid "server sent binary data (\"B\" message) without prior row description (\"T\" message)"
 msgstr ""
 
 #: fe-protocol2.c:632 fe-protocol3.c:411
@@ -847,9 +832,7 @@ msgid "protocol error: id=0x%x\n"
 msgstr ""
 
 #: fe-protocol3.c:367
-msgid ""
-"server sent data (\"D\" message) without prior row description (\"T\" "
-"message)\n"
+msgid "server sent data (\"D\" message) without prior row description (\"T\" message)\n"
 msgstr ""
 
 #: fe-protocol3.c:432
@@ -1018,9 +1001,7 @@ msgid "could not generate peer certificate hash\n"
 msgstr ""
 
 #: fe-secure-openssl.c:467
-msgid ""
-"channel binding type \"tls-server-end-point\" is not supported by this "
-"build\n"
+msgid "channel binding type \"tls-server-end-point\" is not supported by this build\n"
 msgstr ""
 
 #: fe-secure-openssl.c:510
@@ -1045,16 +1026,14 @@ msgstr ""
 #: fe-secure-openssl.c:932
 msgid ""
 "could not get home directory to locate root certificate file\n"
-"Either provide the file or change sslmode to disable server certificate "
-"verification.\n"
+"Either provide the file or change sslmode to disable server certificate verification.\n"
 msgstr ""
 
 #: fe-secure-openssl.c:936
 #, c-format
 msgid ""
 "root certificate file \"%s\" does not exist\n"
-"Either provide the file or change sslmode to disable server certificate "
-"verification.\n"
+"Either provide the file or change sslmode to disable server certificate verification.\n"
 msgstr ""
 
 #: fe-secure-openssl.c:967
@@ -1099,9 +1078,7 @@ msgstr ""
 
 #: fe-secure-openssl.c:1152
 #, c-format
-msgid ""
-"private key file \"%s\" has group or world access; permissions should be "
-"u=rw (0600) or less\n"
+msgid "private key file \"%s\" has group or world access; permissions should be u=rw (0600) or less\n"
 msgstr ""
 
 #: fe-secure-openssl.c:1163

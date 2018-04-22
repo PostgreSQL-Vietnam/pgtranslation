@@ -3,29 +3,26 @@
 # This file is distributed under the same license as the plperl (PostgreSQL) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: plperl (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:08+0000\n"
-"PO-Revision-Date: 2018-04-23 02:32+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
 
 #: plperl.c:409
-msgid ""
-"If true, trusted and untrusted Perl code will be compiled in strict mode."
+msgid "If true, trusted and untrusted Perl code will be compiled in strict mode."
 msgstr ""
 
 #: plperl.c:423
-msgid ""
-"Perl initialization code to execute when a Perl interpreter is initialized."
+msgid "Perl initialization code to execute when a Perl interpreter is initialized."
 msgstr ""
 
 #: plperl.c:445
@@ -100,8 +97,7 @@ msgstr ""
 
 #: plperl.c:1210 plperl.c:1227
 #, c-format
-msgid ""
-"multidimensional arrays must have array expressions with matching dimensions"
+msgid "multidimensional arrays must have array expressions with matching dimensions"
 msgstr ""
 
 #: plperl.c:1263
@@ -116,8 +112,7 @@ msgstr ""
 
 #: plperl.c:1388 plperl.c:3286
 #, c-format
-msgid ""
-"function returning record called in context that cannot accept type record"
+msgid "function returning record called in context that cannot accept type record"
 msgstr ""
 
 #: plperl.c:1408
@@ -177,9 +172,7 @@ msgstr ""
 
 #: plperl.c:2476
 #, c-format
-msgid ""
-"set-returning PL/Perl function must return reference to array or use "
-"return_next"
+msgid "set-returning PL/Perl function must return reference to array or use return_next"
 msgstr ""
 
 #: plperl.c:2597
@@ -189,8 +182,7 @@ msgstr ""
 
 #: plperl.c:2605
 #, c-format
-msgid ""
-"result of PL/Perl trigger function must be undef, \"SKIP\", or \"MODIFY\""
+msgid "result of PL/Perl trigger function must be undef, \"SKIP\", or \"MODIFY\""
 msgstr ""
 
 #: plperl.c:2853
@@ -210,9 +202,7 @@ msgstr ""
 
 #: plperl.c:3337
 #, c-format
-msgid ""
-"SETOF-composite-returning PL/Perl function must call return_next with "
-"reference to hash"
+msgid "SETOF-composite-returning PL/Perl function must call return_next with reference to hash"
 msgstr ""
 
 #: plperl.c:4115

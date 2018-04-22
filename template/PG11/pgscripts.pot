@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the pgscripts (PostgreSQL) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pgscripts (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:17+0000\n"
-"PO-Revision-Date: 2018-04-23 02:32+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: vi_VN\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
 #: ../../common/fe_memutils.c:98
@@ -48,6 +48,7 @@ msgstr ""
 msgid "(%lu row)"
 msgid_plural "(%lu rows)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../../fe_utils/print.c:2915
 #, c-format
@@ -146,8 +147,7 @@ msgstr ""
 
 #: clusterdb.c:279 createuser.c:349 dropdb.c:159 dropuser.c:164 reindexdb.c:407
 #, c-format
-msgid ""
-"  -e, --echo                show the commands being sent to the server\n"
+msgid "  -e, --echo                show the commands being sent to the server\n"
 msgstr ""
 
 #: clusterdb.c:280 reindexdb.c:409
@@ -261,6 +261,7 @@ msgstr ""
 msgid "%s: query returned %d row instead of one: %s\n"
 msgid_plural "%s: query returned %d rows instead of one: %s\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #. translator: abbreviation for "yes"
 #: common.c:377
@@ -338,8 +339,7 @@ msgstr ""
 
 #: createdb.c:256
 #, c-format
-msgid ""
-"  -e, --echo                   show the commands being sent to the server\n"
+msgid "  -e, --echo                   show the commands being sent to the server\n"
 msgstr ""
 
 #: createdb.c:257
@@ -384,8 +384,7 @@ msgstr ""
 
 #: createdb.c:266
 #, c-format
-msgid ""
-"  -h, --host=HOSTNAME          database server host or socket directory\n"
+msgid "  -h, --host=HOSTNAME          database server host or socket directory\n"
 msgstr ""
 
 #: createdb.c:267
@@ -473,8 +472,7 @@ msgstr ""
 
 #: createuser.c:346
 #, c-format
-msgid ""
-"  -c, --connection-limit=N  connection limit for role (default: no limit)\n"
+msgid "  -c, --connection-limit=N  connection limit for role (default: no limit)\n"
 msgstr ""
 
 #: createuser.c:347
@@ -542,8 +540,7 @@ msgstr ""
 #: createuser.c:362
 #, c-format
 msgid ""
-"  --interactive             prompt for missing role name and attributes "
-"rather\n"
+"  --interactive             prompt for missing role name and attributes rather\n"
 "                            than using defaults\n"
 msgstr ""
 
@@ -559,8 +556,7 @@ msgstr ""
 
 #: createuser.c:370
 #, c-format
-msgid ""
-"  -U, --username=USERNAME   user name to connect as (not the one to create)\n"
+msgid "  -U, --username=USERNAME   user name to connect as (not the one to create)\n"
 msgstr ""
 
 #: dropdb.c:102
@@ -601,8 +597,7 @@ msgstr ""
 
 #: dropdb.c:162
 #, c-format
-msgid ""
-"  --if-exists               don't report error if database doesn't exist\n"
+msgid "  --if-exists               don't report error if database doesn't exist\n"
 msgstr ""
 
 #: dropuser.c:113
@@ -645,8 +640,7 @@ msgstr ""
 
 #: dropuser.c:173
 #, c-format
-msgid ""
-"  -U, --username=USERNAME   user name to connect as (not the one to drop)\n"
+msgid "  -U, --username=USERNAME   user name to connect as (not the one to drop)\n"
 msgstr ""
 
 #: pg_isready.c:142
@@ -728,9 +722,7 @@ msgstr ""
 
 #: pg_isready.c:234
 #, c-format
-msgid ""
-"  -t, --timeout=SECS       seconds to wait when attempting connection, 0 "
-"disables (default: %s)\n"
+msgid "  -t, --timeout=SECS       seconds to wait when attempting connection, 0 disables (default: %s)\n"
 msgstr ""
 
 #: pg_isready.c:235
@@ -765,20 +757,17 @@ msgstr ""
 
 #: reindexdb.c:191
 #, c-format
-msgid ""
-"%s: cannot reindex specific schema(s) and system catalogs at the same time\n"
+msgid "%s: cannot reindex specific schema(s) and system catalogs at the same time\n"
 msgstr ""
 
 #: reindexdb.c:196
 #, c-format
-msgid ""
-"%s: cannot reindex specific table(s) and system catalogs at the same time\n"
+msgid "%s: cannot reindex specific table(s) and system catalogs at the same time\n"
 msgstr ""
 
 #: reindexdb.c:201
 #, c-format
-msgid ""
-"%s: cannot reindex specific index(es) and system catalogs at the same time\n"
+msgid "%s: cannot reindex specific index(es) and system catalogs at the same time\n"
 msgstr ""
 
 #: reindexdb.c:308
@@ -931,9 +920,7 @@ msgstr ""
 
 #: vacuumdb.c:1004
 #, c-format
-msgid ""
-"  -e, --echo                      show the commands being sent to the "
-"server\n"
+msgid "  -e, --echo                      show the commands being sent to the server\n"
 msgstr ""
 
 #: vacuumdb.c:1005
@@ -948,9 +935,7 @@ msgstr ""
 
 #: vacuumdb.c:1007
 #, c-format
-msgid ""
-"  -j, --jobs=NUM                  use this many concurrent connections to "
-"vacuum\n"
+msgid "  -j, --jobs=NUM                  use this many concurrent connections to vacuum\n"
 msgstr ""
 
 #: vacuumdb.c:1008
@@ -970,8 +955,7 @@ msgstr ""
 
 #: vacuumdb.c:1011
 #, c-format
-msgid ""
-"  -V, --version                   output version information, then exit\n"
+msgid "  -V, --version                   output version information, then exit\n"
 msgstr ""
 
 #: vacuumdb.c:1012
@@ -981,16 +965,13 @@ msgstr ""
 
 #: vacuumdb.c:1013
 #, c-format
-msgid ""
-"  -Z, --analyze-only              only update optimizer statistics; no "
-"vacuum\n"
+msgid "  -Z, --analyze-only              only update optimizer statistics; no vacuum\n"
 msgstr ""
 
 #: vacuumdb.c:1014
 #, c-format
 msgid ""
-"      --analyze-in-stages         only update optimizer statistics, in "
-"multiple\n"
+"      --analyze-in-stages         only update optimizer statistics, in multiple\n"
 "                                  stages for faster results; no vacuum\n"
 msgstr ""
 

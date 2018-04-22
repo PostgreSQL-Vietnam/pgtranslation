@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the pg_dump (PostgreSQL) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pg_dump (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:17+0000\n"
-"PO-Revision-Date: 2018-04-23 02:29+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: vi_VN\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: ../../common/exec.c:127 ../../common/exec.c:241 ../../common/exec.c:284
 #, c-format
@@ -395,9 +395,7 @@ msgstr ""
 #, c-format
 msgid ""
 "could not obtain lock on relation \"%s\"\n"
-"This usually means that someone requested an ACCESS EXCLUSIVE lock on the "
-"table after the pg_dump parent process had gotten the initial ACCESS SHARE "
-"lock on the table.\n"
+"This usually means that someone requested an ACCESS EXCLUSIVE lock on the table after the pg_dump parent process had gotten the initial ACCESS SHARE lock on the table.\n"
 msgstr ""
 
 #: parallel.c:1435
@@ -482,15 +480,12 @@ msgstr ""
 
 #: pg_backup_archiver.c:357
 #, c-format
-msgid ""
-"parallel restore is not supported with archives made by pre-8.0 pg_dump\n"
+msgid "parallel restore is not supported with archives made by pre-8.0 pg_dump\n"
 msgstr ""
 
 #: pg_backup_archiver.c:375
 #, c-format
-msgid ""
-"cannot restore from compressed archive (compression not supported in this "
-"installation)\n"
+msgid "cannot restore from compressed archive (compression not supported in this installation)\n"
 msgstr ""
 
 #: pg_backup_archiver.c:392
@@ -565,9 +560,7 @@ msgstr ""
 
 #: pg_backup_archiver.c:1038
 #, c-format
-msgid ""
-"internal error -- WriteData cannot be called outside the context of a "
-"DataDumper routine\n"
+msgid "internal error -- WriteData cannot be called outside the context of a DataDumper routine\n"
 msgstr ""
 
 #: pg_backup_archiver.c:1236
@@ -580,6 +573,7 @@ msgstr ""
 msgid "restored %d large object\n"
 msgid_plural "restored %d large objects\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_backup_archiver.c:1315 pg_backup_tar.c:749
 #, c-format
@@ -634,6 +628,7 @@ msgstr ""
 msgid "wrote %lu byte of large object data (result = %lu)\n"
 msgid_plural "wrote %lu bytes of large object data (result = %lu)\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_backup_archiver.c:1683
 #, c-format
@@ -692,9 +687,7 @@ msgstr ""
 
 #: pg_backup_archiver.c:2147
 #, c-format
-msgid ""
-"directory \"%s\" does not appear to be a valid archive (\"toc.dat\" does not "
-"exist)\n"
+msgid "directory \"%s\" does not appear to be a valid archive (\"toc.dat\" does not exist)\n"
 msgstr ""
 
 #: pg_backup_archiver.c:2155 pg_backup_custom.c:177 pg_backup_custom.c:770
@@ -850,9 +843,7 @@ msgstr ""
 
 #: pg_backup_archiver.c:3812
 #, c-format
-msgid ""
-"WARNING: archive was made on a machine with larger integers, some operations "
-"might fail\n"
+msgid "WARNING: archive was made on a machine with larger integers, some operations might fail\n"
 msgstr ""
 
 #: pg_backup_archiver.c:3822
@@ -862,9 +853,7 @@ msgstr ""
 
 #: pg_backup_archiver.c:3838
 #, c-format
-msgid ""
-"WARNING: archive is compressed, but this installation does not support "
-"compression -- no data will be available\n"
+msgid "WARNING: archive is compressed, but this installation does not support compression -- no data will be available\n"
 msgstr ""
 
 #: pg_backup_archiver.c:3856
@@ -959,17 +948,12 @@ msgstr ""
 
 #: pg_backup_custom.c:472
 #, c-format
-msgid ""
-"could not find block ID %d in archive -- possibly due to out-of-order "
-"restore request, which cannot be handled due to lack of data offsets in "
-"archive\n"
+msgid "could not find block ID %d in archive -- possibly due to out-of-order restore request, which cannot be handled due to lack of data offsets in archive\n"
 msgstr ""
 
 #: pg_backup_custom.c:477
 #, c-format
-msgid ""
-"could not find block ID %d in archive -- possibly due to out-of-order "
-"restore request, which cannot be handled due to non-seekable input file\n"
+msgid "could not find block ID %d in archive -- possibly due to out-of-order restore request, which cannot be handled due to non-seekable input file\n"
 msgstr ""
 
 #: pg_backup_custom.c:482
@@ -1108,6 +1092,7 @@ msgstr ""
 msgid "query returned %d row instead of one: %s\n"
 msgid_plural "query returned %d rows instead of one: %s\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_backup_db.c:467
 #, c-format
@@ -1314,9 +1299,7 @@ msgstr ""
 
 #: pg_backup_tar.c:1203
 #, c-format
-msgid ""
-"restoring data out of order is not supported in this archive format: \"%s\" "
-"is required, but comes before \"%s\" in the archive file.\n"
+msgid "restoring data out of order is not supported in this archive format: \"%s\" is required, but comes before \"%s\" in the archive file.\n"
 msgstr ""
 
 #: pg_backup_tar.c:1249
@@ -1324,6 +1307,7 @@ msgstr ""
 msgid "incomplete tar header found (%lu byte)\n"
 msgid_plural "incomplete tar header found (%lu bytes)\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_backup_tar.c:1290
 #, c-format
@@ -1332,8 +1316,7 @@ msgstr ""
 
 #: pg_backup_tar.c:1301
 #, c-format
-msgid ""
-"corrupt tar header found in %s (expected %d, computed %d) file position %s\n"
+msgid "corrupt tar header found in %s (expected %d, computed %d) file position %s\n"
 msgstr ""
 
 #: pg_backup_utils.c:54
@@ -1375,8 +1358,7 @@ msgstr ""
 
 #: pg_dump.c:614
 #, c-format
-msgid ""
-"options --inserts/--column-inserts and -o/--oids cannot be used together\n"
+msgid "options --inserts/--column-inserts and -o/--oids cannot be used together\n"
 msgstr ""
 
 #: pg_dump.c:615
@@ -1391,9 +1373,7 @@ msgstr ""
 
 #: pg_dump.c:642
 #, c-format
-msgid ""
-"WARNING: requested compression not available in this installation -- archive "
-"will be uncompressed\n"
+msgid "WARNING: requested compression not available in this installation -- archive will be uncompressed\n"
 msgstr ""
 
 #: pg_dump.c:664
@@ -1487,21 +1467,17 @@ msgstr ""
 
 #: pg_dump.c:954
 #, c-format
-msgid ""
-"  -Z, --compress=0-9           compression level for compressed formats\n"
+msgid "  -Z, --compress=0-9           compression level for compressed formats\n"
 msgstr ""
 
 #: pg_dump.c:955 pg_dumpall.c:595
 #, c-format
-msgid ""
-"  --lock-wait-timeout=TIMEOUT  fail after waiting TIMEOUT for a table lock\n"
+msgid "  --lock-wait-timeout=TIMEOUT  fail after waiting TIMEOUT for a table lock\n"
 msgstr ""
 
 #: pg_dump.c:956 pg_dumpall.c:620
 #, c-format
-msgid ""
-"  --no-sync                    do not wait for changes to be written safely "
-"to disk\n"
+msgid "  --no-sync                    do not wait for changes to be written safely to disk\n"
 msgstr ""
 
 #: pg_dump.c:957 pg_dumpall.c:596
@@ -1533,15 +1509,12 @@ msgstr ""
 
 #: pg_dump.c:963 pg_restore.c:466
 #, c-format
-msgid ""
-"  -c, --clean                  clean (drop) database objects before "
-"recreating\n"
+msgid "  -c, --clean                  clean (drop) database objects before recreating\n"
 msgstr ""
 
 #: pg_dump.c:964
 #, c-format
-msgid ""
-"  -C, --create                 include commands to create database in dump\n"
+msgid "  -C, --create                 include commands to create database in dump\n"
 msgstr ""
 
 #: pg_dump.c:965 pg_dumpall.c:600
@@ -1578,9 +1551,7 @@ msgstr ""
 
 #: pg_dump.c:972
 #, c-format
-msgid ""
-"  -S, --superuser=NAME         superuser user name to use in plain-text "
-"format\n"
+msgid "  -S, --superuser=NAME         superuser user name to use in plain-text format\n"
 msgstr ""
 
 #: pg_dump.c:973
@@ -1605,36 +1576,29 @@ msgstr ""
 
 #: pg_dump.c:977 pg_dumpall.c:610
 #, c-format
-msgid ""
-"  --column-inserts             dump data as INSERT commands with column "
-"names\n"
+msgid "  --column-inserts             dump data as INSERT commands with column names\n"
 msgstr ""
 
 #: pg_dump.c:978 pg_dumpall.c:611
 #, c-format
-msgid ""
-"  --disable-dollar-quoting     disable dollar quoting, use SQL standard "
-"quoting\n"
+msgid "  --disable-dollar-quoting     disable dollar quoting, use SQL standard quoting\n"
 msgstr ""
 
 #: pg_dump.c:979 pg_dumpall.c:612 pg_restore.c:483
 #, c-format
-msgid ""
-"  --disable-triggers           disable triggers during data-only restore\n"
+msgid "  --disable-triggers           disable triggers during data-only restore\n"
 msgstr ""
 
 #: pg_dump.c:980
 #, c-format
 msgid ""
-"  --enable-row-security        enable row security (dump only content user "
-"has\n"
+"  --enable-row-security        enable row security (dump only content user has\n"
 "                               access to)\n"
 msgstr ""
 
 #: pg_dump.c:982
 #, c-format
-msgid ""
-"  --exclude-table-data=TABLE   do NOT dump data for the named table(s)\n"
+msgid "  --exclude-table-data=TABLE   do NOT dump data for the named table(s)\n"
 msgstr ""
 
 #: pg_dump.c:983 pg_dumpall.c:613 pg_restore.c:485
@@ -1644,9 +1608,7 @@ msgstr ""
 
 #: pg_dump.c:984 pg_dumpall.c:614
 #, c-format
-msgid ""
-"  --inserts                    dump data as INSERT commands, rather than "
-"COPY\n"
+msgid "  --inserts                    dump data as INSERT commands, rather than COPY\n"
 msgstr ""
 
 #: pg_dump.c:985 pg_dumpall.c:615 pg_restore.c:488
@@ -1671,9 +1633,7 @@ msgstr ""
 
 #: pg_dump.c:989
 #, c-format
-msgid ""
-"  --no-synchronized-snapshots  do not use synchronized snapshots in parallel "
-"jobs\n"
+msgid "  --no-synchronized-snapshots  do not use synchronized snapshots in parallel jobs\n"
 msgstr ""
 
 #: pg_dump.c:990 pg_dumpall.c:621
@@ -1688,8 +1648,7 @@ msgstr ""
 
 #: pg_dump.c:992 pg_dumpall.c:623
 #, c-format
-msgid ""
-"  --quote-all-identifiers      quote all identifiers, even if not key words\n"
+msgid "  --quote-all-identifiers      quote all identifiers, even if not key words\n"
 msgstr ""
 
 #: pg_dump.c:993 pg_dumpall.c:624
@@ -1699,16 +1658,12 @@ msgstr ""
 
 #: pg_dump.c:994
 #, c-format
-msgid ""
-"  --section=SECTION            dump named section (pre-data, data, or post-"
-"data)\n"
+msgid "  --section=SECTION            dump named section (pre-data, data, or post-data)\n"
 msgstr ""
 
 #: pg_dump.c:995
 #, c-format
-msgid ""
-"  --serializable-deferrable    wait until the dump can run without "
-"anomalies\n"
+msgid "  --serializable-deferrable    wait until the dump can run without anomalies\n"
 msgstr ""
 
 #: pg_dump.c:996
@@ -1719,8 +1674,7 @@ msgstr ""
 #: pg_dump.c:997 pg_restore.c:494
 #, c-format
 msgid ""
-"  --strict-names               require table and/or schema include patterns "
-"to\n"
+"  --strict-names               require table and/or schema include patterns to\n"
 "                               match at least one entity each\n"
 msgstr ""
 
@@ -1728,8 +1682,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  --use-set-session-authorization\n"
-"                               use SET SESSION AUTHORIZATION commands "
-"instead of\n"
+"                               use SET SESSION AUTHORIZATION commands instead of\n"
 "                               ALTER OWNER commands to set ownership\n"
 msgstr ""
 
@@ -1767,9 +1720,7 @@ msgstr ""
 
 #: pg_dump.c:1009 pg_dumpall.c:636 pg_restore.c:505
 #, c-format
-msgid ""
-"  -W, --password           force password prompt (should happen "
-"automatically)\n"
+msgid "  -W, --password           force password prompt (should happen automatically)\n"
 msgstr ""
 
 #: pg_dump.c:1010 pg_dumpall.c:637
@@ -1799,8 +1750,7 @@ msgstr ""
 #: pg_dump.c:1170
 #, c-format
 msgid ""
-"Synchronized snapshots on standby servers are not supported by this server "
-"version.\n"
+"Synchronized snapshots on standby servers are not supported by this server version.\n"
 "Run with --no-synchronized-snapshots instead if you do not need\n"
 "synchronized snapshots.\n"
 msgstr ""
@@ -1912,8 +1862,7 @@ msgstr ""
 
 #: pg_dump.c:4064
 #, c-format
-msgid ""
-"WARNING: subscriptions not dumped because current user is not a superuser\n"
+msgid "WARNING: subscriptions not dumped because current user is not a superuser\n"
 msgstr ""
 
 #: pg_dump.c:4118
@@ -1978,9 +1927,7 @@ msgstr ""
 
 #: pg_dump.c:6632 pg_dump.c:16834
 #, c-format
-msgid ""
-"failed sanity check, parent table with OID %u of sequence with OID %u not "
-"found\n"
+msgid "failed sanity check, parent table with OID %u of sequence with OID %u not found\n"
 msgstr ""
 
 #: pg_dump.c:6764
@@ -1995,9 +1942,7 @@ msgstr ""
 
 #: pg_dump.c:7365
 #, c-format
-msgid ""
-"failed sanity check, parent table with OID %u of pg_rewrite entry with OID "
-"%u not found\n"
+msgid "failed sanity check, parent table with OID %u of pg_rewrite entry with OID %u not found\n"
 msgstr ""
 
 #: pg_dump.c:7449
@@ -2007,9 +1952,7 @@ msgstr ""
 
 #: pg_dump.c:7582
 #, c-format
-msgid ""
-"query produced null referenced table name for foreign key trigger \"%s\" on "
-"table \"%s\" (OID of table: %u)\n"
+msgid "query produced null referenced table name for foreign key trigger \"%s\" on table \"%s\" (OID of table: %u)\n"
 msgstr ""
 
 #: pg_dump.c:8136
@@ -2042,6 +1985,7 @@ msgstr ""
 msgid "expected %d check constraint on table \"%s\" but found %d\n"
 msgid_plural "expected %d check constraints on table \"%s\" but found %d\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_dump.c:8479
 #, c-format
@@ -2105,9 +2049,7 @@ msgstr ""
 
 #: pg_dump.c:12153
 #, c-format
-msgid ""
-"WARNING: bogus transform definition, at least one of trffromsql and trftosql "
-"should be nonzero\n"
+msgid "WARNING: bogus transform definition, at least one of trffromsql and trftosql should be nonzero\n"
 msgstr ""
 
 #: pg_dump.c:12170
@@ -2137,9 +2079,7 @@ msgstr ""
 
 #: pg_dump.c:13795
 #, c-format
-msgid ""
-"WARNING: aggregate function %s could not be dumped correctly for this "
-"database version; ignored\n"
+msgid "WARNING: aggregate function %s could not be dumped correctly for this database version; ignored\n"
 msgstr ""
 
 #: pg_dump.c:13850
@@ -2164,16 +2104,12 @@ msgstr ""
 
 #: pg_dump.c:14741
 #, c-format
-msgid ""
-"could not parse initial GRANT ACL list (%s) or initial REVOKE ACL list (%s) "
-"for object \"%s\" (%s)\n"
+msgid "could not parse initial GRANT ACL list (%s) or initial REVOKE ACL list (%s) for object \"%s\" (%s)\n"
 msgstr ""
 
 #: pg_dump.c:14750
 #, c-format
-msgid ""
-"could not parse GRANT ACL list (%s) or REVOKE ACL list (%s) for object \"%s"
-"\" (%s)\n"
+msgid "could not parse GRANT ACL list (%s) or REVOKE ACL list (%s) for object \"%s\" (%s)\n"
 msgstr ""
 
 #: pg_dump.c:15244
@@ -2183,8 +2119,7 @@ msgstr ""
 
 #: pg_dump.c:15247
 #, c-format
-msgid ""
-"query to obtain definition of view \"%s\" returned more than one definition\n"
+msgid "query to obtain definition of view \"%s\" returned more than one definition\n"
 msgstr ""
 
 #: pg_dump.c:15254
@@ -2215,9 +2150,9 @@ msgstr ""
 #: pg_dump.c:16678 pg_dump.c:16899
 #, c-format
 msgid "query to get data of sequence \"%s\" returned %d row (expected 1)\n"
-msgid_plural ""
-"query to get data of sequence \"%s\" returned %d rows (expected 1)\n"
+msgid_plural "query to get data of sequence \"%s\" returned %d rows (expected 1)\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_dump.c:16712
 #, c-format
@@ -2236,9 +2171,7 @@ msgstr ""
 
 #: pg_dump.c:17295
 #, c-format
-msgid ""
-"query to get rule \"%s\" for table \"%s\" failed: wrong number of rows "
-"returned\n"
+msgid "query to get rule \"%s\" for table \"%s\" failed: wrong number of rows returned\n"
 msgstr ""
 
 #: pg_dump.c:17676
@@ -2274,9 +2207,9 @@ msgstr ""
 #: pg_dump_sort.c:1204
 #, c-format
 msgid "NOTICE: there are circular foreign-key constraints on this table:\n"
-msgid_plural ""
-"NOTICE: there are circular foreign-key constraints among these tables:\n"
+msgid_plural "NOTICE: there are circular foreign-key constraints among these tables:\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #: pg_dump_sort.c:1208 pg_dump_sort.c:1228
 #, c-format
@@ -2285,16 +2218,12 @@ msgstr ""
 
 #: pg_dump_sort.c:1209
 #, c-format
-msgid ""
-"You might not be able to restore the dump without using --disable-triggers "
-"or temporarily dropping the constraints.\n"
+msgid "You might not be able to restore the dump without using --disable-triggers or temporarily dropping the constraints.\n"
 msgstr ""
 
 #: pg_dump_sort.c:1210
 #, c-format
-msgid ""
-"Consider using a full dump instead of a --data-only dump to avoid this "
-"problem.\n"
+msgid "Consider using a full dump instead of a --data-only dump to avoid this problem.\n"
 msgstr ""
 
 #: pg_dump_sort.c:1222
@@ -2320,15 +2249,12 @@ msgstr ""
 
 #: pg_dumpall.c:338
 #, c-format
-msgid ""
-"%s: options -g/--globals-only and -r/--roles-only cannot be used together\n"
+msgid "%s: options -g/--globals-only and -r/--roles-only cannot be used together\n"
 msgstr ""
 
 #: pg_dumpall.c:347
 #, c-format
-msgid ""
-"%s: options -g/--globals-only and -t/--tablespaces-only cannot be used "
-"together\n"
+msgid "%s: options -g/--globals-only and -t/--tablespaces-only cannot be used together\n"
 msgstr ""
 
 #: pg_dumpall.c:356 pg_restore.c:370
@@ -2338,9 +2264,7 @@ msgstr ""
 
 #: pg_dumpall.c:363
 #, c-format
-msgid ""
-"%s: options -r/--roles-only and -t/--tablespaces-only cannot be used "
-"together\n"
+msgid "%s: options -r/--roles-only and -t/--tablespaces-only cannot be used together\n"
 msgstr ""
 
 #: pg_dumpall.c:423 pg_dumpall.c:1641
@@ -2384,8 +2308,7 @@ msgstr ""
 
 #: pg_dumpall.c:599
 #, c-format
-msgid ""
-"  -c, --clean                  clean (drop) databases before recreating\n"
+msgid "  -c, --clean                  clean (drop) databases before recreating\n"
 msgstr ""
 
 #: pg_dumpall.c:601
@@ -2400,8 +2323,7 @@ msgstr ""
 
 #: pg_dumpall.c:604
 #, c-format
-msgid ""
-"  -r, --roles-only             dump only roles, no databases or tablespaces\n"
+msgid "  -r, --roles-only             dump only roles, no databases or tablespaces\n"
 msgstr ""
 
 #: pg_dumpall.c:606
@@ -2411,8 +2333,7 @@ msgstr ""
 
 #: pg_dumpall.c:607
 #, c-format
-msgid ""
-"  -t, --tablespaces-only       dump only tablespaces, no databases or roles\n"
+msgid "  -t, --tablespaces-only       dump only tablespaces, no databases or roles\n"
 msgstr ""
 
 #: pg_dumpall.c:617
@@ -2434,8 +2355,7 @@ msgstr ""
 #, c-format
 msgid ""
 "\n"
-"If -f/--file is not used, then the SQL script will be written to the "
-"standard\n"
+"If -f/--file is not used, then the SQL script will be written to the standard\n"
 "output.\n"
 "\n"
 msgstr ""
@@ -2507,8 +2427,7 @@ msgstr ""
 
 #: pg_restore.c:322
 #, c-format
-msgid ""
-"%s: options -s/--schema-only and -a/--data-only cannot be used together\n"
+msgid "%s: options -s/--schema-only and -a/--data-only cannot be used together\n"
 msgstr ""
 
 #: pg_restore.c:329
@@ -2533,8 +2452,7 @@ msgstr ""
 
 #: pg_restore.c:397
 #, c-format
-msgid ""
-"unrecognized archive format \"%s\"; please specify \"c\", \"d\", or \"t\"\n"
+msgid "unrecognized archive format \"%s\"; please specify \"c\", \"d\", or \"t\"\n"
 msgstr ""
 
 #: pg_restore.c:437
@@ -2650,15 +2568,12 @@ msgstr ""
 
 #: pg_restore.c:478
 #, c-format
-msgid ""
-"  -S, --superuser=NAME         superuser user name to use for disabling "
-"triggers\n"
+msgid "  -S, --superuser=NAME         superuser user name to use for disabling triggers\n"
 msgstr ""
 
 #: pg_restore.c:479
 #, c-format
-msgid ""
-"  -t, --table=NAME             restore named relation (table, view, etc.)\n"
+msgid "  -t, --table=NAME             restore named relation (table, view, etc.)\n"
 msgstr ""
 
 #: pg_restore.c:480
@@ -2668,9 +2583,7 @@ msgstr ""
 
 #: pg_restore.c:481
 #, c-format
-msgid ""
-"  -x, --no-privileges          skip restoration of access privileges (grant/"
-"revoke)\n"
+msgid "  -x, --no-privileges          skip restoration of access privileges (grant/revoke)\n"
 msgstr ""
 
 #: pg_restore.c:482
@@ -2686,8 +2599,7 @@ msgstr ""
 #: pg_restore.c:486
 #, c-format
 msgid ""
-"  --no-data-for-failed-tables  do not restore data of tables that could not "
-"be\n"
+"  --no-data-for-failed-tables  do not restore data of tables that could not be\n"
 "                               created\n"
 msgstr ""
 
@@ -2713,9 +2625,7 @@ msgstr ""
 
 #: pg_restore.c:493
 #, c-format
-msgid ""
-"  --section=SECTION            restore named section (pre-data, data, or "
-"post-data)\n"
+msgid "  --section=SECTION            restore named section (pre-data, data, or post-data)\n"
 msgstr ""
 
 #: pg_restore.c:506

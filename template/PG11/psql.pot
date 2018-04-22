@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the psql (PostgreSQL) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: psql (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:15+0000\n"
-"PO-Revision-Date: 2018-04-23 02:33+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Language: vi_VN\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: ../../common/exec.c:127 ../../common/exec.c:241 ../../common/exec.c:284
 #, c-format
@@ -119,6 +119,7 @@ msgstr ""
 msgid "(%lu row)"
 msgid_plural "(%lu rows)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../../fe_utils/print.c:2915
 #, c-format
@@ -162,8 +163,7 @@ msgstr ""
 
 #: command.c:292
 #, c-format
-msgid ""
-"\\%s command ignored; use \\endif or Ctrl-C to exit current \\if block\n"
+msgid "\\%s command ignored; use \\endif or Ctrl-C to exit current \\if block\n"
 msgstr ""
 
 #: command.c:552
@@ -183,16 +183,12 @@ msgstr ""
 
 #: command.c:620
 #, c-format
-msgid ""
-"You are connected to database \"%s\" as user \"%s\" via socket in \"%s\" at "
-"port \"%s\".\n"
+msgid "You are connected to database \"%s\" as user \"%s\" via socket in \"%s\" at port \"%s\".\n"
 msgstr ""
 
 #: command.c:623
 #, c-format
-msgid ""
-"You are connected to database \"%s\" as user \"%s\" on host \"%s\" at port "
-"\"%s\".\n"
+msgid "You are connected to database \"%s\" as user \"%s\" on host \"%s\" at port \"%s\".\n"
 msgstr ""
 
 #: command.c:914 command.c:1010 command.c:2395
@@ -355,9 +351,7 @@ msgstr ""
 
 #: command.c:2888
 #, c-format
-msgid ""
-"All connection parameters must be supplied because no database connection "
-"exists\n"
+msgid "All connection parameters must be supplied because no database connection exists\n"
 msgstr ""
 
 #: command.c:3056
@@ -372,16 +366,12 @@ msgstr ""
 
 #: command.c:3096
 #, c-format
-msgid ""
-"You are now connected to database \"%s\" as user \"%s\" via socket in \"%s\" "
-"at port \"%s\".\n"
+msgid "You are now connected to database \"%s\" as user \"%s\" via socket in \"%s\" at port \"%s\".\n"
 msgstr ""
 
 #: command.c:3099
 #, c-format
-msgid ""
-"You are now connected to database \"%s\" as user \"%s\" on host \"%s\" at "
-"port \"%s\".\n"
+msgid "You are now connected to database \"%s\" as user \"%s\" on host \"%s\" at port \"%s\".\n"
 msgstr ""
 
 #: command.c:3103
@@ -428,9 +418,7 @@ msgstr ""
 
 #: command.c:3309
 #, c-format
-msgid ""
-"environment variable PSQL_EDITOR_LINENUMBER_ARG must be set to specify a "
-"line number\n"
+msgid "environment variable PSQL_EDITOR_LINENUMBER_ARG must be set to specify a line number\n"
 msgstr ""
 
 #: command.c:3338
@@ -455,9 +443,7 @@ msgstr ""
 
 #: command.c:3679
 #, c-format
-msgid ""
-"\\pset: allowed formats are unaligned, aligned, wrapped, html, asciidoc, "
-"latex, latex-longtable, troff-ms\n"
+msgid "\\pset: allowed formats are unaligned, aligned, wrapped, html, asciidoc, latex, latex-longtable, troff-ms\n"
 msgstr ""
 
 #: command.c:3697
@@ -580,6 +566,7 @@ msgstr ""
 msgid "Pager won't be used for less than %d line.\n"
 msgid_plural "Pager won't be used for less than %d lines.\n"
 msgstr[0] ""
+msgstr[1] ""
 
 #: command.c:4024 command.c:4034
 #, c-format
@@ -747,15 +734,12 @@ msgstr ""
 
 #: common.c:843
 #, c-format
-msgid ""
-"Asynchronous notification \"%s\" with payload \"%s\" received from server "
-"process with PID %d.\n"
+msgid "Asynchronous notification \"%s\" with payload \"%s\" received from server process with PID %d.\n"
 msgstr ""
 
 #: common.c:846
 #, c-format
-msgid ""
-"Asynchronous notification \"%s\" received from server process with PID %d.\n"
+msgid "Asynchronous notification \"%s\" received from server process with PID %d.\n"
 msgstr ""
 
 #: common.c:908
@@ -771,17 +755,14 @@ msgstr ""
 #: common.c:1301
 #, c-format
 msgid ""
-"***(Single step mode: verify "
-"command)*******************************************\n"
+"***(Single step mode: verify command)*******************************************\n"
 "%s\n"
-"***(press return to proceed or enter x and return to "
-"cancel)********************\n"
+"***(press return to proceed or enter x and return to cancel)********************\n"
 msgstr ""
 
 #: common.c:1356
 #, c-format
-msgid ""
-"The server (version %s) does not support savepoints for ON_ERROR_ROLLBACK.\n"
+msgid "The server (version %s) does not support savepoints for ON_ERROR_ROLLBACK.\n"
 msgstr ""
 
 #: common.c:1419
@@ -885,15 +866,12 @@ msgstr ""
 
 #: crosstabview.c:156
 #, c-format
-msgid ""
-"\\crosstabview: vertical and horizontal headers must be different columns\n"
+msgid "\\crosstabview: vertical and horizontal headers must be different columns\n"
 msgstr ""
 
 #: crosstabview.c:172
 #, c-format
-msgid ""
-"\\crosstabview: data column must be specified when query returns more than "
-"three columns\n"
+msgid "\\crosstabview: data column must be specified when query returns more than three columns\n"
 msgstr ""
 
 #: crosstabview.c:228
@@ -903,9 +881,7 @@ msgstr ""
 
 #: crosstabview.c:397
 #, c-format
-msgid ""
-"\\crosstabview: query result contains multiple data values for row \"%s\", "
-"column \"%s\"\n"
+msgid "\\crosstabview: query result contains multiple data values for row \"%s\", column \"%s\"\n"
 msgstr ""
 
 #: crosstabview.c:645
@@ -1637,6 +1613,7 @@ msgstr ""
 msgid "%d connection"
 msgid_plural "%d connections"
 msgstr[0] ""
+msgstr[1] ""
 
 #: describe.c:3284
 msgid "Password valid until "
@@ -2132,15 +2109,12 @@ msgstr ""
 
 #: help.c:82
 #, c-format
-msgid ""
-"  -c, --command=COMMAND    run only single command (SQL or internal) and "
-"exit\n"
+msgid "  -c, --command=COMMAND    run only single command (SQL or internal) and exit\n"
 msgstr ""
 
 #: help.c:83
 #, c-format
-msgid ""
-"  -d, --dbname=DBNAME      database name to connect to (default: \"%s\")\n"
+msgid "  -d, --dbname=DBNAME      database name to connect to (default: \"%s\")\n"
 msgstr ""
 
 #: help.c:84
@@ -2175,8 +2149,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  -1 (\"one\"), --single-transaction\n"
-"                           execute as a single transaction (if non-"
-"interactive)\n"
+"                           execute as a single transaction (if non-interactive)\n"
 msgstr ""
 
 #: help.c:93
@@ -2218,8 +2191,7 @@ msgstr ""
 
 #: help.c:101
 #, c-format
-msgid ""
-"  -E, --echo-hidden        display queries that internal commands generate\n"
+msgid "  -E, --echo-hidden        display queries that internal commands generate\n"
 msgstr ""
 
 #: help.c:102
@@ -2229,8 +2201,7 @@ msgstr ""
 
 #: help.c:103
 #, c-format
-msgid ""
-"  -n, --no-readline        disable enhanced command line editing (readline)\n"
+msgid "  -n, --no-readline        disable enhanced command line editing (readline)\n"
 msgstr ""
 
 #: help.c:104
@@ -2240,8 +2211,7 @@ msgstr ""
 
 #: help.c:105
 #, c-format
-msgid ""
-"  -q, --quiet              run quietly (no messages, only query output)\n"
+msgid "  -q, --quiet              run quietly (no messages, only query output)\n"
 msgstr ""
 
 #: help.c:106
@@ -2251,9 +2221,7 @@ msgstr ""
 
 #: help.c:107
 #, c-format
-msgid ""
-"  -S, --single-line        single-line mode (end of line terminates SQL "
-"command)\n"
+msgid "  -S, --single-line        single-line mode (end of line terminates SQL command)\n"
 msgstr ""
 
 #: help.c:109
@@ -2272,8 +2240,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  -F, --field-separator=STRING\n"
-"                           field separator for unaligned output (default: "
-"\"%s\")\n"
+"                           field separator for unaligned output (default: \"%s\")\n"
 msgstr ""
 
 #: help.c:114
@@ -2283,17 +2250,14 @@ msgstr ""
 
 #: help.c:115
 #, c-format
-msgid ""
-"  -P, --pset=VAR[=ARG]     set printing option VAR to ARG (see \\pset "
-"command)\n"
+msgid "  -P, --pset=VAR[=ARG]     set printing option VAR to ARG (see \\pset command)\n"
 msgstr ""
 
 #: help.c:116
 #, c-format
 msgid ""
 "  -R, --record-separator=STRING\n"
-"                           record separator for unaligned output (default: "
-"newline)\n"
+"                           record separator for unaligned output (default: newline)\n"
 msgstr ""
 
 #: help.c:118
@@ -2303,9 +2267,7 @@ msgstr ""
 
 #: help.c:119
 #, c-format
-msgid ""
-"  -T, --table-attr=TEXT    set HTML table tag attributes (e.g., width, "
-"border)\n"
+msgid "  -T, --table-attr=TEXT    set HTML table tag attributes (e.g., width, border)\n"
 msgstr ""
 
 #: help.c:120
@@ -2317,16 +2279,14 @@ msgstr ""
 #, c-format
 msgid ""
 "  -z, --field-separator-zero\n"
-"                           set field separator for unaligned output to zero "
-"byte\n"
+"                           set field separator for unaligned output to zero byte\n"
 msgstr ""
 
 #: help.c:123
 #, c-format
 msgid ""
 "  -0, --record-separator-zero\n"
-"                           set record separator for unaligned output to zero "
-"byte\n"
+"                           set record separator for unaligned output to zero byte\n"
 msgstr ""
 
 #: help.c:126
@@ -2338,9 +2298,7 @@ msgstr ""
 
 #: help.c:129
 #, c-format
-msgid ""
-"  -h, --host=HOSTNAME      database server host or socket directory "
-"(default: \"%s\")\n"
+msgid "  -h, --host=HOSTNAME      database server host or socket directory (default: \"%s\")\n"
 msgstr ""
 
 #: help.c:130
@@ -2364,17 +2322,14 @@ msgstr ""
 
 #: help.c:141
 #, c-format
-msgid ""
-"  -W, --password           force password prompt (should happen "
-"automatically)\n"
+msgid "  -W, --password           force password prompt (should happen automatically)\n"
 msgstr ""
 
 #: help.c:143
 #, c-format
 msgid ""
 "\n"
-"For more information, type \"\\?\" (for internal commands) or \"\\help"
-"\" (for SQL\n"
+"For more information, type \"\\?\" (for internal commands) or \"\\help\" (for SQL\n"
 "commands) from within psql, or consult the psql section in the PostgreSQL\n"
 "documentation.\n"
 "\n"
@@ -2392,46 +2347,37 @@ msgstr ""
 
 #: help.c:173
 #, c-format
-msgid ""
-"  \\copyright             show PostgreSQL usage and distribution terms\n"
+msgid "  \\copyright             show PostgreSQL usage and distribution terms\n"
 msgstr ""
 
 #: help.c:174
 #, c-format
-msgid ""
-"  \\crosstabview [COLUMNS] execute query and display results in crosstab\n"
+msgid "  \\crosstabview [COLUMNS] execute query and display results in crosstab\n"
 msgstr ""
 
 #: help.c:175
 #, c-format
-msgid ""
-"  \\errverbose            show most recent error message at maximum "
-"verbosity\n"
+msgid "  \\errverbose            show most recent error message at maximum verbosity\n"
 msgstr ""
 
 #: help.c:176
 #, c-format
-msgid ""
-"  \\g [FILE] or ;         execute query (and send results to file or |pipe)\n"
+msgid "  \\g [FILE] or ;         execute query (and send results to file or |pipe)\n"
 msgstr ""
 
 #: help.c:177
 #, c-format
-msgid ""
-"  \\gdesc                 describe result of query, without executing it\n"
+msgid "  \\gdesc                 describe result of query, without executing it\n"
 msgstr ""
 
 #: help.c:178
 #, c-format
-msgid ""
-"  \\gexec                 execute query, then execute each value in its "
-"result\n"
+msgid "  \\gexec                 execute query, then execute each value in its result\n"
 msgstr ""
 
 #: help.c:179
 #, c-format
-msgid ""
-"  \\gset [PREFIX]         execute query and store results in psql variables\n"
+msgid "  \\gset [PREFIX]         execute query and store results in psql variables\n"
 msgstr ""
 
 #: help.c:180
@@ -2471,9 +2417,7 @@ msgstr ""
 
 #: help.c:190
 #, c-format
-msgid ""
-"  \\h [NAME]              help on syntax of SQL commands, * for all "
-"commands\n"
+msgid "  \\h [NAME]              help on syntax of SQL commands, * for all commands\n"
 msgstr ""
 
 #: help.c:193
@@ -2483,15 +2427,12 @@ msgstr ""
 
 #: help.c:194
 #, c-format
-msgid ""
-"  \\e [FILE] [LINE]       edit the query buffer (or file) with external "
-"editor\n"
+msgid "  \\e [FILE] [LINE]       edit the query buffer (or file) with external editor\n"
 msgstr ""
 
 #: help.c:195
 #, c-format
-msgid ""
-"  \\ef [FUNCNAME [LINE]]  edit function definition with external editor\n"
+msgid "  \\ef [FUNCNAME [LINE]]  edit function definition with external editor\n"
 msgstr ""
 
 #: help.c:196
@@ -2526,9 +2467,7 @@ msgstr ""
 
 #: help.c:206
 #, c-format
-msgid ""
-"  \\copy ...              perform SQL COPY with data stream to the client "
-"host\n"
+msgid "  \\copy ...              perform SQL COPY with data stream to the client host\n"
 msgstr ""
 
 #: help.c:207
@@ -2543,9 +2482,7 @@ msgstr ""
 
 #: help.c:209
 #, c-format
-msgid ""
-"  \\ir FILE               as \\i, but relative to location of current "
-"script\n"
+msgid "  \\ir FILE               as \\i, but relative to location of current script\n"
 msgstr ""
 
 #: help.c:210
@@ -2555,8 +2492,7 @@ msgstr ""
 
 #: help.c:211
 #, c-format
-msgid ""
-"  \\qecho [STRING]        write string to query output stream (see \\o)\n"
+msgid "  \\qecho [STRING]        write string to query output stream (see \\o)\n"
 msgstr ""
 
 #: help.c:214
@@ -2571,15 +2507,12 @@ msgstr ""
 
 #: help.c:216
 #, c-format
-msgid ""
-"  \\elif EXPR             alternative within current conditional block\n"
+msgid "  \\elif EXPR             alternative within current conditional block\n"
 msgstr ""
 
 #: help.c:217
 #, c-format
-msgid ""
-"  \\else                  final alternative within current conditional "
-"block\n"
+msgid "  \\else                  final alternative within current conditional block\n"
 msgstr ""
 
 #: help.c:218
@@ -2634,8 +2567,7 @@ msgstr ""
 
 #: help.c:230
 #, c-format
-msgid ""
-"  \\dd[S]  [PATTERN]      show object descriptions not displayed elsewhere\n"
+msgid "  \\dd[S]  [PATTERN]      show object descriptions not displayed elsewhere\n"
 msgstr ""
 
 #: help.c:231
@@ -2675,8 +2607,7 @@ msgstr ""
 
 #: help.c:238
 #, c-format
-msgid ""
-"  \\df[antw][S+] [PATRN]  list [only agg/normal/trigger/window] functions\n"
+msgid "  \\df[antw][S+] [PATRN]  list [only agg/normal/trigger/window] functions\n"
 msgstr ""
 
 #: help.c:239
@@ -2741,8 +2672,7 @@ msgstr ""
 
 #: help.c:251
 #, c-format
-msgid ""
-"  \\dp     [PATTERN]      list table, view, and sequence access privileges\n"
+msgid "  \\dp     [PATTERN]      list table, view, and sequence access privileges\n"
 msgstr ""
 
 #: help.c:252
@@ -2822,8 +2752,7 @@ msgstr ""
 
 #: help.c:269
 #, c-format
-msgid ""
-"  \\a                     toggle between unaligned and aligned output mode\n"
+msgid "  \\a                     toggle between unaligned and aligned output mode\n"
 msgstr ""
 
 #: help.c:270
@@ -2833,9 +2762,7 @@ msgstr ""
 
 #: help.c:271
 #, c-format
-msgid ""
-"  \\f [STRING]            show or set field separator for unaligned query "
-"output\n"
+msgid "  \\f [STRING]            show or set field separator for unaligned query output\n"
 msgstr ""
 
 #: help.c:272
@@ -2847,14 +2774,11 @@ msgstr ""
 #, c-format
 msgid ""
 "  \\pset [NAME [VALUE]]   set table output option\n"
-"                         (NAME := {border|columns|expanded|fieldsep|"
-"fieldsep_zero|\n"
+"                         (NAME := {border|columns|expanded|fieldsep|fieldsep_zero|\n"
 "                         footer|format|linestyle|null|numericlocale|pager|\n"
-"                         pager_min_lines|recordsep|recordsep_zero|tableattr|"
-"title|\n"
+"                         pager_min_lines|recordsep|recordsep_zero|tableattr|title|\n"
 "                         tuples_only|unicode_border_linestyle|\n"
-"                         unicode_column_linestyle|"
-"unicode_header_linestyle})\n"
+"                         unicode_column_linestyle|unicode_header_linestyle})\n"
 msgstr ""
 
 #: help.c:280
@@ -2864,8 +2788,7 @@ msgstr ""
 
 #: help.c:282
 #, c-format
-msgid ""
-"  \\T [STRING]            set HTML <table> tag attributes, or unset if none\n"
+msgid "  \\T [STRING]            set HTML <table> tag attributes, or unset if none\n"
 msgstr ""
 
 #: help.c:283
@@ -2894,8 +2817,7 @@ msgstr ""
 
 #: help.c:295
 #, c-format
-msgid ""
-"  \\conninfo              display information about current connection\n"
+msgid "  \\conninfo              display information about current connection\n"
 msgstr ""
 
 #: help.c:296
@@ -2930,9 +2852,7 @@ msgstr ""
 
 #: help.c:305
 #, c-format
-msgid ""
-"  \\! [COMMAND]           execute command in shell or start interactive "
-"shell\n"
+msgid "  \\! [COMMAND]           execute command in shell or start interactive shell\n"
 msgstr ""
 
 #: help.c:308
@@ -2947,9 +2867,7 @@ msgstr ""
 
 #: help.c:310
 #, c-format
-msgid ""
-"  \\set [NAME [VALUE]]    set internal variable, or list all if no "
-"parameters\n"
+msgid "  \\set [NAME [VALUE]]    set internal variable, or list all if no parameters\n"
 msgstr ""
 
 #: help.c:311
@@ -3047,8 +2965,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  FETCH_COUNT\n"
-"    the number of result rows to fetch and display at a time (0 = "
-"unlimited)\n"
+"    the number of result rows to fetch and display at a time (0 = unlimited)\n"
 msgstr ""
 
 #: help.c:367
@@ -3098,8 +3015,7 @@ msgstr ""
 msgid ""
 "  LAST_ERROR_MESSAGE\n"
 "  LAST_ERROR_SQLSTATE\n"
-"    message and SQLSTATE of last error, or empty string and \"00000\" if "
-"none\n"
+"    message and SQLSTATE of last error, or empty string and \"00000\" if none\n"
 msgstr ""
 
 #: help.c:382
@@ -3134,8 +3050,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  PROMPT2\n"
-"    specifies the prompt used when a statement continues from a previous "
-"line\n"
+"    specifies the prompt used when a statement continues from a previous line\n"
 msgstr ""
 
 #: help.c:392
@@ -3300,8 +3215,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  numericlocale\n"
-"    enable display of a locale-specific character to separate groups of "
-"digits\n"
+"    enable display of a locale-specific character to separate groups of digits\n"
 msgstr ""
 
 #: help.c:443
@@ -5807,9 +5721,7 @@ msgid "set the current user identifier of the current session"
 msgstr ""
 
 #: sql_help.c:5599
-msgid ""
-"set the session user identifier and the current user identifier of the "
-"current session"
+msgid "set the session user identifier and the current user identifier of the current session"
 msgstr ""
 
 #: sql_help.c:5604
