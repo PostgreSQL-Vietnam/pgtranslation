@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ecpg (PostgreSQL) 10\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-21 22:10+0900\n"
-"PO-Revision-Date: 2018-04-22 23:02+0900\n"
+"PO-Revision-Date: 2018-04-23 02:14+0900\n"
 "Language-Team: pgvn_translators@postgresql.vn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,13 +111,13 @@ msgstr "  -D SYMBOL      định nghĩa SYMBOL\n"
 msgid ""
 "  -h             parse a header file, this option includes option \"-c\"\n"
 msgstr ""
-"  -h             phân tích cú pháp header file, tùy chọn này bao gồm cả tùy "
+"  -h             phân tích cú pháp tệp header, tùy chọn này bao gồm cả tùy "
 "chọn \"-c\"\n"
 
 #: ecpg.c:50
 #, c-format
 msgid "  -i             parse system include files as well\n"
-msgstr "  -i             phân tích cả cú pháp của các include files\n"
+msgstr "  -i             phân tích cả cú pháp của các tệp include files\n"
 
 #: ecpg.c:51
 #, c-format
@@ -167,8 +167,8 @@ msgid ""
 "input file name, after stripping off .pgc if present.\n"
 msgstr ""
 "\n"
-"Nếu file xuất ra (OUTFILE) không được chỉ định, tên của file .c sẽ được \n"
-"lấy từ file .pgc input sau khi đã bỏ đi phần mở rộng .pgc\n"
+"Nếu tệp xuất ra (OUTFILE) không được chỉ định, tên của tệp .c sẽ được \n"
+"lấy từ tên tệp .pgc đầu vào sau khi đã bỏ đi phần mở rộng .pgc\n"
 
 #: ecpg.c:61
 #, c-format
@@ -203,42 +203,42 @@ msgstr ""
 #: ecpg.c:256
 #, c-format
 msgid "%s, the PostgreSQL embedded C preprocessor, version %s\n"
-msgstr ""
+msgstr "%s, tiền xử lý nhúng ngôn ngữ C cho PostgreSQL, phiên bản %s\n"
 
 #: ecpg.c:258
 #, c-format
 msgid "EXEC SQL INCLUDE ... search starts here:\n"
-msgstr ""
+msgstr "EXEC SQL INCLUDE ... tìm kiếm bắt đầu từ đây:\n"
 
 #: ecpg.c:261
 #, c-format
 msgid "end of search list\n"
-msgstr ""
+msgstr "cuối danh sách tìm kiếm\n"
 
 #: ecpg.c:267
 #, c-format
 msgid "%s: no input files specified\n"
-msgstr ""
+msgstr "%s: không có tệp đầu vào nào được chỉ định\n"
 
 #: ecpg.c:461
 #, c-format
 msgid "cursor \"%s\" has been declared but not opened"
-msgstr ""
+msgstr "con trỏ \"%s\" đã được định nghĩa nhưng chưa được open"
 
 #: ecpg.c:474 preproc.y:127
 #, c-format
 msgid "could not remove output file \"%s\"\n"
-msgstr ""
+msgstr "không thể xóa tệp đầu ra \"%s\"\n"
 
 #: pgc.l:431
 #, c-format
 msgid "unterminated /* comment"
-msgstr ""
+msgstr "dấu bình luận /* chưa được kết thúc"
 
 #: pgc.l:444
 #, c-format
 msgid "invalid bit string literal"
-msgstr ""
+msgstr "chuỗi ký tự bit không hợp lệ"
 
 #: pgc.l:453
 #, c-format
