@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ecpg (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:08+0000\n"
-"PO-Revision-Date: 2018-04-23 22:53+0900\n"
+"PO-Revision-Date: 2018-04-26 00:26+0900\n"
 "Language-Team: <pgvn_translators@postgresql.vn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -93,7 +93,7 @@ msgid ""
 "  -C MODE        set compatibility mode; MODE can be one of\n"
 "                 \"INFORMIX\", \"INFORMIX_SE\", \"ORACLE\"\n"
 msgstr ""
-"  -C CHẾĐỘ       thiết lập chế độ tương thích; CHẾĐỘ có thể là \n"
+"  -C MODE        thiết lập chế độ tương thích; MODE có thể là \n"
 "                 \"INFORMIX\", \"INFORMIX_SE\" hoặc \"ORACLE\"\n"
 
 #: ecpg.c:46
@@ -122,7 +122,7 @@ msgstr "  -i             phân tích cả cú pháp của các tệp include fil
 #: ecpg.c:51
 #, c-format
 msgid "  -I DIRECTORY   search DIRECTORY for include files\n"
-msgstr "  -I THƯ MỤC   tìm kiếm THƯ MỤC cho các include files\n"
+msgstr "  -I DIRECTORY   tìm kiếm THƯ MỤC cho các include files\n"
 
 #: ecpg.c:52
 #, c-format
@@ -135,7 +135,7 @@ msgid ""
 "  -r OPTION      specify run-time behavior; OPTION can be:\n"
 "                 \"no_indicator\", \"prepare\", \"questionmarks\"\n"
 msgstr ""
-"  -r TÙYCHỌN     chỉ định cách thức run-time; TÙYCHỌN có thể là:\n"
+"  -r OPTION      chỉ định cách thức run-time; OPTION có thể là:\n"
 "                 \"no_indicator\", \"prepare\" hay \"questionmarks\"\n"
 
 #: ecpg.c:55
@@ -157,7 +157,7 @@ msgstr "  -V, --version  xuât thông tin phiên bản, sau đó thoát\n"
 #: ecpg.c:58
 #, c-format
 msgid "  -?, --help     show this help, then exit\n"
-msgstr "  -?, --help     xuất nội dung help này, sau đó thoát\n"
+msgstr "  -?, --help     hiển thị nội dung hướng dẫn này, sau đó thoát\n"
 
 #: ecpg.c:59
 #, c-format
@@ -418,12 +418,12 @@ msgstr "tính năng không được hỗ trợ sẽ được chuyển đến ser
 #: preproc.y:2657
 #, c-format
 msgid "SHOW ALL is not implemented"
-msgstr "SHOW ALL chưa được thực thi"
+msgstr "lệnh SHOW ALL chưa được thực thi"
 
 #: preproc.y:3377
 #, c-format
 msgid "COPY FROM STDIN is not implemented"
-msgstr "COPY FROM STDIN chưa được thực thi"
+msgstr "lệnh COPY FROM STDIN chưa được thực thi"
 
 #: preproc.y:9948 preproc.y:15303
 #, c-format
@@ -449,7 +449,7 @@ msgstr "truy vấn phụ trong FROM phải có bí danh"
 #: preproc.y:15033
 #, c-format
 msgid "CREATE TABLE AS cannot specify INTO"
-msgstr "CREATE TABLE AS không thể sử dụng INTO"
+msgstr "không thể sử dụng INTO trong câu lệnh CREATE TABLE AS"
 
 #: preproc.y:15069
 #, c-format
