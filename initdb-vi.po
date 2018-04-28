@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: initdb (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:17+0000\n"
-"PO-Revision-Date: 2018-04-27 01:00+0900\n"
+"PO-Revision-Date: 2018-04-29 00:02+0900\n"
 "Language-Team: <pgvn_translators@postgresql.vn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -460,7 +460,7 @@ msgstr ""
 #: initdb.c:2374
 #, c-format
 msgid "Usage:\n"
-msgstr "Cách dùng:\n"
+msgstr "Cách sử dụng:\n"
 
 #: initdb.c:2375
 #, c-format
