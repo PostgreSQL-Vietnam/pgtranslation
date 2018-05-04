@@ -1,147 +1,153 @@
 # LANGUAGE message translation file for pg_basebackup
 # Copyright (C) 2018 PostgreSQL Global Development Group
 # This file is distributed under the same license as the pg_basebackup (PostgreSQL) package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <kakalot49@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pg_basebackup (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:16+0000\n"
-"PO-Revision-Date: 2018-04-23 02:27+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-05-04 22:51+0900\n"
+"Language-Team: <pgvn_translators@postgresql.vn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
+"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
 "Language: vi_VN\n"
 
 #: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
 #: ../../common/fe_memutils.c:98
 #, c-format
 msgid "out of memory\n"
-msgstr ""
+msgstr "hết bộ nhớ\n"
 
 #: ../../common/fe_memutils.c:92
 #, c-format
 msgid "cannot duplicate null pointer (internal error)\n"
-msgstr ""
+msgstr "không thể nhân đôi con trỏ null (lỗi nội bộ)\n"
 
 #: ../../common/file_utils.c:82 ../../common/file_utils.c:186
 #: pg_receivewal.c:268 pg_recvlogical.c:354
 #, c-format
 msgid "%s: could not stat file \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể lấy thông tin trạng thái tệp \"%s\": %s\n"
 
 #: ../../common/file_utils.c:162 pg_receivewal.c:169
 #, c-format
 msgid "%s: could not open directory \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể mở thư mục \"%s\": %s\n"
 
 #: ../../common/file_utils.c:198 pg_receivewal.c:336
 #, c-format
 msgid "%s: could not read directory \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể đọc thư mục \"%s\": %s\n"
 
 #: ../../common/file_utils.c:231 ../../common/file_utils.c:291
 #: ../../common/file_utils.c:367
 #, c-format
 msgid "%s: could not open file \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể mở tệp \"%s\": %s\n"
 
 #: ../../common/file_utils.c:304 ../../common/file_utils.c:376 receivelog.c:788
 #: receivelog.c:1045
 #, c-format
 msgid "%s: could not fsync file \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể đồng bộ (fsync) tệp \"%s\": %s\n"
 
 #: ../../common/file_utils.c:387
 #, c-format
 msgid "%s: could not rename file \"%s\" to \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể đổi tên tệp \"%s\" thành \"%s\": %s\n"
 
 #: pg_basebackup.c:166
 #, c-format
 msgid "%s: removing data directory \"%s\"\n"
-msgstr ""
+msgstr "%s: đang xóa thư mục \"%s\"\n"
 
 #: pg_basebackup.c:169
 #, c-format
 msgid "%s: failed to remove data directory\n"
-msgstr ""
+msgstr "%s: không thể xóa thư mục dữ liệu\n"
 
 #: pg_basebackup.c:175
 #, c-format
 msgid "%s: removing contents of data directory \"%s\"\n"
-msgstr ""
+msgstr "%s: đang xóa nội dung của thư mục dữ liệu \"%s\"\n"
 
 #: pg_basebackup.c:178
 #, c-format
 msgid "%s: failed to remove contents of data directory\n"
-msgstr ""
+msgstr "%s: không thể xóa nội dung thư mục dữ liệu\n"
 
 #: pg_basebackup.c:184
 #, c-format
 msgid "%s: removing WAL directory \"%s\"\n"
-msgstr ""
+msgstr "%s: đang xóa thư mục WAL \"%s\"\n"
 
 #: pg_basebackup.c:187
 #, c-format
 msgid "%s: failed to remove WAL directory\n"
-msgstr ""
+msgstr "%s: không thể xóa thư mục WAL\n"
 
 #: pg_basebackup.c:193
 #, c-format
 msgid "%s: removing contents of WAL directory \"%s\"\n"
-msgstr ""
+msgstr "%s: đang xóa nội dung thư mục WAL \"%s\"\n"
 
 #: pg_basebackup.c:196
 #, c-format
 msgid "%s: failed to remove contents of WAL directory\n"
-msgstr ""
+msgstr "%s: không thể xóa nội dung thư mục WAL\n"
 
 #: pg_basebackup.c:204
 #, c-format
 msgid "%s: data directory \"%s\" not removed at user's request\n"
-msgstr ""
+msgstr "%s: thư mục dữ liệu \"%s\" không bị xóa theo yêu cầu của người dùng\n"
 
 #: pg_basebackup.c:209
 #, c-format
 msgid "%s: WAL directory \"%s\" not removed at user's request\n"
-msgstr ""
+msgstr "%s: thư mục WAL \"%s\" không bị xóa theo yêu cầu của người dùng\n"
 
 #: pg_basebackup.c:215
 #, c-format
 msgid "%s: changes to tablespace directories will not be undone\n"
-msgstr ""
+msgstr "%s: các thay đổi đối với thư mục tablespace sẽ không được hoàn tác\n"
 
 #: pg_basebackup.c:257
 #, c-format
 msgid "%s: directory name too long\n"
-msgstr ""
+msgstr "%s: tên thư mục quá dài\n"
 
 #: pg_basebackup.c:267
 #, c-format
 msgid "%s: multiple \"=\" signs in tablespace mapping\n"
-msgstr ""
+msgstr "%s: nhiều dấu \"=\" trong ánh xạ tablespace\n"
 
 #: pg_basebackup.c:280
 #, c-format
 msgid ""
 "%s: invalid tablespace mapping format \"%s\", must be \"OLDDIR=NEWDIR\"\n"
 msgstr ""
+"%s: định dạng ánh xạ tablespace không hợp lệ \"%s\", phải là \"OLDDIR=NEWDIR"
+"\"\n"
 
 #: pg_basebackup.c:293
 #, c-format
 msgid "%s: old directory is not an absolute path in tablespace mapping: %s\n"
 msgstr ""
+"%s: thư mục cũ không phải là đường dẫn tuyệt đối trong ánh xạ tablespace: "
+"%s\n"
 
 #: pg_basebackup.c:300
 #, c-format
 msgid "%s: new directory is not an absolute path in tablespace mapping: %s\n"
 msgstr ""
+"%s: thư mục mới không phải là đường dẫn tuyệt đối trong ánh xạ tablespace: "
+"%s\n"
 
 #: pg_basebackup.c:339
 #, c-format
@@ -149,11 +155,13 @@ msgid ""
 "%s takes a base backup of a running PostgreSQL server.\n"
 "\n"
 msgstr ""
+"%s lấy bản sao lưu cơ sở của PostgreSQL server đang chạy.\n"
+"\n"
 
 #: pg_basebackup.c:341 pg_receivewal.c:79 pg_recvlogical.c:78
 #, c-format
 msgid "Usage:\n"
-msgstr ""
+msgstr "Cách sử dụng:\n"
 
 #: pg_basebackup.c:342 pg_receivewal.c:80 pg_recvlogical.c:79
 #, c-format
