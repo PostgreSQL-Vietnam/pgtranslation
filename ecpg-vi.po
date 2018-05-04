@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ecpg (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:08+0000\n"
-"PO-Revision-Date: 2018-04-30 03:08+0900\n"
+"PO-Revision-Date: 2018-05-04 22:06+0900\n"
 "Language-Team: <pgvn_translators@postgresql.vn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,8 +111,8 @@ msgstr "  -D SYMBOL      định nghĩa SYMBOL\n"
 msgid ""
 "  -h             parse a header file, this option includes option \"-c\"\n"
 msgstr ""
-"  -h             phân tích cú pháp tệp header, tùy chọn này bao gồm cả tùy "
-"chọn \"-c\"\n"
+"  -h             phân tích cú pháp tệp header, tùy chọn này bao gồm \n"
+"                 cả tùy chọn \"-c\"\n"
 
 #: ecpg.c:50
 #, c-format
@@ -177,7 +177,7 @@ msgid ""
 "Report bugs to <pgsql-bugs@postgresql.org>.\n"
 msgstr ""
 "\n"
-"Báo cáo bugs qua email <pgsql-bugs@postgresql.org>.\n"
+"Báo cáo bug qua email <pgsql-bugs@postgresql.org>.\n"
 
 #: ecpg.c:139
 #, c-format
@@ -418,12 +418,12 @@ msgstr "tính năng không được hỗ trợ sẽ được chuyển đến ser
 #: preproc.y:2657
 #, c-format
 msgid "SHOW ALL is not implemented"
-msgstr "lệnh SHOW ALL chưa được thực thi"
+msgstr "Lệnh SHOW ALL chưa được thực thi"
 
 #: preproc.y:3377
 #, c-format
 msgid "COPY FROM STDIN is not implemented"
-msgstr "lệnh COPY FROM STDIN chưa được thực thi"
+msgstr "Lệnh COPY FROM STDIN chưa được thực thi"
 
 #: preproc.y:9948 preproc.y:15303
 #, c-format
@@ -449,7 +449,7 @@ msgstr "truy vấn phụ trong FROM phải có bí danh"
 #: preproc.y:15033
 #, c-format
 msgid "CREATE TABLE AS cannot specify INTO"
-msgstr "không thể sử dụng INTO trong câu lệnh CREATE TABLE AS"
+msgstr "Không thể sử dụng INTO trong câu lệnh CREATE TABLE AS"
 
 #: preproc.y:15069
 #, c-format
