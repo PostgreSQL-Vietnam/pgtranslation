@@ -1,21 +1,21 @@
 # LANGUAGE message translation file for psql
 # Copyright (C) 2018 PostgreSQL Global Development Group
 # This file is distributed under the same license as the psql (PostgreSQL) package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <thaonhi2512@gmail.com>, 2018.
+#              <kakalot49@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: psql (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:15+0000\n"
-"PO-Revision-Date: 2018-05-11 17:10+0700\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-05-13 13:20+0900\n"
+"Language-Team: <pgvn_translators@postgresql.vn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.7\n"
-"Last-Translator: \n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: Luong Thi Thao Nhi <thaonhi2512@gmail.com>\n"
 "Language: vi_VN\n"
 
 #: ../../common/exec.c:127 ../../common/exec.c:241 ../../common/exec.c:284
@@ -26,7 +26,7 @@ msgstr "không tìm thấy thư mục hiện tại: %s"
 #: ../../common/exec.c:146
 #, c-format
 msgid "invalid binary \"%s\""
-msgstr "không đọc được tập tin nhị phân \"%s\""
+msgstr "tập tin nhị phân không hợp lệ \"%s\""
 
 #: ../../common/exec.c:195
 #, c-format
@@ -92,27 +92,27 @@ msgstr "không tìm thấy câu lệnh"
 #: ../../common/wait_error.c:54
 #, c-format
 msgid "child process exited with exit code %d"
-msgstr "quá trình chạy con đã thoát với mã: %d"
+msgstr "tiến trình chạy con đã thoát với mã: %d"
 
 #: ../../common/wait_error.c:61
 #, c-format
 msgid "child process was terminated by exception 0x%X"
-msgstr "quá trình chạy con bị chấm dứt bởi lỗi 0x%X"
+msgstr "tiến trình chạy con bị chấm dứt bởi lỗi 0x%X"
 
 #: ../../common/wait_error.c:71
 #, c-format
 msgid "child process was terminated by signal %s"
-msgstr "quá trình chạy con bị chấm dứt bởi tín hiệu %s"
+msgstr "tiến trình chạy con bị chấm dứt bởi tín hiệu %s"
 
 #: ../../common/wait_error.c:75
 #, c-format
 msgid "child process was terminated by signal %d"
-msgstr "quá trình chạy con bị chấm dứt bởi tín hiệu %d"
+msgstr "tiến trình chạy con bị chấm dứt bởi tín hiệu %d"
 
 #: ../../common/wait_error.c:80
 #, c-format
 msgid "child process exited with unrecognized status %d"
-msgstr "quá trình chạy con đã thoát với trạng thái không rõ: %d"
+msgstr "tiến trình chạy con đã thoát với trạng thái không rõ: %d"
 
 #: ../../fe_utils/print.c:353
 #, c-format
@@ -209,21 +209,19 @@ msgstr "không có bộ đệm truy vấn\n"
 #: command.c:947 command.c:4667
 #, c-format
 msgid "invalid line number: %s\n"
-msgstr ""
-"dòng số: %s bị lỗi\n"
-"\n"
+msgstr "dòng số: %s bị lỗi\n"
 
 #: command.c:1001
 #, c-format
 msgid "The server (version %s) does not support editing function source.\n"
 msgstr ""
-"Máy chủ (phiên bản%s) không hỗ trợ chức năng chỉnh sửa nguồn function.\n"
+"Máy chủ (phiên bản %s) không hỗ trợ chức năng chỉnh sửa mã nguồn hàm.\n"
 
 #: command.c:1004
 #, c-format
 msgid "The server (version %s) does not support editing view definitions.\n"
 msgstr ""
-"Máy chủ (phiên bản%s) không hỗ trợ chức năng chỉnh sửa các định nghĩa của "
+"Máy chủ (phiên bản %s) không hỗ trợ chức năng chỉnh sửa các định nghĩa của "
 "view.\n"
 
 #: command.c:1086
@@ -316,12 +314,12 @@ msgstr "Đã ghi lịch sử vào file \"%s\".\n"
 #: command.c:2131
 #, c-format
 msgid "\\%s: environment variable name must not contain \"=\"\n"
-msgstr "\\%s: tên biến môi trường khôgn được có kí tự \"=\"\n"
+msgstr "\\%s: tên biến môi trường không được có kí tự \"=\"\n"
 
 #: command.c:2192
 #, c-format
 msgid "The server (version %s) does not support showing function source.\n"
-msgstr "Máy chủ (phiên bản %s) không hỗ trợ hiển thị nguồn của function.\n"
+msgstr "Máy chủ (phiên bản %s) không hỗ trợ hiển thị nguồn của hàm.\n"
 
 #: command.c:2195
 #, c-format
@@ -444,9 +442,9 @@ msgid ""
 "         8-bit characters might not work correctly. See psql reference\n"
 "         page \"Notes for Windows users\" for details.\n"
 msgstr ""
-"WARNING: Console code page (%u) differs from Windows code page (%u)\n"
-"         8-bit characters might not work correctly. See psql reference\n"
-"         page \"Notes for Windows users\" for details.\n"
+"WARNING: Mã trang của console (%u) khác với của Windows (%u)\n"
+"         ký tự 8-bit có thể không hoạt động đúng. Xem trang tham chiếu\n"
+"         psql \"Notes for Windows users\" để biết thêm chi tiết.\n"
 
 #: command.c:3309
 #, c-format
@@ -495,18 +493,18 @@ msgstr ""
 #: command.c:3712
 #, c-format
 msgid "\\pset: allowed Unicode border line styles are single, double\n"
-msgstr "\\ pset: các kiểu đường viền Unicode được cho phép là single, double\n"
+msgstr "\\pset: các kiểu đường viền Unicode được cho phép là single, double\n"
 
 #: command.c:3727
 #, c-format
 msgid "\\pset: allowed Unicode column line styles are single, double\n"
-msgstr "\\ pset: các kiểu dòng cột Unicode được cho phép là single, double\n"
+msgstr "\\pset: các kiểu dòng cột Unicode được cho phép là single, double\n"
 
 #: command.c:3742
 #, c-format
 msgid "\\pset: allowed Unicode header line styles are single, double\n"
 msgstr ""
-"\\ pset: các kiểu dòng tiêu đề Unicode được cho phép là single, double\n"
+"\\pset: các kiểu dòng tiêu đề Unicode được cho phép là single, double\n"
 
 #: command.c:3907 command.c:4086
 #, c-format
@@ -521,7 +519,7 @@ msgstr "Kiểu đường viền là %d.\n"
 #: command.c:3931
 #, c-format
 msgid "Target width is unset.\n"
-msgstr "Độ rộng của mục tiêu ko được thiết lập.\n"
+msgstr "Độ rộng của mục tiêu chưa được thiết lập.\n"
 
 #: command.c:3933
 #, c-format
@@ -566,7 +564,7 @@ msgstr "Mẫu cuối trang mặc định đang tắt.\n"
 #: command.c:3974
 #, c-format
 msgid "Output format is %s.\n"
-msgstr "Định dạng đầu ra la %s.\n"
+msgstr "Định dạng đầu ra là %s.\n"
 
 #: command.c:3980
 #, c-format
@@ -682,12 +680,12 @@ msgstr "\\watch không được dùng với truy vấn trống\n"
 #: command.c:4306
 #, c-format
 msgid "%s\t%s (every %gs)\n"
-msgstr "%s\t%s (every %gs)\n"
+msgstr "%s\t%s (%g mỗi giây)\n"
 
 #: command.c:4309
 #, c-format
 msgid "%s (every %gs)\n"
-msgstr "%s (every %gs)\n"
+msgstr "%s (%g mỗi giây)\n"
 
 #: command.c:4363 command.c:4370 common.c:702 common.c:709 common.c:1321
 #, c-format
@@ -710,7 +708,7 @@ msgstr "\"%s.%s\" không phải là một view\n"
 #: command.c:4578
 #, c-format
 msgid "could not parse reloptions array\n"
-msgstr "không thể phân tích cú pháp của mảng chuyển đổi\n"
+msgstr "không thể phân tích cú pháp của mảng reloptions\n"
 
 #: common.c:159
 #, c-format
@@ -798,12 +796,12 @@ msgstr ""
 #: common.c:908
 #, c-format
 msgid "no rows returned for \\gset\n"
-msgstr "không có dòng nào trả về cho  \\gset\n"
+msgstr "không có dòng nào trả về cho \\gset\n"
 
 #: common.c:913
 #, c-format
 msgid "more than one row returned for \\gset\n"
-msgstr "nhiều hơn 1 dòng trả về cho  \\gset\n"
+msgstr "nhiều hơn 1 dòng trả về cho \\gset\n"
 
 #: common.c:1301
 #, c-format
@@ -846,7 +844,7 @@ msgstr "Cột"
 #: describe.c:1644 describe.c:1848 describe.c:3457 describe.c:3662
 #: describe.c:4834
 msgid "Type"
-msgstr "Loại"
+msgstr "Kiểu"
 
 #: common.c:1649
 #, c-format
@@ -874,9 +872,9 @@ msgid "could not execute command \"%s\": %s\n"
 msgstr "không thể thực hiện câu lệnh \"%s\": %s\n"
 
 #: copy.c:345
-#, fuzzy, c-format
+#, c-format
 msgid "could not stat file \"%s\": %s\n"
-msgstr "không mở được file tạm \"%s\": %s\n"
+msgstr "không thể lấy thông tin trạng thái tệp \"%s\": %s\n"
 
 #: copy.c:349
 #, c-format
@@ -986,12 +984,12 @@ msgstr "Tên"
 
 #: describe.c:76 describe.c:367 describe.c:385 describe.c:431 describe.c:448
 msgid "Result data type"
-msgstr "Loại dữ liệu kết quả"
+msgstr "Kiểu dữ liệu kết quả"
 
 #: describe.c:84 describe.c:97 describe.c:101 describe.c:368 describe.c:386
 #: describe.c:432 describe.c:449
 msgid "Argument data types"
-msgstr "Loại dữ liệu tham số"
+msgstr "Kiểu dữ liệu tham số"
 
 #: describe.c:109 describe.c:116 describe.c:182 describe.c:270 describe.c:494
 #: describe.c:690 describe.c:789 describe.c:860 describe.c:1153 describe.c:1888
@@ -1006,7 +1004,7 @@ msgstr "Mô tả"
 
 #: describe.c:134
 msgid "List of aggregate functions"
-msgstr "Danh sách các hàm aggregate "
+msgstr "Danh sách các hàm aggregate"
 
 #: describe.c:159
 #, c-format
@@ -1035,7 +1033,7 @@ msgstr "Máy chủ (phiên bản %s) không hỗ trợ tablespaces.\n"
 #: describe.c:4070 describe.c:4732 describe.c:4816 describe.c:5212
 #: describe.c:5338 describe.c:5437 large_obj.c:288
 msgid "Owner"
-msgstr "Chủ"
+msgstr "Chủ sở hữu"
 
 #: describe.c:241 describe.c:249
 msgid "Location"
@@ -1074,7 +1072,7 @@ msgstr "cửa sổ"
 
 #: describe.c:372
 msgid "proc"
-msgstr "res_procproc"
+msgstr "proc"
 
 #: describe.c:373 describe.c:391 describe.c:436 describe.c:453
 msgid "func"
@@ -1133,9 +1131,8 @@ msgid "Language"
 msgstr "Ngôn ngữ"
 
 #: describe.c:493
-#, fuzzy
 msgid "Source code"
-msgstr "Nguồn"
+msgstr "Mã nguồn"
 
 #: describe.c:604
 msgid "List of functions"
@@ -1208,11 +1205,11 @@ msgstr "materialized view"
 
 #: describe.c:922 describe.c:1082 describe.c:3452
 msgid "sequence"
-msgstr "thứ tự"
+msgstr "sequence"
 
 #: describe.c:923 describe.c:3454
 msgid "foreign table"
-msgstr "foreign table"
+msgstr "bảng ngoại khóa"
 
 #: describe.c:936
 msgid "Column privileges"
@@ -1237,7 +1234,7 @@ msgstr "hàm"
 
 #: describe.c:1086
 msgid "type"
-msgstr "loại"
+msgstr "kiểu"
 
 #: describe.c:1088
 msgid "schema"
@@ -1257,15 +1254,15 @@ msgstr "ràng buộc bảng"
 
 #: describe.c:1188
 msgid "domain constraint"
-msgstr "ràng buộc miền"
+msgstr "ràng buộc domain"
 
 #: describe.c:1216
 msgid "operator class"
-msgstr "các lớp toán tử"
+msgstr "operator class"
 
 #: describe.c:1245
 msgid "operator family"
-msgstr "các bộ toán tử"
+msgstr "operator family"
 
 #: describe.c:1267
 msgid "rule"
@@ -1328,19 +1325,19 @@ msgid "Owned by: %s"
 msgstr "Thuộc về: %s"
 
 #: describe.c:1699
-#, fuzzy, c-format
+#, c-format
 msgid "Sequence for identity column: %s"
-msgstr "Thứ tự \"%s.%s\""
+msgstr "Sequence để nhận dạng cột: %s"
 
 #: describe.c:1706
 #, c-format
 msgid "Sequence \"%s.%s\""
-msgstr "Thứ tự \"%s.%s\""
+msgstr "Sequence \"%s.%s\""
 
 #: describe.c:1787 describe.c:1833
-#, fuzzy, c-format
+#, c-format
 msgid "Unlogged table \"%s.%s\""
-msgstr "cho bảng \"%s.%s\""
+msgstr "Bảng unlogged \"%s.%s\""
 
 #: describe.c:1790 describe.c:1836
 #, c-format
@@ -1348,44 +1345,44 @@ msgid "Table \"%s.%s\""
 msgstr "Bảng \"%s.%s\""
 
 #: describe.c:1794
-#, fuzzy, c-format
+#, c-format
 msgid "View \"%s.%s\""
-msgstr "\"%s.%s\" không phải là một view\n"
+msgstr "View \"%s.%s\""
 
 #: describe.c:1799
-#, fuzzy, c-format
+#, c-format
 msgid "Unlogged materialized view \"%s.%s\""
-msgstr "\"%s.%s\" không phải là một view\n"
+msgstr "Unlogged materialized view \"%s.%s\""
 
 #: describe.c:1802
-#, fuzzy, c-format
+#, c-format
 msgid "Materialized view \"%s.%s\""
-msgstr "\"%s.%s\" không phải là một view\n"
+msgstr "Materialized view \"%s.%s\""
 
 #: describe.c:1808
-#, fuzzy, c-format
+#, c-format
 msgid "Unlogged index \"%s.%s\""
-msgstr "%s: %s\n"
+msgstr "Unlogged index \"%s.%s\""
 
 #: describe.c:1811
-#, fuzzy, c-format
+#, c-format
 msgid "Index \"%s.%s\""
-msgstr "%s: %s\n"
+msgstr "Index \"%s.%s\""
 
 #: describe.c:1816
-#, fuzzy, c-format
+#, c-format
 msgid "Special relation \"%s.%s\""
-msgstr "Không tìm thấy relation nào tên \"%s\".\n"
+msgstr "Bảng đặc biệt \"%s.%s\""
 
 #: describe.c:1820
-#, fuzzy, c-format
+#, c-format
 msgid "TOAST table \"%s.%s\""
-msgstr "cho bảng \"%s.%s\""
+msgstr "TOAST table \"%s.%s\""
 
 #: describe.c:1824
-#, fuzzy, c-format
+#, c-format
 msgid "Composite type \"%s.%s\""
-msgstr "%s: %s\n"
+msgstr "Kiểu phức hợp \"%s.%s\""
 
 #: describe.c:1828
 #, c-format
@@ -1393,9 +1390,8 @@ msgid "Foreign table \"%s.%s\""
 msgstr "Bảng ngoại khóa \"%s.%s\""
 
 #: describe.c:1858 describe.c:3668
-#, fuzzy
 msgid "Collation"
-msgstr "existing_collation"
+msgstr "Collation"
 
 #: describe.c:1859 describe.c:3675
 msgid "Nullable"
@@ -1411,43 +1407,39 @@ msgstr "Định nghĩa"
 
 #: describe.c:1869 describe.c:4752 describe.c:4836 describe.c:4907
 #: describe.c:4971
-#, fuzzy
 msgid "FDW options"
-msgstr "fdw_name"
+msgstr "Các tùy chọn FDW"
 
 #: describe.c:1873
-#, fuzzy
 msgid "Storage"
-msgstr "storage_type"
+msgstr "Storage"
 
 #: describe.c:1880
-#, fuzzy
 msgid "Stats target"
-msgstr "target_role"
+msgstr "Mục tiêu stats"
 
 #: describe.c:2028
-#, fuzzy, c-format
+#, c-format
 msgid "Partition of: %s %s"
-msgstr "%s: %s\n"
+msgstr "Partition của: %s %s"
 
 #: describe.c:2036
-#, fuzzy
 msgid "No partition constraint"
-msgstr "partition_name"
+msgstr "Không có ràng buộc partition"
 
 #: describe.c:2038
-#, fuzzy, c-format
+#, c-format
 msgid "Partition constraint: %s"
-msgstr "partition_name"
+msgstr "Ràng buộc partition: %s"
 
 #: describe.c:2061
-#, fuzzy, c-format
+#, c-format
 msgid "Partition key: %s"
-msgstr "partition_name"
+msgstr "Khóa cho partition: %s"
 
 #: describe.c:2130
 msgid "primary key, "
-msgstr ""
+msgstr "khóa chính, "
 
 #: describe.c:2132
 msgid "unique, "
@@ -1488,24 +1480,20 @@ msgid "Indexes:"
 msgstr "Các index:"
 
 #: describe.c:2300
-#, fuzzy
 msgid "Check constraints:"
-msgstr "check_expression"
+msgstr "Ràng buộc check:"
 
 #: describe.c:2331
-#, fuzzy
 msgid "Foreign-key constraints:"
-msgstr "foreign table"
+msgstr "Ràng buộc khóa ngoài:"
 
 #: describe.c:2362
-#, fuzzy
 msgid "Referenced by:"
-msgstr "referenced_table_name"
+msgstr "Được tham chiếu bởi:"
 
 #: describe.c:2412
-#, fuzzy
 msgid "Policies:"
-msgstr "Policies"
+msgstr "Chính sách:"
 
 #: describe.c:2415
 msgid "Policies (forced row security enabled):"
@@ -1524,9 +1512,8 @@ msgid "Policies (row security disabled):"
 msgstr "Chính sách (tắt bảo mật hàng):"
 
 #: describe.c:2486
-#, fuzzy
 msgid "Statistics objects:"
-msgstr "statistics_name"
+msgstr "Đối tượng statistics:"
 
 #: describe.c:2589 describe.c:2674
 msgid "Rules:"
@@ -1546,21 +1533,19 @@ msgstr "Các qui tắc chỉ kích hoạt ở replica:"
 
 #: describe.c:2638
 msgid "Publications:"
-msgstr "Công bố:"
+msgstr "Các Publication:"
 
 #: describe.c:2657
-#, fuzzy
 msgid "View definition:"
-msgstr "view"
+msgstr "Định nghĩa view:"
 
 #: describe.c:2792
 msgid "Triggers:"
 msgstr "Các trigger:"
 
 #: describe.c:2796
-#, fuzzy
 msgid "Disabled user triggers:"
-msgstr "người dùng không tồn tại"
+msgstr "Trigger cho người dùng bị vô hiệu hóa:"
 
 #: describe.c:2798
 msgid "Disabled triggers:"
@@ -1584,20 +1569,18 @@ msgid "Server: %s"
 msgstr "Máy chủ: %s"
 
 #: describe.c:2874
-#, fuzzy, c-format
+#, c-format
 msgid "FDW options: (%s)"
-msgstr "fdw_name"
+msgstr "Tùy chọn FDW: (%s)"
 
 #: describe.c:2893
 msgid "Inherits"
 msgstr ""
 
 #: describe.c:2952
-#, fuzzy, c-format
+#, c-format
 msgid "Number of partitions: %d"
-msgstr ""
-"dòng số: %s bị lỗi\n"
-"\n"
+msgstr "Số lượng partition: %d"
 
 #: describe.c:2961
 #, c-format
@@ -1618,18 +1601,17 @@ msgid "Partitions"
 msgstr ""
 
 #: describe.c:3014
-#, fuzzy, c-format
+#, c-format
 msgid "Typed table of type: %s"
-msgstr "cho bảng \"%s.%s\""
+msgstr "Kiểu dữ liệu bảng: %s"
 
 #: describe.c:3030
 msgid "Replica Identity"
 msgstr ""
 
 #: describe.c:3043
-#, fuzzy
 msgid "Has OIDs: yes"
-msgstr "có"
+msgstr "Có OIDs: có"
 
 #: describe.c:3123
 #, c-format
@@ -1644,23 +1626,20 @@ msgid ", tablespace \"%s\""
 msgstr ", tablespace \"%s\""
 
 #: describe.c:3228
-#, fuzzy
 msgid "List of roles"
-msgstr "using_list"
+msgstr "Danh sách role"
 
 #: describe.c:3230
-#, fuzzy
 msgid "Role name"
-msgstr "role_name"
+msgstr "Tên role"
 
 #: describe.c:3231
 msgid "Attributes"
 msgstr "Attributes"
 
 #: describe.c:3232
-#, fuzzy
 msgid "Member of"
-msgstr "member_object"
+msgstr "Thành viên của"
 
 #: describe.c:3243
 msgid "Superuser"
@@ -1725,12 +1704,12 @@ msgstr "Cài đặt"
 #, c-format
 msgid "Did not find any settings for role \"%s\" and database \"%s\".\n"
 msgstr ""
-"Không tìm thấy cài đặt cho ngườii dùng \"%s\" và cơ sở dữ liệu \"%s\".\n"
+"Không tìm thấy cài đặt cho người dùng \"%s\" và cơ sở dữ liệu \"%s\".\n"
 
 #: describe.c:3373
 #, c-format
 msgid "Did not find any settings for role \"%s\".\n"
-msgstr "Không tìm thấy cài đặt cho ngườii dùng \"%s\".\n"
+msgstr "Không tìm thấy cài đặt cho người dùng \"%s\".\n"
 
 #: describe.c:3376
 #, c-format
@@ -1766,28 +1745,24 @@ msgid "Internal language"
 msgstr "Ngôn ngữ nội bộ"
 
 #: describe.c:3600
-#, fuzzy
 msgid "Call handler"
-msgstr "handler_function"
+msgstr "Trình xử lý gọi"
 
 #: describe.c:3601 describe.c:4739
-#, fuzzy
 msgid "Validator"
-msgstr "validator_function"
+msgstr "Trình xác thực"
 
 #: describe.c:3604
-#, fuzzy
 msgid "Inline handler"
-msgstr "handler_function"
+msgstr "Trình xử lý inline"
 
 #: describe.c:3632
 msgid "List of languages"
 msgstr "Danh sách các ngôn ngữ"
 
 #: describe.c:3677
-#, fuzzy
 msgid "Check"
-msgstr "check_expression"
+msgstr "Check"
 
 #: describe.c:3719
 msgid "List of domains"
@@ -1806,9 +1781,8 @@ msgid "Default?"
 msgstr "Mặc định?"
 
 #: describe.c:3793
-#, fuzzy
 msgid "List of conversions"
-msgstr "Danh sách các tablespaces"
+msgstr "Danh sách các conversion"
 
 #: describe.c:3832
 msgid "Event"
@@ -1835,28 +1809,24 @@ msgid "Enabled"
 msgstr "Được bật"
 
 #: describe.c:3839
-#, fuzzy
 msgid "Procedure"
-msgstr "procedure_name"
+msgstr "Thủ tục"
 
 #: describe.c:3840
 msgid "Tags"
 msgstr ""
 
 #: describe.c:3859
-#, fuzzy
 msgid "List of event triggers"
-msgstr "Danh sách các tablespaces"
+msgstr "Danh sách các sự kiện triggers"
 
 #: describe.c:3901
-#, fuzzy
 msgid "Source type"
-msgstr "source_type"
+msgstr "Kiểu nguồn"
 
 #: describe.c:3902
-#, fuzzy
 msgid "Target type"
-msgstr "target_type"
+msgstr "Kiểu đích"
 
 #: describe.c:3905
 msgid "in assignment"
@@ -1867,9 +1837,8 @@ msgid "Implicit?"
 msgstr ""
 
 #: describe.c:3958
-#, fuzzy
 msgid "List of casts"
-msgstr "using_list"
+msgstr "Danh sách cast"
 
 #: describe.c:3986
 #, c-format
@@ -1908,34 +1877,28 @@ msgid "Did not find any text search parsers.\n"
 msgstr ""
 
 #: describe.c:4284
-#, fuzzy
 msgid "Start parse"
-msgstr "Bắt đầu"
+msgstr "Bắt đầu phân tích cú pháp"
 
 #: describe.c:4285
-#, fuzzy
 msgid "Method"
-msgstr "access_method_type"
+msgstr "Phương thức"
 
 #: describe.c:4289
-#, fuzzy
 msgid "Get next token"
-msgstr "token_type"
+msgstr "Nhận token tiếp theo"
 
 #: describe.c:4291
-#, fuzzy
 msgid "End parse"
-msgstr "end_function"
+msgstr "Kết thúc phân tích cú pháp"
 
 #: describe.c:4293
-#, fuzzy
 msgid "Get headline"
-msgstr "headline_function"
+msgstr "Nhận tiêu đề"
 
 #: describe.c:4295
-#, fuzzy
 msgid "Get token types"
-msgstr "token_type"
+msgstr "Nhận kiểu token"
 
 #: describe.c:4306
 #, c-format
@@ -1948,9 +1911,8 @@ msgid "Text search parser \"%s\""
 msgstr ""
 
 #: describe.c:4328
-#, fuzzy
 msgid "Token name"
-msgstr "token_type"
+msgstr "Tên token"
 
 #: describe.c:4339
 #, c-format
@@ -1967,23 +1929,20 @@ msgid "Template"
 msgstr ""
 
 #: describe.c:4397
-#, fuzzy
 msgid "Init options"
-msgstr "init_function"
+msgstr "Tùy chọn khởi tạo"
 
 #: describe.c:4419
 msgid "List of text search dictionaries"
 msgstr ""
 
 #: describe.c:4462
-#, fuzzy
 msgid "Init"
-msgstr "init_function"
+msgstr "Khởi tạo"
 
 #: describe.c:4463
-#, fuzzy
 msgid "Lexize"
-msgstr "lexize_function"
+msgstr "Xử lý Lex"
 
 #: describe.c:4490
 msgid "List of text search templates"
@@ -2004,9 +1963,8 @@ msgid "Did not find any text search configurations.\n"
 msgstr ""
 
 #: describe.c:4665
-#, fuzzy
 msgid "Token"
-msgstr "token_type"
+msgstr "Token"
 
 #: describe.c:4666
 msgid "Dictionaries"
@@ -2023,18 +1981,22 @@ msgid "Text search configuration \"%s\""
 msgstr ""
 
 #: describe.c:4684
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Parser: \"%s.%s\""
-msgstr "%s: %s\n"
+msgstr ""
+"\n"
+"Trình phân tích cú pháp: \"%s.%s\""
 
 #: describe.c:4687
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Parser: \"%s\""
-msgstr "parser_name"
+msgstr ""
+"\n"
+"Trình phân tích cú pháp: \"%s\""
 
 #: describe.c:4721
 #, c-format
@@ -2051,18 +2013,16 @@ msgid "The server (version %s) does not support foreign servers.\n"
 msgstr ""
 
 #: describe.c:4817
-#, fuzzy
 msgid "Foreign-data wrapper"
-msgstr "foreign table"
+msgstr "Foreign-data wrapper"
 
 #: describe.c:4835 describe.c:5040
 msgid "Version"
 msgstr "Phiên bản"
 
 #: describe.c:4861
-#, fuzzy
 msgid "List of foreign servers"
-msgstr "foreign table"
+msgstr "Danh sách các foreign server"
 
 #: describe.c:4886
 #, c-format
@@ -2078,9 +2038,8 @@ msgid "User name"
 msgstr "Tên người dùng"
 
 #: describe.c:4922
-#, fuzzy
 msgid "List of user mappings"
-msgstr "bị hủy bởi người dùng"
+msgstr "Danh sách ánh xạ người dùng"
 
 #: describe.c:4947
 #, c-format
@@ -2088,9 +2047,8 @@ msgid "The server (version %s) does not support foreign tables.\n"
 msgstr ""
 
 #: describe.c:5000
-#, fuzzy
 msgid "List of foreign tables"
-msgstr "foreign table"
+msgstr "Danh sách bảng ngoại khóa"
 
 #: describe.c:5025 describe.c:5082
 #, c-format
@@ -2098,29 +2056,27 @@ msgid "The server (version %s) does not support extensions.\n"
 msgstr ""
 
 #: describe.c:5057
-#, fuzzy
 msgid "List of installed extensions"
-msgstr "Danh sách các tablespaces"
+msgstr "Danh sách các extension đã cài đặt"
 
 #: describe.c:5110
-#, fuzzy, c-format
+#, c-format
 msgid "Did not find any extension named \"%s\".\n"
-msgstr "Không tìm thấy relation nào tên \"%s\".\n"
+msgstr "Không tìm thấy extension nào tên \"%s\".\n"
 
 #: describe.c:5113
-#, fuzzy, c-format
+#, c-format
 msgid "Did not find any extensions.\n"
-msgstr "Không tìm thấy relation nào.\n"
+msgstr "Không tìm thấy extension nào.\n"
 
 #: describe.c:5157
-#, fuzzy
 msgid "Object description"
-msgstr "Mô tả"
+msgstr "Mô tả đối tượng"
 
 #: describe.c:5167
-#, fuzzy, c-format
+#, c-format
 msgid "Objects in extension \"%s\""
-msgstr "extension_name"
+msgstr "Đối tượng trong extension \"%s\""
 
 #: describe.c:5196 describe.c:5267
 #, c-format
@@ -2148,24 +2104,23 @@ msgid "Truncates"
 msgstr ""
 
 #: describe.c:5237
-#, fuzzy
 msgid "List of publications"
-msgstr "Danh sách các tablespaces"
+msgstr "Danh sách các publication"
 
 #: describe.c:5305
-#, fuzzy, c-format
+#, c-format
 msgid "Did not find any publication named \"%s\".\n"
-msgstr "Không tìm thấy relation nào tên \"%s\".\n"
+msgstr "Không tìm thấy publication nào tên \"%s\".\n"
 
 #: describe.c:5308
-#, fuzzy, c-format
+#, c-format
 msgid "Did not find any publications.\n"
-msgstr "Không tìm thấy relation nào.\n"
+msgstr "Không tìm thấy publication nào.\n"
 
 #: describe.c:5335
-#, fuzzy, c-format
+#, c-format
 msgid "Publication %s"
-msgstr "publication_name"
+msgstr "Publication %s"
 
 #: describe.c:5379
 msgid "Tables:"
@@ -2177,9 +2132,8 @@ msgid "The server (version %s) does not support subscriptions.\n"
 msgstr ""
 
 #: describe.c:5439
-#, fuzzy
 msgid "Publication"
-msgstr "publication_name"
+msgstr "Publication"
 
 #: describe.c:5446
 msgid "Synchronous commit"
@@ -2190,9 +2144,8 @@ msgid "Conninfo"
 msgstr ""
 
 #: describe.c:5469
-#, fuzzy
 msgid "List of subscriptions"
-msgstr "Danh sách các tablespaces"
+msgstr "Danh sách các subscription"
 
 #: help.c:62
 #, c-format
@@ -2372,9 +2325,11 @@ msgstr ""
 "Các tùy chọn định dạng đầu ra:\n"
 
 #: help.c:110
-#, fuzzy, c-format
+#, c-format
 msgid "  -A, --no-align           unaligned table output mode\n"
-msgstr "  -H, --html               Kết quả đầu ra ở dạng bảng HTML\n"
+msgstr ""
+"  -A, --no-align           chế độ không căn lề bảng đầu ra\n"
+"\n"
 
 #: help.c:111
 #, c-format
@@ -2438,11 +2393,13 @@ msgid ""
 msgstr ""
 
 #: help.c:126
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Connection options:\n"
-msgstr "Lựa chọn"
+msgstr ""
+"\n"
+"Tùy chọn kết nối:\n"
 
 #: help.c:129
 #, c-format
@@ -2452,9 +2409,8 @@ msgid ""
 msgstr ""
 
 #: help.c:130
-#, fuzzy
 msgid "local socket"
-msgstr "local_schema"
+msgstr "socket cục bộ"
 
 #: help.c:133
 #, c-format
@@ -2521,12 +2477,13 @@ msgid ""
 msgstr ""
 
 #: help.c:176
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "  \\g [FILE] or ;         execute query (and send results to file or |pipe)\n"
 msgstr ""
-"  -o, --output=FILENAME    gửi kết quả của truy vấn vào file (hoặc song song "
-"| pipe)  \n"
+"  \\g [FILE] or ;         thực thi truy vấn (và gửi kết quả tới tệp hoặc "
+"pipe)\n"
+"\n"
 
 #: help.c:177
 #, c-format
@@ -2594,9 +2551,9 @@ msgstr ""
 "toàn bộ câu lệnh\n"
 
 #: help.c:193
-#, fuzzy, c-format
+#, c-format
 msgid "Query Buffer\n"
-msgstr "with_query"
+msgstr "Bộ đệm truy vấn\n"
 
 #: help.c:194
 #, c-format
@@ -2666,11 +2623,11 @@ msgid ""
 msgstr ""
 
 #: help.c:210
-#, fuzzy, c-format
+#, c-format
 msgid "  \\o [FILE]              send all query results to file or |pipe\n"
 msgstr ""
-"  -o, --output=FILENAME    gửi kết quả của truy vấn vào file (hoặc song song "
-"| pipe)  \n"
+"  \\o [FILE]              gửi tất cả các kết quả truy vấn tới tệp hoặc pipe\n"
+"\n"
 
 #: help.c:211
 #, c-format
@@ -2737,9 +2694,9 @@ msgid "  \\dA[+]  [PATTERN]      list access methods\n"
 msgstr ""
 
 #: help.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "  \\db[+]  [PATTERN]      list tablespaces\n"
-msgstr "Danh sách các tablespaces"
+msgstr "  \\db[+]  [PATTERN]      danh sách tablespace\n"
 
 #: help.c:228
 #, c-format
@@ -2915,9 +2872,9 @@ msgid "  \\dy     [PATTERN]      list event triggers\n"
 msgstr ""
 
 #: help.c:262
-#, fuzzy, c-format
+#, c-format
 msgid "  \\l[+]   [PATTERN]      list databases\n"
-msgstr "Danh sách các cơ sở dữ liệu"
+msgstr "  \\l[+]   [PATTERN]      danh sách database\n"
 
 #: help.c:263
 #, c-format
@@ -3002,9 +2959,9 @@ msgid "  \\x [on|off|auto]       toggle expanded output (currently %s)\n"
 msgstr ""
 
 #: help.c:287
-#, fuzzy, c-format
+#, c-format
 msgid "Connection\n"
-msgstr "Mất kết nối đến máy chủ. Thử khởi động lại: "
+msgstr "Kết nối\n"
 
 #: help.c:289
 #, c-format
@@ -3093,9 +3050,9 @@ msgid "  \\unset NAME            unset (delete) internal variable\n"
 msgstr "  \\unset TÊN            Loại bỏ thiết lập (xóa) biến nội bộ\n"
 
 #: help.c:314
-#, fuzzy, c-format
+#, c-format
 msgid "Large Objects\n"
-msgstr "large_object_oid"
+msgstr "Các đối tượng lớn (Large Object)\n"
 
 #: help.c:315
 #, c-format
@@ -3116,7 +3073,7 @@ msgstr ""
 #: help.c:344
 #, c-format
 msgid "psql variables:\n"
-msgstr "Các biến psql:\n"
+msgstr "các biến psql:\n"
 
 #: help.c:346
 #, c-format
@@ -3281,13 +3238,13 @@ msgid ""
 msgstr ""
 
 #: help.c:394
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "  QUIET\n"
 "    run quietly (same as -q option)\n"
 msgstr ""
-"  -q, --quiet             chỉ chạy (không có tin nhắn, chỉ có kết quả trả "
-"về)\n"
+"  QUIET\n"
+"    không hiển thị tin nhắn (giống với tùy chọn -q)\n"
 
 #: help.c:396
 #, c-format
@@ -3356,11 +3313,13 @@ msgid ""
 msgstr ""
 
 #: help.c:418
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Display settings:\n"
-msgstr "Cài đặt"
+msgstr ""
+"\n"
+"Các thiết lập cho hiển thị:\n"
 
 #: help.c:420
 #, c-format
@@ -3618,29 +3577,32 @@ msgid ""
 msgstr ""
 
 #: help.c:498
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "  TMPDIR\n"
 "    directory for temporary files\n"
-msgstr "không thể định vị thư mục tạm thời: %s\n"
+msgstr ""
+"  TMPDIR\n"
+"    thư mục cho các tệp tạm thời\n"
 
 #: help.c:542
-#, fuzzy
 msgid "Available help:\n"
-msgstr ""
-"Gõ \"help\" để giải quyết.\n"
-"\n"
-"\n"
+msgstr "Các trợ giúp sẵn có:\n"
 
 #: help.c:626
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Command:     %s\n"
 "Description: %s\n"
 "Syntax:\n"
 "%s\n"
 "\n"
-msgstr "không thể thực hiện câu lệnh \"%s\": %s\n"
+msgstr ""
+"Lệnh:     %s\n"
+"Mô tả: %s\n"
+"Cú pháp:\n"
+"%s\n"
+"\n"
 
 #: help.c:642
 #, c-format
@@ -3655,7 +3617,7 @@ msgid "could not read from input file: %s\n"
 msgstr ""
 
 #: input.c:471 input.c:510
-#, fuzzy, c-format
+#, c-format
 msgid "could not save history to file \"%s\": %s\n"
 msgstr "không mở được file nhật kí \"%s\": %s\n"
 
@@ -3670,9 +3632,9 @@ msgid "%s: not connected to a database\n"
 msgstr "%s: không được kết nối đến một cơ sở dữl liệu\n"
 
 #: large_obj.c:83
-#, fuzzy, c-format
+#, c-format
 msgid "%s: current transaction is aborted\n"
-msgstr "không tìm thấy thư mục hiện tại: %s"
+msgstr "%s: transaction hiện tại đã bị hủy\n"
 
 #: large_obj.c:86
 #, c-format
@@ -3684,9 +3646,8 @@ msgid "ID"
 msgstr "ID"
 
 #: large_obj.c:308
-#, fuzzy
 msgid "Large objects"
-msgstr "large_object_oid"
+msgstr "Đối tượng lớn (Large object)"
 
 #: mainloop.c:136
 #, c-format
@@ -3727,9 +3688,8 @@ msgid ""
 msgstr ""
 
 #: mainloop.c:314
-#, fuzzy
 msgid "Use \\q to quit."
-msgstr "Gõ \\? để được giúp đỡ."
+msgstr "Sử dụng \\q để thoát."
 
 #: mainloop.c:317 mainloop.c:342
 msgid "Use control-D to quit."
@@ -3755,9 +3715,9 @@ msgid "unterminated quoted string\n"
 msgstr ""
 
 #: psqlscanslash.l:810
-#, fuzzy, c-format
+#, c-format
 msgid "%s: out of memory\n"
-msgstr "hết bộ nhớ\n"
+msgstr "%s: hết bộ nhớ\n"
 
 #: sql_help.c:35 sql_help.c:38 sql_help.c:41 sql_help.c:65 sql_help.c:66
 #: sql_help.c:68 sql_help.c:70 sql_help.c:81 sql_help.c:83 sql_help.c:85
@@ -3855,9 +3815,8 @@ msgid "new_schema"
 msgstr "new_schema"
 
 #: sql_help.c:44 sql_help.c:1832 sql_help.c:3178 sql_help.c:4156
-#, fuzzy
 msgid "where aggregate_signature is:"
-msgstr "và aggregate_signature là:"
+msgstr "aggregate_signature có thể là:"
 
 #: sql_help.c:45 sql_help.c:48 sql_help.c:51 sql_help.c:337 sql_help.c:350
 #: sql_help.c:354 sql_help.c:370 sql_help.c:373 sql_help.c:376 sql_help.c:516
@@ -3911,9 +3870,8 @@ msgstr "lựa chọn"
 
 #: sql_help.c:113 sql_help.c:926 sql_help.c:1574 sql_help.c:2318
 #: sql_help.c:2527 sql_help.c:3064
-#, fuzzy
 msgid "where option can be:"
-msgstr "where role_specification can be:"
+msgstr "role_specification có thể là:"
 
 #: sql_help.c:114 sql_help.c:2118
 msgid "allowconn"
@@ -3963,9 +3921,8 @@ msgstr "target_role"
 #: sql_help.c:198 sql_help.c:2170 sql_help.c:2574 sql_help.c:2579
 #: sql_help.c:3687 sql_help.c:3694 sql_help.c:3708 sql_help.c:3714
 #: sql_help.c:4020 sql_help.c:4027 sql_help.c:4041 sql_help.c:4047
-#, fuzzy
 msgid "schema_name"
-msgstr "schema"
+msgstr "schema_name"
 
 #: sql_help.c:199
 msgid "abbreviated_grant_or_revoke"
@@ -4005,9 +3962,8 @@ msgstr "role_name"
 #: sql_help.c:4558 sql_help.c:4560 sql_help.c:4606 sql_help.c:4662
 #: sql_help.c:4663 sql_help.c:4672 sql_help.c:4713 sql_help.c:4714
 #: sql_help.c:4715 sql_help.c:4716 sql_help.c:4717 sql_help.c:4718
-#, fuzzy
 msgid "expression"
-msgstr "sort_expression"
+msgstr "expression"
 
 #: sql_help.c:239
 msgid "domain_constraint"
@@ -4097,9 +4053,8 @@ msgstr "right_type"
 #: sql_help.c:764 sql_help.c:776 sql_help.c:784 sql_help.c:787 sql_help.c:790
 #: sql_help.c:1355 sql_help.c:1796 sql_help.c:1798 sql_help.c:2418
 #: sql_help.c:2439 sql_help.c:2794 sql_help.c:3323 sql_help.c:3332
-#, fuzzy
 msgid "index_method"
-msgstr "access_method_type"
+msgstr "index_method"
 
 #: sql_help.c:349 sql_help.c:1802 sql_help.c:4139
 msgid "procedure_name"
@@ -4161,9 +4116,8 @@ msgstr ""
 #: sql_help.c:4022 sql_help.c:4023 sql_help.c:4125 sql_help.c:4276
 #: sql_help.c:4515 sql_help.c:4557 sql_help.c:4559 sql_help.c:4561
 #: sql_help.c:4594 sql_help.c:4722
-#, fuzzy
 msgid "column_name"
-msgstr "new_column_name"
+msgstr "column_name"
 
 #: sql_help.c:445 sql_help.c:663 sql_help.c:1261
 msgid "new_column_name"
@@ -4171,9 +4125,8 @@ msgstr "new_column_name"
 
 #: sql_help.c:450 sql_help.c:540 sql_help.c:671 sql_help.c:861 sql_help.c:999
 #: sql_help.c:1277 sql_help.c:1531
-#, fuzzy
 msgid "where action is one of:"
-msgstr "mà abbreviated_grant_or_revoke là một trong:"
+msgstr "abbreviated_grant_or_revoke là một trong:"
 
 #: sql_help.c:452 sql_help.c:457 sql_help.c:1046 sql_help.c:1279
 #: sql_help.c:1284 sql_help.c:1533 sql_help.c:1537 sql_help.c:2137
@@ -4186,9 +4139,8 @@ msgstr "data_type"
 #: sql_help.c:1534 sql_help.c:1538 sql_help.c:2138 sql_help.c:2229
 #: sql_help.c:2344 sql_help.c:2738 sql_help.c:2746 sql_help.c:2758
 #: sql_help.c:2771 sql_help.c:3008 sql_help.c:3014 sql_help.c:3780
-#, fuzzy
 msgid "collation"
-msgstr "existing_collation"
+msgstr "collation"
 
 #: sql_help.c:454 sql_help.c:1281 sql_help.c:2230 sql_help.c:2239
 #: sql_help.c:2739 sql_help.c:2754 sql_help.c:2766
@@ -4351,7 +4303,7 @@ msgstr "mật khẩu"
 #: sql_help.c:929 sql_help.c:1577 sql_help.c:2320 sql_help.c:2530
 #: sql_help.c:3067
 msgid "timestamp"
-msgstr ""
+msgstr "timestamp"
 
 #: sql_help.c:933 sql_help.c:937 sql_help.c:940 sql_help.c:943 sql_help.c:1581
 #: sql_help.c:1585 sql_help.c:1588 sql_help.c:1591 sql_help.c:3696
@@ -4409,9 +4361,8 @@ msgid "partition_name"
 msgstr "partition_name"
 
 #: sql_help.c:1274 sql_help.c:2241 sql_help.c:2768
-#, fuzzy
 msgid "partition_bound_spec"
-msgstr "partition_name"
+msgstr "partition_bound_spec"
 
 #: sql_help.c:1292 sql_help.c:1341 sql_help.c:2780
 msgid "sequence_options"
@@ -4472,9 +4423,8 @@ msgid "and table_constraint is:"
 msgstr "and table_constraint is:"
 
 #: sql_help.c:1356 sql_help.c:2795
-#, fuzzy
 msgid "exclude_element"
-msgstr "schema_element"
+msgstr "exclude_element"
 
 #: sql_help.c:1357 sql_help.c:2796 sql_help.c:4227 sql_help.c:4317
 #: sql_help.c:4466 sql_help.c:4608 sql_help.c:4673
@@ -4482,9 +4432,8 @@ msgid "operator"
 msgstr "toán tử"
 
 #: sql_help.c:1359 sql_help.c:2350 sql_help.c:2798
-#, fuzzy
 msgid "predicate"
-msgstr "index_predicate"
+msgstr "predicate"
 
 #: sql_help.c:1365
 msgid "and table_constraint_using_index is:"
@@ -4563,9 +4512,8 @@ msgid "table_and_columns"
 msgstr "table_and_columns"
 
 #: sql_help.c:1655 sql_help.c:1896 sql_help.c:3575 sql_help.c:4591
-#, fuzzy
 msgid "where option can be one of:"
-msgstr "where role_specification can be:"
+msgstr "tùy chọn có thể là một trong số dưới đây:"
 
 #: sql_help.c:1656 sql_help.c:4592
 msgid "and table_and_columns is:"
@@ -4576,9 +4524,8 @@ msgid "transaction_mode"
 msgstr ""
 
 #: sql_help.c:1673 sql_help.c:4380 sql_help.c:4404
-#, fuzzy
 msgid "where transaction_mode is one of:"
-msgstr "mà abbreviated_grant_or_revoke là một trong:"
+msgstr "transaction_mode là một trong:"
 
 #: sql_help.c:1682 sql_help.c:4237 sql_help.c:4246 sql_help.c:4250
 #: sql_help.c:4254 sql_help.c:4257 sql_help.c:4476 sql_help.c:4485
@@ -4633,23 +4580,23 @@ msgstr "format_name"
 #: sql_help.c:3577 sql_help.c:3578 sql_help.c:3579 sql_help.c:3580
 #: sql_help.c:3581
 msgid "boolean"
-msgstr ""
+msgstr "boolean"
 
 #: sql_help.c:1900
 msgid "delimiter_character"
-msgstr ""
+msgstr "delimiter_character"
 
 #: sql_help.c:1901
 msgid "null_string"
-msgstr ""
+msgstr "null_string"
 
 #: sql_help.c:1903
 msgid "quote_character"
-msgstr ""
+msgstr "ký tự quote"
 
 #: sql_help.c:1904
 msgid "escape_character"
-msgstr ""
+msgstr "ký tự escape"
 
 #: sql_help.c:1908
 msgid "encoding_name"
@@ -4692,9 +4639,8 @@ msgid "deserialfunc"
 msgstr ""
 
 #: sql_help.c:1998 sql_help.c:2017 sql_help.c:2028
-#, fuzzy
 msgid "initial_condition"
-msgstr "join_condition"
+msgstr "initial_condition"
 
 #: sql_help.c:1999 sql_help.c:2029
 msgid "msfunc"
@@ -4717,18 +4663,16 @@ msgid "mffunc"
 msgstr ""
 
 #: sql_help.c:2004 sql_help.c:2034
-#, fuzzy
 msgid "minitial_condition"
-msgstr "join_condition"
+msgstr "minitial_condition"
 
 #: sql_help.c:2005 sql_help.c:2035
 msgid "sort_operator"
 msgstr "sort_operator"
 
 #: sql_help.c:2018
-#, fuzzy
 msgid "or the old syntax"
-msgstr "old_dictionary"
+msgstr "hoặc là cú pháp cũ"
 
 #: sql_help.c:2020
 msgid "base_type"
@@ -4763,28 +4707,24 @@ msgid "source_encoding"
 msgstr "source_encoding"
 
 #: sql_help.c:2093
-#, fuzzy
 msgid "dest_encoding"
-msgstr "encoding_name"
+msgstr "dest_encoding"
 
 #: sql_help.c:2113 sql_help.c:2881
 msgid "template"
 msgstr ""
 
 #: sql_help.c:2114
-#, fuzzy
 msgid "encoding"
-msgstr "encoding_name"
+msgstr "encoding"
 
 #: sql_help.c:2140
-#, fuzzy
 msgid "constraint"
-msgstr "constraint_name"
+msgstr "ràng buộc"
 
 #: sql_help.c:2141
-#, fuzzy
 msgid "where constraint is:"
-msgstr "mà column_constraint là:"
+msgstr "ràng buộc là:"
 
 #: sql_help.c:2155 sql_help.c:2551 sql_help.c:2954
 msgid "event"
@@ -4811,9 +4751,8 @@ msgid "column_type"
 msgstr "column_type"
 
 #: sql_help.c:2290 sql_help.c:2482
-#, fuzzy
 msgid "definition"
-msgstr "column_definition"
+msgstr "định nghĩa"
 
 #: sql_help.c:2291 sql_help.c:2483
 msgid "obj_file"
@@ -4828,19 +4767,16 @@ msgid "uid"
 msgstr ""
 
 #: sql_help.c:2341
-#, fuzzy
 msgid "method"
-msgstr "access_method_type"
+msgstr "phương pháp"
 
 #: sql_help.c:2362
-#, fuzzy
 msgid "call_handler"
-msgstr "handler_function"
+msgstr "call_handler"
 
 #: sql_help.c:2363
-#, fuzzy
 msgid "inline_handler"
-msgstr "handler_function"
+msgstr "inline_handler"
 
 #: sql_help.c:2364
 msgid "valfunction"
@@ -4866,14 +4802,12 @@ msgstr "storage_type"
 #: sql_help.c:4220 sql_help.c:4222 sql_help.c:4310 sql_help.c:4312
 #: sql_help.c:4459 sql_help.c:4461 sql_help.c:4564 sql_help.c:4666
 #: sql_help.c:4668
-#, fuzzy
 msgid "condition"
-msgstr "join_condition"
+msgstr "điều kiện"
 
 #: sql_help.c:2557 sql_help.c:2961
-#, fuzzy
 msgid "where event can be one of:"
-msgstr "mà abbreviated_grant_or_revoke là một trong:"
+msgstr "sự kiện có thể là một trong:"
 
 #: sql_help.c:2576 sql_help.c:2578
 msgid "schema_element"
@@ -4896,9 +4830,8 @@ msgid "statistics_name"
 msgstr "statistics_name"
 
 #: sql_help.c:2631
-#, fuzzy
 msgid "statistics_kind"
-msgstr "statistics_name"
+msgstr "statistics_kind"
 
 #: sql_help.c:2645
 msgid "subscription_name"
@@ -4981,9 +4914,8 @@ msgid "label"
 msgstr ""
 
 #: sql_help.c:3012
-#, fuzzy
 msgid "subtype"
-msgstr "subtype_diff_function"
+msgstr "kiểu con"
 
 #: sql_help.c:3013
 msgid "subtype_operator_class"
@@ -5014,14 +4946,12 @@ msgid "send_function"
 msgstr "send_function"
 
 #: sql_help.c:3022
-#, fuzzy
 msgid "type_modifier_input_function"
-msgstr "input_function"
+msgstr "type_modifier_input_function"
 
 #: sql_help.c:3023
-#, fuzzy
 msgid "type_modifier_output_function"
-msgstr "output_function"
+msgstr "type_modifier_output_function"
 
 #: sql_help.c:3024
 msgid "analyze_function"
@@ -5036,9 +4966,8 @@ msgid "alignment"
 msgstr ""
 
 #: sql_help.c:3027
-#, fuzzy
 msgid "storage"
-msgstr "storage_type"
+msgstr "storage"
 
 #: sql_help.c:3028
 msgid "like_type"
@@ -5057,9 +4986,8 @@ msgid "default"
 msgstr "mặc định"
 
 #: sql_help.c:3032
-#, fuzzy
 msgid "element"
-msgstr "schema_element"
+msgstr "phần tử"
 
 #: sql_help.c:3033
 msgid "delimiter"
@@ -5080,9 +5008,8 @@ msgstr "with_query"
 #: sql_help.c:4490 sql_help.c:4498 sql_help.c:4556 sql_help.c:4680
 #: sql_help.c:4686 sql_help.c:4689 sql_help.c:4693 sql_help.c:4697
 #: sql_help.c:4705
-#, fuzzy
 msgid "alias"
-msgstr "column_alias"
+msgstr "alias"
 
 #: sql_help.c:3134
 msgid "using_list"
@@ -5102,14 +5029,12 @@ msgid "output_name"
 msgstr "output_name"
 
 #: sql_help.c:3154
-#, fuzzy
 msgid "code"
-msgstr "không tìm thấy tên người dùng: mã lỗi %lu"
+msgstr "mã"
 
 #: sql_help.c:3553
-#, fuzzy
 msgid "parameter"
-msgstr "storage_parameter"
+msgstr "tham số"
 
 #: sql_help.c:3573 sql_help.c:3574 sql_help.c:3873
 msgid "statement"
@@ -5160,9 +5085,8 @@ msgid "conflict_target"
 msgstr "conflict_target"
 
 #: sql_help.c:3774
-#, fuzzy
 msgid "conflict_action"
-msgstr "conflict_target"
+msgstr "conflict_action"
 
 #: sql_help.c:3777
 msgid "where conflict_target can be one of:"
@@ -5194,12 +5118,11 @@ msgstr ""
 
 #: sql_help.c:3821
 msgid "lockmode"
-msgstr ""
+msgstr "chế độ lock"
 
 #: sql_help.c:3822
-#, fuzzy
 msgid "where lockmode is one of:"
-msgstr "mà abbreviated_grant_or_revoke là một trong:"
+msgstr "chế độ lock là một trong:"
 
 #: sql_help.c:3863
 msgid "payload"
@@ -5225,18 +5148,16 @@ msgstr "from_item"
 
 #: sql_help.c:4221 sql_help.c:4273 sql_help.c:4460 sql_help.c:4512
 #: sql_help.c:4667 sql_help.c:4719
-#, fuzzy
 msgid "grouping_element"
-msgstr "schema_element"
+msgstr "grouping_element"
 
 #: sql_help.c:4223 sql_help.c:4313 sql_help.c:4462 sql_help.c:4669
 msgid "window_name"
 msgstr "window_name"
 
 #: sql_help.c:4224 sql_help.c:4314 sql_help.c:4463 sql_help.c:4670
-#, fuzzy
 msgid "window_definition"
-msgstr "column_definition"
+msgstr "window_definition"
 
 #: sql_help.c:4225 sql_help.c:4239 sql_help.c:4277 sql_help.c:4315
 #: sql_help.c:4464 sql_help.c:4478 sql_help.c:4516 sql_help.c:4671
@@ -5256,9 +5177,8 @@ msgid "column_alias"
 msgstr "column_alias"
 
 #: sql_help.c:4236 sql_help.c:4475 sql_help.c:4682
-#, fuzzy
 msgid "sampling_method"
-msgstr "access_method_type"
+msgstr "sampling_method"
 
 #: sql_help.c:4238 sql_help.c:4477 sql_help.c:4684
 msgid "seed"
@@ -5304,9 +5224,8 @@ msgid "insert"
 msgstr ""
 
 #: sql_help.c:4280 sql_help.c:4519 sql_help.c:4726
-#, fuzzy
 msgid "update"
-msgstr "cập nhật thông tin các dòng của một bảng"
+msgstr "cập nhật"
 
 #: sql_help.c:4281 sql_help.c:4520 sql_help.c:4727
 msgid "delete"
@@ -5333,133 +5252,112 @@ msgid "sort_expression"
 msgstr "sort_expression"
 
 #: sql_help.c:4734 sql_help.c:5549
-#, fuzzy
 msgid "abort the current transaction"
-msgstr "không tìm thấy thư mục hiện tại: %s"
+msgstr "hủy bỏ transaction hiện tại"
 
 #: sql_help.c:4739
 msgid "change the definition of an aggregate function"
 msgstr ""
 
 #: sql_help.c:4744
-#, fuzzy
 msgid "change the definition of a collation"
-msgstr "thay đổi một cơ sở dữ liệu"
+msgstr "thay đổi định nghĩa một collation"
 
 #: sql_help.c:4749
-#, fuzzy
 msgid "change the definition of a conversion"
-msgstr "thay đổi một cơ sở dữ liệu"
+msgstr "thay đổi định nghĩa một conversion"
 
 #: sql_help.c:4754
 msgid "change a database"
 msgstr "thay đổi một cơ sở dữ liệu"
 
 #: sql_help.c:4759
-#, fuzzy
 msgid "define default access privileges"
-msgstr "loại bỏ quyền truy cập"
+msgstr "định nghĩa đặc quyền truy cập mặc định"
 
 #: sql_help.c:4764
-#, fuzzy
 msgid "change the definition of a domain"
-msgstr "domain_constraint"
+msgstr "thay đổi định nghĩa một domain"
 
 #: sql_help.c:4769
 msgid "change the definition of an event trigger"
 msgstr ""
 
 #: sql_help.c:4774
-#, fuzzy
 msgid "change the definition of an extension"
-msgstr "thay đổi một cơ sở dữ liệu"
+msgstr "thay đổi định nghĩa một extension"
 
 #: sql_help.c:4779
 msgid "change the definition of a foreign-data wrapper"
 msgstr ""
 
 #: sql_help.c:4784
-#, fuzzy
 msgid "change the definition of a foreign table"
-msgstr "foreign table"
+msgstr "thay đổi định nghĩa một bảng ngoại khóa"
 
 #: sql_help.c:4789
-#, fuzzy
 msgid "change the definition of a function"
-msgstr "thay đổi một cơ sở dữ liệu"
+msgstr "thay đổi định nghĩa một hàm"
 
 #: sql_help.c:4794
-#, fuzzy
 msgid "change role name or membership"
-msgstr "role_name"
+msgstr "thay đổi tên role hoặc thành viên"
 
 #: sql_help.c:4799
-#, fuzzy
 msgid "change the definition of an index"
-msgstr "thay đổi một cơ sở dữ liệu"
+msgstr "thay đổi định nghĩa một index"
 
 #: sql_help.c:4804
 msgid "change the definition of a procedural language"
 msgstr ""
 
 #: sql_help.c:4809
-#, fuzzy
 msgid "change the definition of a large object"
-msgstr "large_object_oid"
+msgstr "thay đổi định nghĩa một large object"
 
 #: sql_help.c:4814
-#, fuzzy
 msgid "change the definition of a materialized view"
-msgstr "materialized view"
+msgstr "thay đổi định nghĩa một materialized view"
 
 #: sql_help.c:4819
-#, fuzzy
 msgid "change the definition of an operator"
-msgstr "column_definition"
+msgstr "thay đổi định nghĩa một toán tử"
 
 #: sql_help.c:4824
-#, fuzzy
 msgid "change the definition of an operator class"
-msgstr "subtype_operator_class"
+msgstr "thay đổi định nghĩa một operator class"
 
 #: sql_help.c:4829
-#, fuzzy
 msgid "change the definition of an operator family"
-msgstr "các bộ toán tử"
+msgstr "thay đổi định nghĩa một operator family"
 
 #: sql_help.c:4834
 msgid "change the definition of a row level security policy"
 msgstr ""
 
 #: sql_help.c:4839
-#, fuzzy
 msgid "change the definition of a procedure"
-msgstr "thay đổi một cơ sở dữ liệu"
+msgstr "thay đổi định nghĩa một procedure"
 
 #: sql_help.c:4844
-#, fuzzy
 msgid "change the definition of a publication"
-msgstr "publication_parameter"
+msgstr "thay đổi định nghĩa một publication"
 
 #: sql_help.c:4849 sql_help.c:4934
-#, fuzzy
 msgid "change a database role"
-msgstr "thay đổi một cơ sở dữ liệu"
+msgstr "thay đổi một database role"
 
 #: sql_help.c:4854
-#, fuzzy
 msgid "change the definition of a routine"
-msgstr "thay đổi một cơ sở dữ liệu"
+msgstr "thay đổi định nghĩa một routine"
 
 #: sql_help.c:4859
-#, fuzzy
 msgid "change the definition of a rule"
-msgstr "column_definition"
+msgstr "thay đổi định nghĩa một rule"
 
 #: sql_help.c:4864
-#, fuzzy
 msgid "change the definition of a schema"
-msgstr "column_definition"
+msgstr "thay đổi định nghĩa một schema"
 
 #: sql_help.c:4869
 msgid "change the definition of a sequence generator"
@@ -5474,24 +5372,20 @@ msgid "change the definition of an extended statistics object"
 msgstr ""
 
 #: sql_help.c:4884
-#, fuzzy
 msgid "change the definition of a subscription"
-msgstr "subscription_parameter"
+msgstr "thay đổi định nghĩa một subscription"
 
 #: sql_help.c:4889
-#, fuzzy
 msgid "change a server configuration parameter"
-msgstr "configuration_parameter"
+msgstr "thay đổi một tham số cấu hình máy chủ"
 
 #: sql_help.c:4894
-#, fuzzy
 msgid "change the definition of a table"
-msgstr "column_definition"
+msgstr "thay đổi định nghĩa một bảng"
 
 #: sql_help.c:4899
-#, fuzzy
 msgid "change the definition of a tablespace"
-msgstr "column_definition"
+msgstr "thay đổi định nghĩa một tablespace"
 
 #: sql_help.c:4904
 msgid "change the definition of a text search configuration"
@@ -5510,60 +5404,52 @@ msgid "change the definition of a text search template"
 msgstr ""
 
 #: sql_help.c:4924
-#, fuzzy
 msgid "change the definition of a trigger"
-msgstr "thay đổi một cơ sở dữ liệu"
+msgstr "thay đổi định nghĩa của một trigger"
 
 #: sql_help.c:4929
-#, fuzzy
 msgid "change the definition of a type"
-msgstr "column_definition"
+msgstr "thay đổi định nghĩa của một kiểu"
 
 #: sql_help.c:4939
 msgid "change the definition of a user mapping"
 msgstr ""
 
 #: sql_help.c:4944
-#, fuzzy
 msgid "change the definition of a view"
-msgstr "view"
+msgstr "thay đổi định nghĩa của một view"
 
 #: sql_help.c:4949
 msgid "collect statistics about a database"
 msgstr ""
 
 #: sql_help.c:4954 sql_help.c:5614
-#, fuzzy
 msgid "start a transaction block"
-msgstr "start_function"
+msgstr "bắt đầu một transaction"
 
 #: sql_help.c:4959
-#, fuzzy
 msgid "invoke a procedure"
-msgstr "procedure_name"
+msgstr "gọi một thủ tục"
 
 #: sql_help.c:4964
 msgid "force a write-ahead log checkpoint"
 msgstr ""
 
 #: sql_help.c:4969
-#, fuzzy
 msgid "close a cursor"
-msgstr "cursor_name"
+msgstr "đóng con trỏ"
 
 #: sql_help.c:4974
-#, fuzzy
 msgid "cluster a table according to an index"
-msgstr "và table_constraint_using_index là:"
+msgstr "cluster một bảng dựa trên một index"
 
 #: sql_help.c:4979
 msgid "define or change the comment of an object"
 msgstr ""
 
 #: sql_help.c:4984 sql_help.c:5449
-#, fuzzy
 msgid "commit the current transaction"
-msgstr "không tìm thấy thư mục hiện tại: %s"
+msgstr "commit transaction hiện tại"
 
 #: sql_help.c:4989
 msgid "commit a transaction that was earlier prepared for two-phase commit"
@@ -5574,118 +5460,100 @@ msgid "copy data between a file and a table"
 msgstr ""
 
 #: sql_help.c:4999
-#, fuzzy
 msgid "define a new access method"
-msgstr "access_method_type"
+msgstr "định nghĩa một access method mới"
 
 #: sql_help.c:5004
 msgid "define a new aggregate function"
 msgstr ""
 
 #: sql_help.c:5009
-#, fuzzy
 msgid "define a new cast"
-msgstr "new_tablespace"
+msgstr "định nghĩa một cast mới"
 
 #: sql_help.c:5014
-#, fuzzy
 msgid "define a new collation"
-msgstr "existing_collation"
+msgstr "định nghĩa một collation mới"
 
 #: sql_help.c:5019
 msgid "define a new encoding conversion"
 msgstr ""
 
 #: sql_help.c:5024
-#, fuzzy
 msgid "create a new database"
-msgstr "tạo thêm dòng mới trong một bảng"
+msgstr "định nghĩa một database mới"
 
 #: sql_help.c:5029
-#, fuzzy
 msgid "define a new domain"
-msgstr "domain_constraint"
+msgstr "định nghĩa một domain mới"
 
 #: sql_help.c:5034
 msgid "define a new event trigger"
-msgstr ""
+msgstr "định nghĩa một sự kiện trigger mới"
 
 #: sql_help.c:5039
-#, fuzzy
 msgid "install an extension"
-msgstr "extension_name"
+msgstr "cài đặt một extension"
 
 #: sql_help.c:5044
 msgid "define a new foreign-data wrapper"
 msgstr ""
 
 #: sql_help.c:5049
-#, fuzzy
 msgid "define a new foreign table"
-msgstr "foreign table"
+msgstr "định nghĩa một bảng ngoại khóa mới"
 
 #: sql_help.c:5054
-#, fuzzy
 msgid "define a new function"
-msgstr "new_name"
+msgstr "định nghĩa một hàm mới"
 
 #: sql_help.c:5059 sql_help.c:5109 sql_help.c:5194
-#, fuzzy
 msgid "define a new database role"
-msgstr "new_role"
+msgstr "định nghĩa một database role mới"
 
 #: sql_help.c:5064
-#, fuzzy
 msgid "define a new index"
-msgstr "index_parameters"
+msgstr "định nghĩa một index mới"
 
 #: sql_help.c:5069
 msgid "define a new procedural language"
-msgstr ""
+msgstr "định nghĩa một ngôn ngữ thủ tục mới"
 
 #: sql_help.c:5074
-#, fuzzy
 msgid "define a new materialized view"
-msgstr "materialized view"
+msgstr "định nghĩa một materialized view mới"
 
 #: sql_help.c:5079
-#, fuzzy
 msgid "define a new operator"
-msgstr "toán tử"
+msgstr "định nghĩa một toán tử mới"
 
 #: sql_help.c:5084
-#, fuzzy
 msgid "define a new operator class"
-msgstr "subtype_operator_class"
+msgstr "định nghĩa một operator class mới"
 
 #: sql_help.c:5089
-#, fuzzy
 msgid "define a new operator family"
-msgstr "các bộ toán tử"
+msgstr "định nghĩa một operator family mới"
 
 #: sql_help.c:5094
 msgid "define a new row level security policy for a table"
 msgstr ""
 
 #: sql_help.c:5099
-#, fuzzy
 msgid "define a new procedure"
-msgstr "procedure_name"
+msgstr "định nghĩa một thủ tục mới"
 
 #: sql_help.c:5104
-#, fuzzy
 msgid "define a new publication"
-msgstr "publication_parameter"
+msgstr "định nghĩa một publication mới"
 
 #: sql_help.c:5114
-#, fuzzy
 msgid "define a new rewrite rule"
-msgstr "rewrite_rule_name"
+msgstr "định nghĩa một rewrite rule mới"
 
 #: sql_help.c:5119
-#, fuzzy
 msgid "define a new schema"
-msgstr "new_schema"
+msgstr "định nghĩa một schema mới"
 
 #: sql_help.c:5124
 msgid "define a new sequence generator"
@@ -5696,28 +5564,24 @@ msgid "define a new foreign server"
 msgstr ""
 
 #: sql_help.c:5134
-#, fuzzy
 msgid "define extended statistics"
-msgstr "statistics_name"
+msgstr "định nghĩa statistic mở rộng"
 
 #: sql_help.c:5139
-#, fuzzy
 msgid "define a new subscription"
-msgstr "subscription_parameter"
+msgstr "định nghĩa một subscription mới"
 
 #: sql_help.c:5144
-#, fuzzy
 msgid "define a new table"
-msgstr "tạo thêm dòng mới trong một bảng"
+msgstr "định nghĩa một bảng mới"
 
 #: sql_help.c:5149 sql_help.c:5579
 msgid "define a new table from the results of a query"
 msgstr ""
 
 #: sql_help.c:5154
-#, fuzzy
 msgid "define a new tablespace"
-msgstr "new_tablespace"
+msgstr "định nghĩa một tablespace mới"
 
 #: sql_help.c:5159
 msgid "define a new text search configuration"
@@ -5736,143 +5600,120 @@ msgid "define a new text search template"
 msgstr ""
 
 #: sql_help.c:5179
-#, fuzzy
 msgid "define a new transform"
-msgstr "Nhập mật khẩu mới"
+msgstr "định nghĩa một transform mới"
 
 #: sql_help.c:5184
-#, fuzzy
 msgid "define a new trigger"
-msgstr "trigger_name"
+msgstr "định nghĩa một trigger mới"
 
 #: sql_help.c:5189
-#, fuzzy
 msgid "define a new data type"
-msgstr "arg_data_type"
+msgstr "định nghĩa một kiểu dữ liệu mới"
 
 #: sql_help.c:5199
 msgid "define a new mapping of a user to a foreign server"
 msgstr ""
 
 #: sql_help.c:5204
-#, fuzzy
 msgid "define a new view"
-msgstr "materialized view"
+msgstr "định nghĩa một view mới"
 
 #: sql_help.c:5209
-#, fuzzy
 msgid "deallocate a prepared statement"
-msgstr "thực thi một câu lệnh có sẵn"
+msgstr "giải phóng một prepared statement"
 
 #: sql_help.c:5214
-#, fuzzy
 msgid "define a cursor"
-msgstr "cursor_name"
+msgstr "định nghĩa con trỏ"
 
 #: sql_help.c:5219
-#, fuzzy
 msgid "delete rows of a table"
-msgstr "cập nhật thông tin các dòng của một bảng"
+msgstr "xóa các dòng của một bảng"
 
 #: sql_help.c:5224
-#, fuzzy
 msgid "discard session state"
-msgstr "state_data_type"
+msgstr "loại bỏ trạng thái phiên"
 
 #: sql_help.c:5229
 msgid "execute an anonymous code block"
 msgstr ""
 
 #: sql_help.c:5234
-#, fuzzy
 msgid "remove an access method"
-msgstr "access_method_type"
+msgstr "xóa một access method"
 
 #: sql_help.c:5239
-#, fuzzy
 msgid "remove an aggregate function"
-msgstr "và aggregate_signature là:"
+msgstr "xóa một aggregate function"
 
 #: sql_help.c:5244
-#, fuzzy
 msgid "remove a cast"
-msgstr "loại bỏ một view"
+msgstr "xóa một cast"
 
 #: sql_help.c:5249
-#, fuzzy
 msgid "remove a collation"
-msgstr "existing_collation"
+msgstr "xóa một collation"
 
 #: sql_help.c:5254
-#, fuzzy
 msgid "remove a conversion"
-msgstr "loại bỏ một cơ sở dữ liệu"
+msgstr "xóa một conversion"
 
 #: sql_help.c:5259
 msgid "remove a database"
-msgstr "loại bỏ một cơ sở dữ liệu"
+msgstr "xóa một cơ sở dữ liệu"
 
 #: sql_help.c:5264
-#, fuzzy
 msgid "remove a domain"
-msgstr "domain_constraint"
+msgstr "xóa một domain"
 
 #: sql_help.c:5269
-#, fuzzy
 msgid "remove an event trigger"
-msgstr "loại bỏ một cơ sở dữ liệu"
+msgstr "xóa một sự kiện trigger"
 
 #: sql_help.c:5274
-#, fuzzy
 msgid "remove an extension"
-msgstr "extension_name"
+msgstr "xóa một extension"
 
 #: sql_help.c:5279
-#, fuzzy
 msgid "remove a foreign-data wrapper"
-msgstr "loại bỏ một loại dữ liệu"
+msgstr "xóa một foreign-data wrapper"
 
 #: sql_help.c:5284
-#, fuzzy
 msgid "remove a foreign table"
-msgstr "foreign table"
+msgstr "xóa một bảng ngoại khóa"
 
 #: sql_help.c:5289
 msgid "remove a function"
-msgstr "loại bỏ một function"
+msgstr "xóa một hàm"
 
 #: sql_help.c:5294 sql_help.c:5349 sql_help.c:5434
-#, fuzzy
 msgid "remove a database role"
-msgstr "loại bỏ một cơ sở dữ liệu"
+msgstr "xóa một database role"
 
 #: sql_help.c:5299
 msgid "remove an index"
-msgstr "loại bỏ một index"
+msgstr "xóa một index"
 
 #: sql_help.c:5304
-#, fuzzy
 msgid "remove a procedural language"
-msgstr "Ngôn ngữ"
+msgstr "xóa một ngôn ngữ thủ tục"
 
 #: sql_help.c:5309
 msgid "remove a materialized view"
 msgstr "loại bỏ một materialized view"
 
 #: sql_help.c:5314
-#, fuzzy
 msgid "remove an operator"
-msgstr "loại bỏ một cơ sở dữ liệu"
+msgstr "xóa một toán tử"
 
 #: sql_help.c:5319
-#, fuzzy
 msgid "remove an operator class"
-msgstr "subtype_operator_class"
+msgstr "xóa một operator class"
 
 #: sql_help.c:5324
-#, fuzzy
 msgid "remove an operator family"
-msgstr "các bộ toán tử"
+msgstr "xóa một operator family"
 
 #: sql_help.c:5329
 msgid "remove database objects owned by a database role"
@@ -5883,58 +5724,48 @@ msgid "remove a row level security policy from a table"
 msgstr ""
 
 #: sql_help.c:5339
-#, fuzzy
 msgid "remove a procedure"
-msgstr "procedure_name"
+msgstr "xóa một thủ tục"
 
 #: sql_help.c:5344
-#, fuzzy
 msgid "remove a publication"
-msgstr "publication_parameter"
+msgstr "xóa một publication"
 
 #: sql_help.c:5354
-#, fuzzy
 msgid "remove a routine"
-msgstr "routine_name"
+msgstr "xóa một routine"
 
 #: sql_help.c:5359
-#, fuzzy
 msgid "remove a rewrite rule"
-msgstr "rewrite_rule_name"
+msgstr "xóa một rewrite rule"
 
 #: sql_help.c:5364
-#, fuzzy
 msgid "remove a schema"
-msgstr "schema"
+msgstr "xóa một schema"
 
 #: sql_help.c:5369
-#, fuzzy
 msgid "remove a sequence"
-msgstr "thứ tự"
+msgstr "xóa một sequence"
 
 #: sql_help.c:5374
 msgid "remove a foreign server descriptor"
 msgstr ""
 
 #: sql_help.c:5379
-#, fuzzy
 msgid "remove extended statistics"
-msgstr "statistics_name"
+msgstr "xóa các statistic mở rộng"
 
 #: sql_help.c:5384
-#, fuzzy
 msgid "remove a subscription"
-msgstr "subscription_parameter"
+msgstr "xóa một subscription"
 
 #: sql_help.c:5389
-#, fuzzy
 msgid "remove a table"
-msgstr "loại bỏ một view"
+msgstr "xóa một bảng"
 
 #: sql_help.c:5394
-#, fuzzy
 msgid "remove a tablespace"
-msgstr "Tablespace"
+msgstr "xóa một tablespace"
 
 #: sql_help.c:5399
 msgid "remove a text search configuration"
@@ -5953,18 +5784,16 @@ msgid "remove a text search template"
 msgstr ""
 
 #: sql_help.c:5419
-#, fuzzy
 msgid "remove a transform"
-msgstr "loại bỏ một cơ sở dữ liệu"
+msgstr "xóa một transform"
 
 #: sql_help.c:5424
-#, fuzzy
 msgid "remove a trigger"
-msgstr "trigger_name"
+msgstr "xóa một trigger"
 
 #: sql_help.c:5429
 msgid "remove a data type"
-msgstr "loại bỏ một loại dữ liệu"
+msgstr "xóa một kiểu dữ liệu"
 
 #: sql_help.c:5439
 msgid "remove a user mapping for a foreign server"
@@ -5972,7 +5801,7 @@ msgstr ""
 
 #: sql_help.c:5444
 msgid "remove a view"
-msgstr "loại bỏ một view"
+msgstr "xóa một view"
 
 #: sql_help.c:5454
 msgid "execute a prepared statement"
@@ -5987,9 +5816,8 @@ msgid "retrieve rows from a query using a cursor"
 msgstr ""
 
 #: sql_help.c:5469
-#, fuzzy
 msgid "define access privileges"
-msgstr "Quyền truy cập"
+msgstr "định nghĩa quyền truy cập"
 
 #: sql_help.c:5474
 msgid "import table definitions from a foreign server"
@@ -6012,9 +5840,8 @@ msgid "lock a table"
 msgstr "khóa một bảng"
 
 #: sql_help.c:5499
-#, fuzzy
 msgid "position a cursor"
-msgstr "cursor_name"
+msgstr "vị trí một con trỏ"
 
 #: sql_help.c:5504
 msgid "generate a notification"
@@ -6084,7 +5911,7 @@ msgstr "đặt thời gian kiểm tra ràng buộc cho giao dịch hiện tại"
 
 #: sql_help.c:5594
 msgid "set the current user identifier of the current session"
-msgstr " đặt nhận dạng người dùng hiện tại cho phiên hiện tại"
+msgstr "đặt nhận dạng người dùng hiện tại cho phiên hiện tại"
 
 #: sql_help.c:5599
 msgid ""
@@ -6138,8 +5965,7 @@ msgid ""
 "Type \"help\" for help.\n"
 "\n"
 msgstr ""
-"Gõ \"help\" để giải quyết.\n"
-"\n"
+"Gõ \"help\" để trợ giúp.\n"
 "\n"
 
 #: startup.c:561
@@ -6150,9 +5976,7 @@ msgstr "%s: không thể thiết lập thông số in \"%s\"\n"
 #: startup.c:663
 #, c-format
 msgid "Try \"%s --help\" for more information.\n"
-msgstr ""
-"Thử \"%s --help\" để biết thêm thông tin.\n"
-"\n"
+msgstr "Thử \"%s --help\" để biết thêm thông tin.\n"
 
 #: startup.c:680
 #, c-format
@@ -6188,9 +6012,7 @@ msgstr "giá trị \"%s\" bị lỗi cho \"%s\": cần giá trị integer\n"
 #: variables.c:224
 #, c-format
 msgid "invalid variable name: \"%s\"\n"
-msgstr ""
-"tên biến sai: \"%s\"\n"
-"\n"
+msgstr "tên biến sai: \"%s\"\n"
 
 #: variables.c:393
 #, c-format
