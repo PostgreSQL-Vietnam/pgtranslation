@@ -1,164 +1,166 @@
 # LANGUAGE message translation file for pg_ctl
 # Copyright (C) 2018 PostgreSQL Global Development Group
 # This file is distributed under the same license as the pg_ctl (PostgreSQL) package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <kakalot49@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pg_ctl (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:16+0000\n"
-"PO-Revision-Date: 2018-04-23 02:28+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-05-16 23:31+0900\n"
+"Language-Team: <pgvn_translators@postgresql.vn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
+"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: vi_VN\n"
 
 #: ../../common/exec.c:127 ../../common/exec.c:241 ../../common/exec.c:284
 #, c-format
 msgid "could not identify current directory: %s"
-msgstr ""
+msgstr "không thể xác định thư mục hiện tại: %s"
 
 #: ../../common/exec.c:146
 #, c-format
 msgid "invalid binary \"%s\""
-msgstr ""
+msgstr "tệp nhị phân không hợp lệ \"%s\""
 
 #: ../../common/exec.c:195
 #, c-format
 msgid "could not read binary \"%s\""
-msgstr ""
+msgstr "không thể đọc tệp nhị phân \"%s\""
 
 #: ../../common/exec.c:202
 #, c-format
 msgid "could not find a \"%s\" to execute"
-msgstr ""
+msgstr "không thể tìm thấy \"%s\" để thực thi"
 
 #: ../../common/exec.c:257 ../../common/exec.c:293
 #, c-format
 msgid "could not change directory to \"%s\": %s"
-msgstr ""
+msgstr "không thể thay đổi thư mục thành \"%s\": %s"
 
 #: ../../common/exec.c:272
 #, c-format
 msgid "could not read symbolic link \"%s\""
-msgstr ""
+msgstr "không thể đọc symbolic link \"%s\""
 
 #: ../../common/exec.c:523
 #, c-format
 msgid "pclose failed: %s"
-msgstr ""
+msgstr "pclose lỗi: %s"
 
 #: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
 #: ../../common/fe_memutils.c:98 ../../port/path.c:632 ../../port/path.c:670
 #: ../../port/path.c:687
 #, c-format
 msgid "out of memory\n"
-msgstr ""
+msgstr "hết bộ nhớ\n"
 
 #: ../../common/fe_memutils.c:92
 #, c-format
 msgid "cannot duplicate null pointer (internal error)\n"
-msgstr ""
+msgstr "không thể sao chép con trỏ null (lỗi nội bộ)\n"
 
 #: ../../common/wait_error.c:45
 #, c-format
 msgid "command not executable"
-msgstr ""
+msgstr "lệnh không thực thi được"
 
 #: ../../common/wait_error.c:49
 #, c-format
 msgid "command not found"
-msgstr ""
+msgstr "không tìm thấy lệnh"
 
 #: ../../common/wait_error.c:54
 #, c-format
 msgid "child process exited with exit code %d"
-msgstr ""
+msgstr "tiến trình con đã thoát với mã thoát %d"
 
 #: ../../common/wait_error.c:61
 #, c-format
 msgid "child process was terminated by exception 0x%X"
-msgstr ""
+msgstr "tiến trình con bị kết thúc bởi ngoại lệ 0x%X"
 
 #: ../../common/wait_error.c:71
 #, c-format
 msgid "child process was terminated by signal %s"
-msgstr ""
+msgstr "tiến trình con đã bị chấm dứt bởi tín hiệu %s"
 
 #: ../../common/wait_error.c:75
 #, c-format
 msgid "child process was terminated by signal %d"
-msgstr ""
+msgstr "tiến trình con bị chấm dứt bởi tín hiệu %d"
 
 #: ../../common/wait_error.c:80
 #, c-format
 msgid "child process exited with unrecognized status %d"
-msgstr ""
+msgstr "tiến trình con đã kết thúc với trạng thái không xác định được %d"
 
 #: ../../port/path.c:654
 #, c-format
 msgid "could not get current working directory: %s\n"
-msgstr ""
+msgstr "không thể xác nhận thư mục làm việc hiện tại: %s\n"
 
 #: pg_ctl.c:257
 #, c-format
 msgid "%s: directory \"%s\" does not exist\n"
-msgstr ""
+msgstr "%s: thư mục \"%s\" không tồn tại\n"
 
 #: pg_ctl.c:260
 #, c-format
 msgid "%s: could not access directory \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể truy cập thư mục \"%s\": %s\n"
 
 #: pg_ctl.c:273
 #, c-format
 msgid "%s: directory \"%s\" is not a database cluster directory\n"
-msgstr ""
+msgstr "%s: thư mục \"%s\" không phải là thư mục cơ sở dữ liệu\n"
 
 #: pg_ctl.c:286
 #, c-format
 msgid "%s: could not open PID file \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể mở tệp PID \"%s\": %s\n"
 
 #: pg_ctl.c:295
 #, c-format
 msgid "%s: the PID file \"%s\" is empty\n"
-msgstr ""
+msgstr "%s: tệp PID \"%s\" trống rỗng\n"
 
 #: pg_ctl.c:298
 #, c-format
 msgid "%s: invalid data in PID file \"%s\"\n"
-msgstr ""
+msgstr "%s: dữ liệu trong tệp PID không hợp lệ \"%s\"\n"
 
 #: pg_ctl.c:459 pg_ctl.c:487
 #, c-format
 msgid "%s: could not start server: %s\n"
-msgstr ""
+msgstr "%s: không thể khởi động máy chủ: %s\n"
 
 #: pg_ctl.c:511
 #, c-format
 msgid "%s: could not start server: error code %lu\n"
-msgstr ""
+msgstr "%s: không thể khởi động máy chủ: mã lỗi %lu\n"
 
 #: pg_ctl.c:658
 #, c-format
 msgid "%s: cannot set core file size limit; disallowed by hard limit\n"
 msgstr ""
+"%s: không thể đặt giới hạn kích thước tệp core, không được phép theo giới "
+"hạn cứng\n"
 
 #: pg_ctl.c:684
 #, c-format
 msgid "%s: could not read file \"%s\"\n"
-msgstr ""
+msgstr "%s: không thể đọc tệp \"%s\"\n"
 
 #: pg_ctl.c:689
 #, c-format
 msgid "%s: option file \"%s\" must have exactly one line\n"
-msgstr ""
+msgstr "%s: tệp tùy chọn \"%s\" phải có chính xác một dòng\n"
 
 #: pg_ctl.c:735
 #, c-format
@@ -167,6 +169,9 @@ msgid ""
 "same directory as \"%s\".\n"
 "Check your installation.\n"
 msgstr ""
+"Chương trình \"%s\" là cần thiết bởi %s nhưng không được tìm \n"
+"thấy trong cùng thư mục với tên \"%s\".\n"
+"Kiểm tra cài đặt của bạn.\n"
 
 #: pg_ctl.c:741
 #, c-format
@@ -175,37 +180,41 @@ msgid ""
 "but was not the same version as %s.\n"
 "Check your installation.\n"
 msgstr ""
+"Chương trình \"%s\" được tìm thấy bởi \"%s\"\n"
+"Nhưng không phải là phiên bản giống như %s.\n"
+"Kiểm tra cài đặt của bạn.\n"
 
 #: pg_ctl.c:774
 #, c-format
 msgid "%s: database system initialization failed\n"
-msgstr ""
+msgstr "%s: khởi tạo hệ thống cơ sở dữ liệu không thành công\n"
 
 #: pg_ctl.c:789
 #, c-format
 msgid "%s: another server might be running; trying to start server anyway\n"
 msgstr ""
+"%s: một máy chủ khác có thể đang chạy; Vẫn cố gắng khởi động máy chủ\n"
 
 #: pg_ctl.c:827
 msgid "waiting for server to start..."
-msgstr ""
+msgstr "đang đợi máy chủ khởi động ..."
 
 #: pg_ctl.c:832 pg_ctl.c:937 pg_ctl.c:1029 pg_ctl.c:1159
 msgid " done\n"
-msgstr ""
+msgstr " đã xong\n"
 
 #: pg_ctl.c:833
 msgid "server started\n"
-msgstr ""
+msgstr "máy chủ đã khởi động\n"
 
 #: pg_ctl.c:836 pg_ctl.c:842 pg_ctl.c:1164
 msgid " stopped waiting\n"
-msgstr ""
+msgstr " đã dừng việc đợi\n"
 
 #: pg_ctl.c:837
 #, c-format
 msgid "%s: server did not start in time\n"
-msgstr ""
+msgstr "%s: máy chủ không khởi động đúng lúc\n"
 
 #: pg_ctl.c:843
 #, c-format
@@ -213,33 +222,36 @@ msgid ""
 "%s: could not start server\n"
 "Examine the log output.\n"
 msgstr ""
+"%s: không thể khởi động máy chủ\n"
+"Kiểm tra log đầu ra.\n"
 
 #: pg_ctl.c:851
 msgid "server starting\n"
-msgstr ""
+msgstr "máy chủ đang khởi động\n"
 
 #: pg_ctl.c:872 pg_ctl.c:959 pg_ctl.c:1050 pg_ctl.c:1089
 #, c-format
 msgid "%s: PID file \"%s\" does not exist\n"
-msgstr ""
+msgstr "%s: tệp PID \"%s\" không tồn tại\n"
 
 #: pg_ctl.c:873 pg_ctl.c:961 pg_ctl.c:1051 pg_ctl.c:1090
 msgid "Is server running?\n"
-msgstr ""
+msgstr "Máy chủ đang chạy?\n"
 
 #: pg_ctl.c:879
 #, c-format
 msgid "%s: cannot stop server; single-user server is running (PID: %ld)\n"
 msgstr ""
+"%s: không thể dừng máy chủ, máy chủ người dùng-đơn đang chạy (PID: %ld)\n"
 
 #: pg_ctl.c:887 pg_ctl.c:983
 #, c-format
 msgid "%s: could not send stop signal (PID: %ld): %s\n"
-msgstr ""
+msgstr "%s: không thể gửi tín hiệu dừng (PID: %ld): %s\n"
 
 #: pg_ctl.c:894
 msgid "server shutting down\n"
-msgstr ""
+msgstr "đang tắt máy chủ\n"
 
 #: pg_ctl.c:909 pg_ctl.c:998
 msgid ""
@@ -247,19 +259,22 @@ msgid ""
 "Shutdown will not complete until pg_stop_backup() is called.\n"
 "\n"
 msgstr ""
+"CẢNH BÁO: chế độ sao lưu trực tuyến đang hoạt động\n"
+"Việc tắt sẽ không hoàn thành cho đến khi pg_stop_backup() được gọi.\n"
+"\n"
 
 #: pg_ctl.c:913 pg_ctl.c:1002
 msgid "waiting for server to shut down..."
-msgstr ""
+msgstr "đang đợi máy chủ tắt ..."
 
 #: pg_ctl.c:929 pg_ctl.c:1020
 msgid " failed\n"
-msgstr ""
+msgstr " Không thành công\n"
 
 #: pg_ctl.c:931 pg_ctl.c:1022
 #, c-format
 msgid "%s: server does not shut down\n"
-msgstr ""
+msgstr "%s: máy chủ không tắt\n"
 
 #: pg_ctl.c:933 pg_ctl.c:1024
 msgid ""
@@ -267,135 +282,145 @@ msgid ""
 "than\n"
 "waiting for session-initiated disconnection.\n"
 msgstr ""
+"GỢI Ý: Tùy chọn \"-m fast\" ngắt các kết nối ngay lập tức thay vì\n"
+"chờ tới lúc các session tự ngắt kết nối.\n"
 
 #: pg_ctl.c:939 pg_ctl.c:1030
 msgid "server stopped\n"
-msgstr ""
+msgstr "đã dừng máy chủ\n"
 
 #: pg_ctl.c:962
 msgid "trying to start server anyway\n"
-msgstr ""
+msgstr "vẫn cố gắng khởi động máy chủ\n"
 
 #: pg_ctl.c:971
 #, c-format
 msgid ""
 "%s: cannot restart server; single-user server is running (PID: %ld)\n"
 msgstr ""
+"%s: không thể khởi động lại máy chủ, máy chủ người dùng-đơn đang chạy "
+"(PID: %ld)\n"
 
 #: pg_ctl.c:974 pg_ctl.c:1060
 msgid "Please terminate the single-user server and try again.\n"
-msgstr ""
+msgstr "Vui lòng chấm dứt máy chủ người dùng-đơn và thử lại.\n"
 
 #: pg_ctl.c:1034
 #, c-format
 msgid "%s: old server process (PID: %ld) seems to be gone\n"
-msgstr ""
+msgstr "%s: tiến trình máy chủ cũ (PID: %ld) có thể đã kết thúc\n"
 
 #: pg_ctl.c:1036
 msgid "starting server anyway\n"
-msgstr ""
+msgstr "vẫn khởi động máy chủ\n"
 
 #: pg_ctl.c:1057
 #, c-format
 msgid "%s: cannot reload server; single-user server is running (PID: %ld)\n"
 msgstr ""
+"%s: không thể tải lại máy chủ, máy chủ người dùng-đơn đang chạy (PID: "
+"%ld)\n"
 
 #: pg_ctl.c:1066
 #, c-format
 msgid "%s: could not send reload signal (PID: %ld): %s\n"
-msgstr ""
+msgstr "%s: không thể gửi tín hiệu reload (PID: %ld): %s\n"
 
 #: pg_ctl.c:1071
 msgid "server signaled\n"
-msgstr ""
+msgstr "đã gửi tín hiệu tới máy chủ\n"
 
 #: pg_ctl.c:1096
 #, c-format
 msgid ""
 "%s: cannot promote server; single-user server is running (PID: %ld)\n"
 msgstr ""
+"%s: không thể thăng cấp (thành primary) máy chủ, máy chủ người dùng-đơn "
+"đang chạy (PID: %ld)\n"
 
 #: pg_ctl.c:1104
 #, c-format
 msgid "%s: cannot promote server; server is not in standby mode\n"
 msgstr ""
+"%s: không thể thăng cấp (thành primary) máy chủ, máy chủ không ở chế độ "
+"standby\n"
 
 #: pg_ctl.c:1119
 #, c-format
 msgid "%s: could not create promote signal file \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể tạo tệp tín hiệu thăng cấp \"%s\": %s\n"
 
 #: pg_ctl.c:1125
 #, c-format
 msgid "%s: could not write promote signal file \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể viết tệp tín hiệu thăng cấp \"%s\": %s\n"
 
 #: pg_ctl.c:1133
 #, c-format
 msgid "%s: could not send promote signal (PID: %ld): %s\n"
-msgstr ""
+msgstr "%s: không thể gửi tín hiệu thăng cấp (PID: %ld): %s\n"
 
 #: pg_ctl.c:1136
 #, c-format
 msgid "%s: could not remove promote signal file \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể xóa tệp tín hiệu thăng cấp \"%s\": %s\n"
 
 #: pg_ctl.c:1146
 msgid "waiting for server to promote..."
-msgstr ""
+msgstr "đang đợi máy chủ thăng cấp..."
 
 #: pg_ctl.c:1160
 msgid "server promoted\n"
-msgstr ""
+msgstr "máy chủ đã thăng cấp\n"
 
 #: pg_ctl.c:1165
 #, c-format
 msgid "%s: server did not promote in time\n"
-msgstr ""
+msgstr "%s: máy chủ không thăng cấp kịp thời\n"
 
 #: pg_ctl.c:1171
 msgid "server promoting\n"
-msgstr ""
+msgstr "đang thăng cấp máy chủ\n"
 
 #: pg_ctl.c:1218
 #, c-format
 msgid "%s: single-user server is running (PID: %ld)\n"
-msgstr ""
+msgstr "%s: máy chủ người dùng-đơn đang chạy (PID: %ld)\n"
 
 #: pg_ctl.c:1232
 #, c-format
 msgid "%s: server is running (PID: %ld)\n"
-msgstr ""
+msgstr "%s: máy chủ đang chạy (PID: %ld)\n"
 
 #: pg_ctl.c:1248
 #, c-format
 msgid "%s: no server running\n"
-msgstr ""
+msgstr "%s: không có máy chủ nào đang chạy\n"
 
 #: pg_ctl.c:1265
 #, c-format
 msgid "%s: could not send signal %d (PID: %ld): %s\n"
-msgstr ""
+msgstr "%s: không thể gửi tín hiệu %d (PID: %ld): %s\n"
 
 #: pg_ctl.c:1322
 #, c-format
 msgid "%s: could not find own program executable\n"
-msgstr ""
+msgstr "%s: không thể tìm thấy chương trình có thể thực thi\n"
 
 #: pg_ctl.c:1332
 #, c-format
 msgid "%s: could not find postgres program executable\n"
-msgstr ""
+msgstr "%s: không thể tìm thấy chương trình postgres có thể thực thi\n"
 
 #: pg_ctl.c:1402 pg_ctl.c:1436
 #, c-format
 msgid "%s: could not open service manager\n"
-msgstr ""
+msgstr "%s: không thể mở trình quản lý dịch vụ\n"
 
 #: pg_ctl.c:1408
 #, c-format
 msgid "%s: service \"%s\" already registered\n"
-msgstr ""
+msgstr "%s: dịch vụ \"%s\" đã được đăng ký\n"
 
 #: pg_ctl.c:1419
 #, c-format
