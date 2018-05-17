@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pg_ctl (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:16+0000\n"
-"PO-Revision-Date: 2018-05-17 22:55+0900\n"
+"PO-Revision-Date: 2018-05-17 23:07+0900\n"
 "Language-Team: <pgvn_translators@postgresql.vn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -535,11 +535,13 @@ msgid ""
 "  %s start    [-D DATADIR] [-l FILENAME] [-W] [-t SECS] [-s]\n"
 "                  [-o OPTIONS] [-p PATH] [-c]\n"
 msgstr ""
+"  %s start    [-D DATADIR] [-l FILENAME] [-W] [-t SECS] [-s]\n"
+"                  [-o OPTIONS] [-p PATH] [-c]\n"
 
 #: pg_ctl.c:1917
 #, c-format
 msgid "  %s stop     [-D DATADIR] [-m SHUTDOWN-MODE] [-W] [-t SECS] [-s]\n"
-msgstr ""
+msgstr "  %s stop     [-D DATADIR] [-m SHUTDOWN-MODE] [-W] [-t SECS] [-s]\n"
 
 #: pg_ctl.c:1918
 #, c-format
@@ -547,26 +549,28 @@ msgid ""
 "  %s restart  [-D DATADIR] [-m SHUTDOWN-MODE] [-W] [-t SECS] [-s]\n"
 "                  [-o OPTIONS] [-c]\n"
 msgstr ""
+"  %s restart  [-D DATADIR] [-m SHUTDOWN-MODE] [-W] [-t SECS] [-s]\n"
+"                  [-o OPTIONS] [-c]\n"
 
 #: pg_ctl.c:1920
 #, c-format
 msgid "  %s reload   [-D DATADIR] [-s]\n"
-msgstr ""
+msgstr "  %s reload   [-D DATADIR] [-s]\n"
 
 #: pg_ctl.c:1921
 #, c-format
 msgid "  %s status   [-D DATADIR]\n"
-msgstr ""
+msgstr "  %s status   [-D DATADIR]\n"
 
 #: pg_ctl.c:1922
 #, c-format
 msgid "  %s promote  [-D DATADIR] [-W] [-t SECS] [-s]\n"
-msgstr ""
+msgstr "  %s promote  [-D DATADIR] [-W] [-t SECS] [-s]\n"
 
 #: pg_ctl.c:1923
 #, c-format
 msgid "  %s kill     SIGNALNAME PID\n"
-msgstr ""
+msgstr "  %s kill     SIGNALNAME PID\n"
 
 #: pg_ctl.c:1925
 #, c-format
@@ -575,11 +579,14 @@ msgid ""
 "                  [-S START-TYPE] [-e SOURCE] [-W] [-t SECS] [-s] [-o "
 "OPTIONS]\n"
 msgstr ""
+"  %s register [-D DATADIR] [-N SERVICENAME] [-U USERNAME] [-P PASSWORD]\n"
+"                  [-S START-TYPE] [-e SOURCE] [-W] [-t SECS] [-s] [-o "
+"OPTIONS]\n"
 
 #: pg_ctl.c:1927
 #, c-format
 msgid "  %s unregister [-N SERVICENAME]\n"
-msgstr ""
+msgstr "  %s unregister [-N SERVICENAME]\n"
 
 #: pg_ctl.c:1930
 #, c-format
@@ -587,11 +594,13 @@ msgid ""
 "\n"
 "Common options:\n"
 msgstr ""
+"\n"
+"Tùy chọn chung:\n"
 
 #: pg_ctl.c:1931
 #, c-format
 msgid "  -D, --pgdata=DATADIR   location of the database storage area\n"
-msgstr ""
+msgstr "  -D, --pgdata=DATADIR   vị trí của vùng lưu trữ cơ sở dữ liệu\n"
 
 #: pg_ctl.c:1933
 #, c-format
@@ -599,22 +608,26 @@ msgid ""
 "  -e SOURCE              event source for logging when running as a "
 "service\n"
 msgstr ""
+"  -e SOURCE              nguồn sự kiện để ghi log khi chạy dưới dạng dịch "
+"vụ\n"
 
 #: pg_ctl.c:1935
 #, c-format
 msgid ""
 "  -s, --silent           only print errors, no informational messages\n"
 msgstr ""
+"  -s, --silent           chỉ in ra lỗi, không có thông báo thông tin\n"
 
 #: pg_ctl.c:1936
 #, c-format
 msgid "  -t, --timeout=SECS     seconds to wait when using -w option\n"
-msgstr ""
+msgstr "  -t, --timeout=SECS     số giây đợi khi sử dụng tùy chọn -w\n"
 
 #: pg_ctl.c:1937
 #, c-format
 msgid "  -V, --version          output version information, then exit\n"
 msgstr ""
+"  -V, --version          xuất thông tin phiên bản, sau đó kết thúc\n"
 
 #: pg_ctl.c:1938
 #, c-format
