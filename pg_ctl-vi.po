@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pg_ctl (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-04-22 12:16+0000\n"
-"PO-Revision-Date: 2018-05-16 23:31+0900\n"
+"PO-Revision-Date: 2018-05-17 22:55+0900\n"
 "Language-Team: <pgvn_translators@postgresql.vn>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -425,85 +425,88 @@ msgstr "%s: dịch vụ \"%s\" đã được đăng ký\n"
 #: pg_ctl.c:1419
 #, c-format
 msgid "%s: could not register service \"%s\": error code %lu\n"
-msgstr ""
+msgstr "%s: không thể đăng ký dịch vụ \"%s\": mã lỗi %lu\n"
 
 #: pg_ctl.c:1442
 #, c-format
 msgid "%s: service \"%s\" not registered\n"
-msgstr ""
+msgstr "%s: dịch vụ \"%s\" chưa được đăng ký\n"
 
 #: pg_ctl.c:1449
 #, c-format
 msgid "%s: could not open service \"%s\": error code %lu\n"
-msgstr ""
+msgstr "%s: không thể mở dịch vụ \"%s\": mã lỗi %lu\n"
 
 #: pg_ctl.c:1458
 #, c-format
 msgid "%s: could not unregister service \"%s\": error code %lu\n"
-msgstr ""
+msgstr "%s: không thể hủy đăng ký dịch vụ \"%s\": mã lỗi %lu\n"
 
 #: pg_ctl.c:1545
 msgid "Waiting for server startup...\n"
-msgstr ""
+msgstr "Đang đợi máy chủ khởi động...\n"
 
 #: pg_ctl.c:1548
 msgid "Timed out waiting for server startup\n"
-msgstr ""
+msgstr "Đã hết thời gian chờ khởi động máy chủ\n"
 
 #: pg_ctl.c:1552
 msgid "Server started and accepting connections\n"
-msgstr ""
+msgstr "Máy chủ đã khởi động và chấp nhận kết nối\n"
 
 #: pg_ctl.c:1607
 #, c-format
 msgid "%s: could not start service \"%s\": error code %lu\n"
-msgstr ""
+msgstr "%s: không thể khởi động dịch vụ \"%s\": mã lỗi %lu\n"
 
 #: pg_ctl.c:1677
 #, c-format
 msgid "%s: WARNING: cannot create restricted tokens on this platform\n"
 msgstr ""
+"%s: CẢNH BÁO: không thể tạo restricted tokens trên hệ điều hành này\n"
 
 #: pg_ctl.c:1690
 #, c-format
 msgid "%s: could not open process token: error code %lu\n"
-msgstr ""
+msgstr "%s: không thể mở token process: mã lỗi %lu\n"
 
 #: pg_ctl.c:1704
 #, c-format
 msgid "%s: could not allocate SIDs: error code %lu\n"
-msgstr ""
+msgstr "%s: không thể cấp phát SID: mã lỗi %lu\n"
 
 #: pg_ctl.c:1731
 #, c-format
 msgid "%s: could not create restricted token: error code %lu\n"
-msgstr ""
+msgstr "%s: không thể tạo restricted token: mã lỗi %lu\n"
 
 #: pg_ctl.c:1762
 #, c-format
 msgid ""
 "%s: WARNING: could not locate all job object functions in system API\n"
 msgstr ""
+"%s: CẢNH BÁO: không thể định vị tất cả các chức năng đối tượng công việc "
+"trong API hệ thống\n"
 
 #: pg_ctl.c:1858
 #, c-format
 msgid "%s: could not get LUIDs for privileges: error code %lu\n"
-msgstr ""
+msgstr "%s: không thể nhận được LUID cho đặc quyền: mã lỗi %lu\n"
 
 #: pg_ctl.c:1866 pg_ctl.c:1880
 #, c-format
 msgid "%s: could not get token information: error code %lu\n"
-msgstr ""
+msgstr "%s: không thể nhận được thông tin token: mã lỗi %lu\n"
 
 #: pg_ctl.c:1874
 #, c-format
 msgid "%s: out of memory\n"
-msgstr ""
+msgstr "%s: hết bộ nhớ\n"
 
 #: pg_ctl.c:1904
 #, c-format
 msgid "Try \"%s --help\" for more information.\n"
-msgstr ""
+msgstr "Hãy thử \"%s --help\" để biết thêm thông tin.\n"
 
 #: pg_ctl.c:1912
 #, c-format
@@ -512,16 +515,19 @@ msgid ""
 "server.\n"
 "\n"
 msgstr ""
+"%s là một tiện ích để khởi tạo, khởi động, dừng hoặc điều khiển máy chủ "
+"PostgreSQL.\n"
+"\n"
 
 #: pg_ctl.c:1913
 #, c-format
 msgid "Usage:\n"
-msgstr ""
+msgstr "Cách sử dụng:\n"
 
 #: pg_ctl.c:1914
 #, c-format
 msgid "  %s init[db] [-D DATADIR] [-s] [-o OPTIONS]\n"
-msgstr ""
+msgstr "  %s init[db] [-D DATADIR] [-s] [-o OPTIONS]\n"
 
 #: pg_ctl.c:1915
 #, c-format
@@ -614,22 +620,23 @@ msgstr ""
 #, c-format
 msgid "  -w, --wait             wait until operation completes (default)\n"
 msgstr ""
+"  -w, --wait             đợi cho đến khi hoạt động hoàn thành (mặc định)\n"
 
 #: pg_ctl.c:1939
 #, c-format
 msgid "  -W, --no-wait          do not wait until operation completes\n"
-msgstr ""
+msgstr "  -W, --no-wait          không đợi cho đến khi hoạt động hoàn tất\n"
 
 #: pg_ctl.c:1940
 #, c-format
 msgid "  -?, --help             show this help, then exit\n"
-msgstr ""
+msgstr "  -?, --help             hiển thị trợ giúp này, sau đó thoát\n"
 
 #: pg_ctl.c:1941
 #, c-format
 msgid ""
 "If the -D option is omitted, the environment variable PGDATA is used.\n"
-msgstr ""
+msgstr "Nếu thiếu tùy chọn -D, biến môi trường PGDATA sẽ được sử dụng.\n"
 
 #: pg_ctl.c:1943
 #, c-format
@@ -637,21 +644,24 @@ msgid ""
 "\n"
 "Options for start or restart:\n"
 msgstr ""
+"\n"
+"Tùy chọn cho khởi động hoặc khởi động lại:\n"
 
 #: pg_ctl.c:1945
 #, c-format
 msgid "  -c, --core-files       allow postgres to produce core files\n"
-msgstr ""
+msgstr "  -c, --core-files       cho phép postgres sinh tệp core\n"
 
 #: pg_ctl.c:1947
 #, c-format
 msgid "  -c, --core-files       not applicable on this platform\n"
-msgstr ""
+msgstr "  -c, --core-files       không áp dụng trên hệ điều hành này\n"
 
 #: pg_ctl.c:1949
 #, c-format
 msgid "  -l, --log=FILENAME     write (or append) server log to FILENAME\n"
 msgstr ""
+"  -l, --log=FILENAME     viết (hoặc thêm) log của máy chủ tới FILENAME\n"
 
 #: pg_ctl.c:1950
 #, c-format
@@ -659,11 +669,13 @@ msgid ""
 "  -o, --options=OPTIONS  command line options to pass to postgres\n"
 "                         (PostgreSQL server executable) or initdb\n"
 msgstr ""
+"  -o, --options=OPTIONS  tùy chọn gửi đến lệnh postgres (lệnh thực thi\n"
+"                         máy chủ PostgreSQL) hoặc initdb\n"
 
 #: pg_ctl.c:1952
 #, c-format
 msgid "  -p PATH-TO-POSTGRES    normally not necessary\n"
-msgstr ""
+msgstr "  -p PATH-TO-POSTGRES    thường không cần thiết\n"
 
 #: pg_ctl.c:1953
 #, c-format
@@ -671,6 +683,8 @@ msgid ""
 "\n"
 "Options for stop or restart:\n"
 msgstr ""
+"\n"
+"Tùy chọn dừng hoặc khởi động lại:\n"
 
 #: pg_ctl.c:1954
 #, c-format
@@ -678,6 +692,8 @@ msgid ""
 "  -m, --mode=MODE        MODE can be \"smart\", \"fast\", or \"immediate"
 "\"\n"
 msgstr ""
+"  -m, --mode=MODE        MODE có thể là \"smart\", \"fast\", hoặc "
+"\"immediate\"\n"
 
 #: pg_ctl.c:1956
 #, c-format
@@ -685,16 +701,18 @@ msgid ""
 "\n"
 "Shutdown modes are:\n"
 msgstr ""
+"\n"
+"Chế độ tắt máy có thể là:\n"
 
 #: pg_ctl.c:1957
 #, c-format
 msgid "  smart       quit after all clients have disconnected\n"
-msgstr ""
+msgstr "  smart       thoát sau khi tất cả các client đã ngắt kết nối\n"
 
 #: pg_ctl.c:1958
 #, c-format
 msgid "  fast        quit directly, with proper shutdown (default)\n"
-msgstr ""
+msgstr "  fast        thoát trực tiếp, và tắt máy đúng cách (mặc định)\n"
 
 #: pg_ctl.c:1959
 #, c-format
@@ -702,6 +720,9 @@ msgid ""
 "  immediate   quit without complete shutdown; will lead to recovery on "
 "restart\n"
 msgstr ""
+"  immediate   thoát mà không chờ máy chủ tắt hoàn toàn; sẽ dẫn đến khởi "
+"động \n"
+"              ở chế độ phục hồi ở lần tới\n"
 
 #: pg_ctl.c:1961
 #, c-format
@@ -709,6 +730,8 @@ msgid ""
 "\n"
 "Allowed signal names for kill:\n"
 msgstr ""
+"\n"
+"Tên các tín hiệu chấp nhận cho tùy chọn kill:\n"
 
 #: pg_ctl.c:1965
 #, c-format
@@ -716,29 +739,36 @@ msgid ""
 "\n"
 "Options for register and unregister:\n"
 msgstr ""
+"\n"
+"Tùy chọn đăng ký và hủy đăng ký dịch vụ:\n"
 
 #: pg_ctl.c:1966
 #, c-format
 msgid ""
 "  -N SERVICENAME  service name with which to register PostgreSQL server\n"
-msgstr ""
+msgstr "  -N SERVICENAME  tên dịch vụ để đăng ký máy chủ PostgreSQL\n"
 
 #: pg_ctl.c:1967
 #, c-format
 msgid ""
 "  -P PASSWORD     password of account to register PostgreSQL server\n"
 msgstr ""
+"  -P PASSWORD     mật khẩu của tài khoản để đăng ký máy chủ PostgreSQL\n"
 
 #: pg_ctl.c:1968
 #, c-format
 msgid ""
 "  -U USERNAME     user name of account to register PostgreSQL server\n"
 msgstr ""
+"  -U USERNAME     tên người dùng của tài khoản để đăng ký máy chủ "
+"PostgreSQL\n"
 
 #: pg_ctl.c:1969
 #, c-format
 msgid "  -S START-TYPE   service start type to register PostgreSQL server\n"
 msgstr ""
+"  -S START-TYPE   kiểu khởi động dịch vụ để đăng ký cho máy chủ "
+"PostgreSQL\n"
 
 #: pg_ctl.c:1971
 #, c-format
@@ -746,17 +776,21 @@ msgid ""
 "\n"
 "Start types are:\n"
 msgstr ""
+"\n"
+"Kiểu khởi động có thể là:\n"
 
 #: pg_ctl.c:1972
 #, c-format
 msgid ""
 "  auto       start service automatically during system startup (default)\n"
 msgstr ""
+"  auto       khởi động dịch vụ tự động khi khởi động hệ điều hành (mặc "
+"định)\n"
 
 #: pg_ctl.c:1973
 #, c-format
 msgid "  demand     start service on demand\n"
-msgstr ""
+msgstr "  demand     khởi động dịch vụ theo yêu cầu\n"
 
 #: pg_ctl.c:1976
 #, c-format
@@ -764,31 +798,33 @@ msgid ""
 "\n"
 "Report bugs to <pgsql-bugs@postgresql.org>.\n"
 msgstr ""
+"\n"
+"Báo cáo lỗi cho <pgsql-bugs@postgresql.org>.\n"
 
 #: pg_ctl.c:2001
 #, c-format
 msgid "%s: unrecognized shutdown mode \"%s\"\n"
-msgstr ""
+msgstr "%s: không thể xác định được chế độ tắt \"%s\"\n"
 
 #: pg_ctl.c:2030
 #, c-format
 msgid "%s: unrecognized signal name \"%s\"\n"
-msgstr ""
+msgstr "%s: không thể xác định được tên tín hiệu \"%s\"\n"
 
 #: pg_ctl.c:2047
 #, c-format
 msgid "%s: unrecognized start type \"%s\"\n"
-msgstr ""
+msgstr "%s: không thể xác nhận được kiểu khởi động \"%s\"\n"
 
 #: pg_ctl.c:2102
 #, c-format
 msgid "%s: could not determine the data directory using command \"%s\"\n"
-msgstr ""
+msgstr "%s: không thể xác định thư mục dữ liệu bằng lệnh \"%s\"\n"
 
 #: pg_ctl.c:2127
 #, c-format
 msgid "%s: control file appears to be corrupt\n"
-msgstr ""
+msgstr "%s: tệp điều khiển có thể đã bị hỏng\n"
 
 #: pg_ctl.c:2198
 #, c-format
@@ -797,31 +833,34 @@ msgid ""
 "Please log in (using, e.g., \"su\") as the (unprivileged) user that will\n"
 "own the server process.\n"
 msgstr ""
+"%s: không thể chạy dưới quyền root\n"
+"Vui lòng đăng nhập (sử dụng, ví dụ: \"su\") với tư cách người dùng\n"
+"(không có đặc quyền) sẽ sở hữu tiến trình máy chủ.\n"
 
 #: pg_ctl.c:2282
 #, c-format
 msgid "%s: -S option not supported on this platform\n"
-msgstr ""
+msgstr "%s: tùy chọn -S không được hỗ trợ trên hệ điều hành này\n"
 
 #: pg_ctl.c:2319
 #, c-format
 msgid "%s: too many command-line arguments (first is \"%s\")\n"
-msgstr ""
+msgstr "%s: quá nhiều đối số dòng lệnh (đầu tiên là \"%s\")\n"
 
 #: pg_ctl.c:2343
 #, c-format
 msgid "%s: missing arguments for kill mode\n"
-msgstr ""
+msgstr "%s: thiếu đối số cho tùy chọn kill\n"
 
 #: pg_ctl.c:2361
 #, c-format
 msgid "%s: unrecognized operation mode \"%s\"\n"
-msgstr ""
+msgstr "%s: không xác định được chế độ hoạt động \"%s\"\n"
 
 #: pg_ctl.c:2371
 #, c-format
 msgid "%s: no operation specified\n"
-msgstr ""
+msgstr "%s: không có thao tác nào được chỉ định\n"
 
 #: pg_ctl.c:2392
 #, c-format
@@ -829,3 +868,5 @@ msgid ""
 "%s: no database directory specified and environment variable PGDATA "
 "unset\n"
 msgstr ""
+"%s: không có thư mục cơ sở dữ liệu nào được chỉ định và biến môi trường "
+"PGDATA không được đặt\n"
