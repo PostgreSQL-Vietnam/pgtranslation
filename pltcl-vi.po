@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pltcl (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
-"POT-Creation-Date: 2018-04-22 12:08+0000\n"
+"POT-Creation-Date: 2018-05-26 21:37+0000\n"
 "PO-Revision-Date: 2018-04-29 22:56+0900\n"
+"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
 "Language-Team: <pgvn_translators@postgresql.vn>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
 
 #: pltcl.c:466
 msgid "PL/Tcl function to call once when pltcl is first used."
@@ -91,17 +91,17 @@ msgstr "Hàm PL/Tcl không thể chấp nhận kiểu %s"
 msgid "could not create internal procedure \"%s\": %s"
 msgstr "không thể tạo procedure nội bộ \"%s\": %s"
 
-#: pltcl.c:3219
+#: pltcl.c:3220
 #, c-format
 msgid "column name/value list must have even number of elements"
 msgstr "danh sách cột tên/giá trị phải có giá trị chẵn cho số phần tử"
 
-#: pltcl.c:3237
+#: pltcl.c:3238
 #, c-format
 msgid "column name/value list contains nonexistent column name \"%s\""
 msgstr "danh sách cột tên/giá trị chứa tên cột không tồn tại \"%s\""
 
-#: pltcl.c:3244
+#: pltcl.c:3245
 #, c-format
 msgid "cannot set system attribute \"%s\""
 msgstr "không thể thiết lập attribute hệ thống \"%s\""

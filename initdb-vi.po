@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: initdb (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
-"POT-Creation-Date: 2018-04-22 12:17+0000\n"
+"POT-Creation-Date: 2018-05-26 21:46+0000\n"
 "PO-Revision-Date: 2018-04-29 00:02+0900\n"
+"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
 "Language-Team: <pgvn_translators@postgresql.vn>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
 
 #: ../../common/exec.c:127 ../../common/exec.c:241 ../../common/exec.c:284
 #, c-format
@@ -113,8 +113,7 @@ msgstr "không thể đóng thư mục \"%s\": %s\n"
 #: ../../common/restricted_token.c:68
 #, c-format
 msgid "%s: WARNING: cannot create restricted tokens on this platform\n"
-msgstr ""
-"%s: CẢNH BÁO: không thể tạo restricted tokens trên hệ điều hành hiện tại\n"
+msgstr "%s: CẢNH BÁO: không thể tạo restricted tokens trên hệ điều hành hiện tại\n"
 
 #: ../../common/restricted_token.c:77
 #, c-format
@@ -298,8 +297,7 @@ msgid ""
 "own the server process.\n"
 msgstr ""
 "%s: không thể chạy dưới quyền root\n"
-"Vui lòng đăng nhập (sử dụng, ví dụ: \"su\") bằng người dùng không có đặc "
-"quyền,\n"
+"Vui lòng đăng nhập (sử dụng, ví dụ: \"su\") bằng người dùng không có đặc quyền,\n"
 "người dùng này sẽ sở hữu tiến trình server.\n"
 
 #: initdb.c:703
@@ -392,49 +390,47 @@ msgstr "%s: không thể đọc mật khẩu từ tệp \"%s\": %s\n"
 msgid "%s: password file \"%s\" is empty\n"
 msgstr "%s: tệp mật khẩu \"%s\" trống\n"
 
-#: initdb.c:2123
+#: initdb.c:2130
 #, c-format
 msgid "caught signal\n"
 msgstr "nhận được tín hiệu\n"
 
-#: initdb.c:2129
+#: initdb.c:2136
 #, c-format
 msgid "could not write to child process: %s\n"
 msgstr "không thể ghi tới tiến trình con: %s\n"
 
-#: initdb.c:2137
+#: initdb.c:2144
 #, c-format
 msgid "ok\n"
 msgstr "ok\n"
 
-#: initdb.c:2227
+#: initdb.c:2234
 #, c-format
 msgid "%s: setlocale() failed\n"
 msgstr "%s: setlocale() lỗi\n"
 
-#: initdb.c:2249
+#: initdb.c:2256
 #, c-format
 msgid "%s: failed to restore old locale \"%s\"\n"
 msgstr "%s: lỗi khi khôi phục ngôn ngữ cũ \"%s\"\n"
 
-#: initdb.c:2259
+#: initdb.c:2266
 #, c-format
 msgid "%s: invalid locale name \"%s\"\n"
 msgstr "%s: tên ngôn ngữ không hợp lệ \"%s\"\n"
 
-#: initdb.c:2271
+#: initdb.c:2278
 #, c-format
-msgid ""
-"%s: invalid locale settings; check LANG and LC_* environment variables\n"
-msgstr ""
-"%s: cài đặt ngôn ngữ không hợp lệ; kiểm tra biến môi trường LANG và LC_ *\n"
+msgid "%s: invalid locale settings; check LANG and LC_* environment variables\n"
+msgstr "%s: cài đặt ngôn ngữ không hợp lệ; kiểm tra biến môi trường LANG và LC_ *\n"
 
-#: initdb.c:2299
+#: initdb.c:2306
 #, c-format
 msgid "%s: encoding mismatch\n"
 msgstr "%s: mã hóa không khớp\n"
 
-#: initdb.c:2301
+#: initdb.c:2308
 #, c-format
 msgid ""
 "The encoding you selected (%s) and the encoding that the\n"
@@ -448,7 +444,7 @@ msgstr ""
 "đúng trong các hàm xử lý chuỗi ký tự. Chạy lại lệnh %s và không \n"
 "chỉ định mã hóa, hoặc chọn mã hóa phù hợp.\n"
 
-#: initdb.c:2373
+#: initdb.c:2380
 #, c-format
 msgid ""
 "%s initializes a PostgreSQL database cluster.\n"
@@ -457,17 +453,17 @@ msgstr ""
 "%s khởi tạo thư mục dữ liệu cho PostgreSQL.\n"
 "\n"
 
-#: initdb.c:2374
+#: initdb.c:2381
 #, c-format
 msgid "Usage:\n"
 msgstr "Cách sử dụng:\n"
 
-#: initdb.c:2375
+#: initdb.c:2382
 #, c-format
 msgid "  %s [OPTION]... [DATADIR]\n"
 msgstr "  %s [OPTION]... [DATADIR]\n"
 
-#: initdb.c:2376
+#: initdb.c:2383
 #, c-format
 msgid ""
 "\n"
@@ -476,86 +472,65 @@ msgstr ""
 "\n"
 "Tùy chọn:\n"
 
-#: initdb.c:2377
+#: initdb.c:2384
 #, c-format
-msgid ""
-"  -A, --auth=METHOD         default authentication method for local "
-"connections\n"
-msgstr ""
-"  -A, --auth=METHOD         phương pháp xác thực mặc định cho kết nối cục "
-"bộ\n"
+msgid "  -A, --auth=METHOD         default authentication method for local connections\n"
+msgstr "  -A, --auth=METHOD         phương pháp xác thực mặc định cho kết nối cục bộ\n"
 
-#: initdb.c:2378
+#: initdb.c:2385
 #, c-format
-msgid ""
-"      --auth-host=METHOD    default authentication method for local TCP/IP "
-"connections\n"
-msgstr ""
-"      --auth-host=METHOD    phương thức xác thực mặc định cho các kết nối "
-"TCP/IP cục bộ\n"
+msgid "      --auth-host=METHOD    default authentication method for local TCP/IP connections\n"
+msgstr "      --auth-host=METHOD    phương thức xác thực mặc định cho các kết nối TCP/IP cục bộ\n"
 
-#: initdb.c:2379
+#: initdb.c:2386
 #, c-format
-msgid ""
-"      --auth-local=METHOD   default authentication method for local-socket "
-"connections\n"
-msgstr ""
-"      --auth-local=METHOD   phương thức xác thực mặc định cho các kết nối "
-"socket cục bộ\n"
+msgid "      --auth-local=METHOD   default authentication method for local-socket connections\n"
+msgstr "      --auth-local=METHOD   phương thức xác thực mặc định cho các kết nối socket cục bộ\n"
 
-#: initdb.c:2380
+#: initdb.c:2387
 #, c-format
 msgid " [-D, --pgdata=]DATADIR     location for this database cluster\n"
 msgstr " [-D, --pgdata=]DATADIR     vị trí cho thư mục cơ sở dữ liệu này\n"
 
-#: initdb.c:2381
+#: initdb.c:2388
 #, c-format
 msgid "  -E, --encoding=ENCODING   set default encoding for new databases\n"
-msgstr ""
-"  -E, --encoding=ENCODING   đặt mã hóa mặc định cho cơ sở dữ liệu mới\n"
+msgstr "  -E, --encoding=ENCODING   đặt mã hóa mặc định cho cơ sở dữ liệu mới\n"
 
-#: initdb.c:2382
+#: initdb.c:2389
 #, c-format
-msgid ""
-"  -g, --allow-group-access  allow group read/execute on data directory\n"
-msgstr ""
-"  -g, --allow-group-access  cho phép đọc/thực thi theo nhóm trên thư mục dữ "
-"liệu\n"
+msgid "  -g, --allow-group-access  allow group read/execute on data directory\n"
+msgstr "  -g, --allow-group-access  cho phép đọc/thực thi theo nhóm trên thư mục dữ liệu\n"
 
-#: initdb.c:2383
+#: initdb.c:2390
 #, c-format
 msgid "      --locale=LOCALE       set default locale for new databases\n"
-msgstr ""
-"      --locale=LOCALE       đặt ngôn ngữ mặc định cho cơ sở dữ liệu mới\n"
+msgstr "      --locale=LOCALE       đặt ngôn ngữ mặc định cho cơ sở dữ liệu mới\n"
 
-#: initdb.c:2384
+#: initdb.c:2391
 #, c-format
 msgid ""
 "      --lc-collate=, --lc-ctype=, --lc-messages=LOCALE\n"
 "      --lc-monetary=, --lc-numeric=, --lc-time=LOCALE\n"
-"                            set default locale in the respective category "
-"for\n"
+"                            set default locale in the respective category for\n"
 "                            new databases (default taken from environment)\n"
 msgstr ""
 "      --lc-collate=, --lc-ctype=, --lc-messages=LOCALE\n"
 "      --lc-monetary=, --lc-numeric=, --lc-time=LOCALE\n"
-"                            đặt ngôn ngữ mặc định trong danh mục tương "
-"ứng \n"
-"                            cho sở dữ liệu mới (mặc định được lấy từ môi "
-"trường)\n"
+"                            đặt ngôn ngữ mặc định trong danh mục tương ứng \n"
+"                            cho sở dữ liệu mới (mặc định được lấy từ môi trường)\n"
 
-#: initdb.c:2388
+#: initdb.c:2395
 #, c-format
 msgid "      --no-locale           equivalent to --locale=C\n"
 msgstr "      --no-locale           tương đương với --locale=C\n"
 
-#: initdb.c:2389
+#: initdb.c:2396
 #, c-format
-msgid ""
-"      --pwfile=FILE         read password for the new superuser from file\n"
+msgid "      --pwfile=FILE         read password for the new superuser from file\n"
 msgstr "      --pwfile=FILE         đặt mật khẩu cho superuser mới từ tệp\n"
 
-#: initdb.c:2390
+#: initdb.c:2397
 #, c-format
 msgid ""
 "  -T, --text-search-config=CFG\n"
@@ -564,33 +539,27 @@ msgstr ""
 "  -T, --text-search-config=CFG\n"
 "                            cấu hình tìm kiếm văn bản mặc định\n"
 
-#: initdb.c:2392
+#: initdb.c:2399
 #, c-format
 msgid "  -U, --username=NAME       database superuser name\n"
 msgstr "  -U, --username=NAME       tên superuser cơ sở dữ liệu\n"
 
-#: initdb.c:2393
+#: initdb.c:2400
 #, c-format
-msgid ""
-"  -W, --pwprompt            prompt for a password for the new superuser\n"
+msgid "  -W, --pwprompt            prompt for a password for the new superuser\n"
 msgstr "  -W, --pwprompt            yêu cầu nhập mật khẩu cho superuser mới\n"
 
-#: initdb.c:2394
+#: initdb.c:2401
 #, c-format
-msgid ""
-"  -X, --waldir=WALDIR       location for the write-ahead log directory\n"
-msgstr ""
-"  -X, --waldir=WALDIR       chỉ định vị trí cho thư mục write-ahead log "
-"(WAL)\n"
+msgid "  -X, --waldir=WALDIR       location for the write-ahead log directory\n"
+msgstr "  -X, --waldir=WALDIR       chỉ định vị trí cho thư mục write-ahead log (WAL)\n"
 
-#: initdb.c:2395
+#: initdb.c:2402
 #, c-format
 msgid "      --wal-segsize=SIZE    size of WAL segments, in megabytes\n"
-msgstr ""
-"      --wal-segsize=SIZE    kích thước của từng tệp WAL, tính bằng "
-"megabyte\n"
+msgstr "      --wal-segsize=SIZE    kích thước của từng tệp WAL, tính bằng megabyte\n"
 
-#: initdb.c:2396
+#: initdb.c:2403
 #, c-format
 msgid ""
 "\n"
@@ -599,48 +568,44 @@ msgstr ""
 "\n"
 "Các tùy chọn ít được sử dụng hơn:\n"
 
-#: initdb.c:2397
+#: initdb.c:2404
 #, c-format
 msgid "  -d, --debug               generate lots of debugging output\n"
 msgstr ""
 " -d, --debug               xuất nhiều thông tin debug\n"
 " \n"
 
-#: initdb.c:2398
+#: initdb.c:2405
 #, c-format
 msgid "  -k, --data-checksums      use data page checksums\n"
 msgstr "  -k, --data-checksums      sử dụng checksums cho page dữ liệu\n"
 
-#: initdb.c:2399
+#: initdb.c:2406
 #, c-format
 msgid "  -L DIRECTORY              where to find the input files\n"
 msgstr "  -L DIRECTORY              nơi để tìm các tập tin đầu vào\n"
 
-#: initdb.c:2400
+#: initdb.c:2407
 #, c-format
 msgid "  -n, --no-clean            do not clean up after errors\n"
 msgstr "  -n, --no-clean            không dọn dẹp sau khi lỗi\n"
 
-#: initdb.c:2401
+#: initdb.c:2408
 #, c-format
-msgid ""
-"  -N, --no-sync             do not wait for changes to be written safely to "
-"disk\n"
-msgstr ""
-"  -N, --no-sync             không thực hiện đồng bộ (sync) dữ liệu xuống "
-"đĩa luôn\n"
+msgid "  -N, --no-sync             do not wait for changes to be written safely to disk\n"
+msgstr "  -N, --no-sync             không thực hiện đồng bộ (sync) dữ liệu xuống đĩa luôn\n"
 
-#: initdb.c:2402
+#: initdb.c:2409
 #, c-format
 msgid "  -s, --show                show internal settings\n"
 msgstr "  -s, --show                hiển thị thiết lập nội bộ\n"
 
-#: initdb.c:2403
+#: initdb.c:2410
 #, c-format
 msgid "  -S, --sync-only           only sync data directory\n"
 msgstr "  -S, --sync-only           chỉ đồng bộ thư mục cơ sở dữ liệu\n"
 
-#: initdb.c:2404
+#: initdb.c:2411
 #, c-format
 msgid ""
 "\n"
@@ -649,19 +614,17 @@ msgstr ""
 "\n"
 "Các tùy chọn khác:\n"
 
-#: initdb.c:2405
+#: initdb.c:2412
 #, c-format
 msgid "  -V, --version             output version information, then exit\n"
-msgstr ""
-"  -V, --version             hiển thị thông tin phiên bản, sau đó thoát\n"
+msgstr "  -V, --version             hiển thị thông tin phiên bản, sau đó thoát\n"
 
-#: initdb.c:2406
+#: initdb.c:2413
 #, c-format
 msgid "  -?, --help                show this help, then exit\n"
-msgstr ""
-"  -?, --help                hiển thị nội dung hướng dẫn này, sau đó thoát\n"
+msgstr "  -?, --help                hiển thị nội dung hướng dẫn này, sau đó thoát\n"
 
-#: initdb.c:2407
+#: initdb.c:2414
 #, c-format
 msgid ""
 "\n"
@@ -672,7 +635,7 @@ msgstr ""
 "Nếu thư mục dữ liệu không được chỉ định, thì biến môi trường PGDATA\n"
 "sẽ được sử dụng.\n"
 
-#: initdb.c:2409
+#: initdb.c:2416
 #, c-format
 msgid ""
 "\n"
@@ -681,7 +644,7 @@ msgstr ""
 "\n"
 "Báo cáo bugs qua email <pgsql-bugs@postgresql.org>.\n"
 
-#: initdb.c:2417
+#: initdb.c:2424
 msgid ""
 "\n"
 "WARNING: enabling \"trust\" authentication for local connections\n"
@@ -690,22 +653,20 @@ msgid ""
 msgstr ""
 "\n"
 "CẢNH BÁO: đã thiết lập xác thực \"trust\" cho kết nối cục bộ\n"
-"Bạn có thể thay đổi điều này bằng cách chỉnh sửa pg_hba.conf hoặc sử dụng "
-"tùy chọn -A,\n"
+"Bạn có thể thay đổi điều này bằng cách chỉnh sửa pg_hba.conf hoặc sử dụng tùy chọn -A,\n"
 "hoặc --auth-local và --auth-host cho lần chạy initdb sau.\n"
 
-#: initdb.c:2439
+#: initdb.c:2446
 #, c-format
 msgid "%s: invalid authentication method \"%s\" for \"%s\" connections\n"
 msgstr "%s: phương pháp xác thực không hợp lệ \"%s\" cho kết nối \"%s\"\n"
 
-#: initdb.c:2455
+#: initdb.c:2462
 #, c-format
-msgid ""
-"%s: must specify a password for the superuser to enable %s authentication\n"
+msgid "%s: must specify a password for the superuser to enable %s authentication\n"
 msgstr "%s: phải chỉ định mật khẩu cho superuser để thiết lập xác thực %s\n"
 
-#: initdb.c:2483
+#: initdb.c:2490
 #, c-format
 msgid ""
 "%s: no data directory specified\n"
@@ -718,7 +679,7 @@ msgstr ""
 "Bạn có thể làm điều này với tùy chọn gọi -D hoặc\n"
 "biến môi trường PGDATA.\n"
 
-#: initdb.c:2521
+#: initdb.c:2528
 #, c-format
 msgid ""
 "The program \"postgres\" is needed by %s but was not found in the\n"
@@ -729,7 +690,7 @@ msgstr ""
 "trong cùng thư mục với \"%s\".\n"
 "Xin vui lòng kiểm tra cài đặt của bạn.\n"
 
-#: initdb.c:2528
+#: initdb.c:2535
 #, c-format
 msgid ""
 "The program \"postgres\" was found by \"%s\"\n"
@@ -740,17 +701,17 @@ msgstr ""
 "nhưng không cùng phiên bản với %s.\n"
 "Xin vui lòng kiểm tra cài đặt của bạn.\n"
 
-#: initdb.c:2547
+#: initdb.c:2554
 #, c-format
 msgid "%s: input file location must be an absolute path\n"
 msgstr "%s: vị trí tệp đầu vào phải là đường dẫn tuyệt đối\n"
 
-#: initdb.c:2564
+#: initdb.c:2571
 #, c-format
 msgid "The database cluster will be initialized with locale \"%s\".\n"
 msgstr "database cluster sẽ được khởi tạo với ngôn ngữ \"%s\".\n"
 
-#: initdb.c:2567
+#: initdb.c:2574
 #, c-format
 msgid ""
 "The database cluster will be initialized with locales\n"
@@ -769,38 +730,36 @@ msgstr ""
 "  NUMERIC:  %s\n"
 "  TIME:     %s\n"
 
-#: initdb.c:2591
+#: initdb.c:2598
 #, c-format
 msgid "%s: could not find suitable encoding for locale \"%s\"\n"
 msgstr "%s: không thể tìm thấy encoding phù hợp cho ngôn ngữ \"%s\"\n"
 
-#: initdb.c:2593
+#: initdb.c:2600
 #, c-format
 msgid "Rerun %s with the -E option.\n"
 msgstr "Chạy lại %s với tùy chọn -E.\n"
 
-#: initdb.c:2594 initdb.c:3235 initdb.c:3256
+#: initdb.c:2601 initdb.c:3242 initdb.c:3263
 #, c-format
 msgid "Try \"%s --help\" for more information.\n"
 msgstr "Hãy thử \"%s --help\" để biết thêm thông tin.\n"
 
-#: initdb.c:2607
+#: initdb.c:2614
 #, c-format
 msgid ""
-"Encoding \"%s\" implied by locale is not allowed as a server-side "
-"encoding.\n"
+"Encoding \"%s\" implied by locale is not allowed as a server-side encoding.\n"
 "The default database encoding will be set to \"%s\" instead.\n"
 msgstr ""
-"Encoding \"%s\" được ngụ ý bởi ngôn ngữ không được phép làm encoding cho "
-"server.\n"
+"Encoding \"%s\" được ngụ ý bởi ngôn ngữ không được phép làm encoding cho server.\n"
 "Thay vào đó, mặc định encoding cho cơ sở dữ liệu sẽ được đặt thành \"%s\".\n"
 
-#: initdb.c:2613
+#: initdb.c:2620
 #, c-format
 msgid "%s: locale \"%s\" requires unsupported encoding \"%s\"\n"
 msgstr "%s: ngôn ngữ \"%s\" yêu cầu encoding không được hỗ trợ \"%s\"\n"
 
-#: initdb.c:2616
+#: initdb.c:2623
 #, c-format
 msgid ""
 "Encoding \"%s\" is not allowed as a server-side encoding.\n"
@@ -809,68 +768,57 @@ msgstr ""
 "Encoding \"%s\" không được cho phép làm encoding cho server.\n"
 "Chạy lại %s với một lựa chọn ngôn ngữ khác.\n"
 
-#: initdb.c:2625
+#: initdb.c:2632
 #, c-format
 msgid "The default database encoding has accordingly been set to \"%s\".\n"
 msgstr "Mặc định encoding cho cơ sở dữ liệu đã được đặt thành \"%s\".\n"
 
-#: initdb.c:2695
+#: initdb.c:2702
 #, c-format
-msgid ""
-"%s: could not find suitable text search configuration for locale \"%s\"\n"
-msgstr ""
-"%s: không thể tìm thấy cấu hình tìm kiếm văn bản phù hợp cho ngôn ngữ \"%s"
-"\"\n"
+msgid "%s: could not find suitable text search configuration for locale \"%s\"\n"
+msgstr "%s: không thể tìm thấy cấu hình tìm kiếm văn bản phù hợp cho ngôn ngữ \"%s\"\n"
 
-#: initdb.c:2706
+#: initdb.c:2713
 #, c-format
-msgid ""
-"%s: warning: suitable text search configuration for locale \"%s\" is "
-"unknown\n"
-msgstr ""
-"%s: cảnh báo: cấu hình tìm kiếm văn bản phù hợp cho ngôn ngữ \"%s\" không "
-"xác định\n"
+msgid "%s: warning: suitable text search configuration for locale \"%s\" is unknown\n"
+msgstr "%s: cảnh báo: cấu hình tìm kiếm văn bản phù hợp cho ngôn ngữ \"%s\" không xác định\n"
 
-#: initdb.c:2711
+#: initdb.c:2718
 #, c-format
-msgid ""
-"%s: warning: specified text search configuration \"%s\" might not match "
-"locale \"%s\"\n"
-msgstr ""
-"%s: cảnh báo: cấu hình tìm kiếm văn bản được chỉ định \"%s\" có thể không "
-"khớp với ngôn ngữ \"%s\"\n"
+msgid "%s: warning: specified text search configuration \"%s\" might not match locale \"%s\"\n"
+msgstr "%s: cảnh báo: cấu hình tìm kiếm văn bản được chỉ định \"%s\" có thể không khớp với ngôn ngữ \"%s\"\n"
 
-#: initdb.c:2716
+#: initdb.c:2723
 #, c-format
 msgid "The default text search configuration will be set to \"%s\".\n"
 msgstr "Cấu hình tìm kiếm văn bản mặc định sẽ được đặt thành \"%s\".\n"
 
-#: initdb.c:2760 initdb.c:2846
+#: initdb.c:2767 initdb.c:2853
 #, c-format
 msgid "creating directory %s ... "
 msgstr "đang tạo thư mục %s ... "
 
-#: initdb.c:2766 initdb.c:2852 initdb.c:2920 initdb.c:2982
+#: initdb.c:2773 initdb.c:2859 initdb.c:2927 initdb.c:2989
 #, c-format
 msgid "%s: could not create directory \"%s\": %s\n"
 msgstr "%s: không thể tạo thư mục \"%s\": %s\n"
 
-#: initdb.c:2778 initdb.c:2864
+#: initdb.c:2785 initdb.c:2871
 #, c-format
 msgid "fixing permissions on existing directory %s ... "
 msgstr "đang sửa các quyền trên thư mục hiện tại %s ... "
 
-#: initdb.c:2784 initdb.c:2870
+#: initdb.c:2791 initdb.c:2877
 #, c-format
 msgid "%s: could not change permissions of directory \"%s\": %s\n"
 msgstr "%s: không thể thay đổi quyền của thư mục \"%s\": %s\n"
 
-#: initdb.c:2799 initdb.c:2885
+#: initdb.c:2806 initdb.c:2892
 #, c-format
 msgid "%s: directory \"%s\" exists but is not empty\n"
 msgstr "%s: thư mục \"%s\" tồn tại nhưng không trống\n"
 
-#: initdb.c:2805
+#: initdb.c:2812
 #, c-format
 msgid ""
 "If you want to create a new database system, either remove or empty\n"
@@ -881,137 +829,124 @@ msgstr ""
 "thư mục \"%s\" hoặc chạy %s\n"
 "với một đối số khác với \"%s\".\n"
 
-#: initdb.c:2813 initdb.c:2898 initdb.c:3269
+#: initdb.c:2820 initdb.c:2905 initdb.c:3276
 #, c-format
 msgid "%s: could not access directory \"%s\": %s\n"
 msgstr "%s: không thể truy cập thư mục \"%s\": %s\n"
 
-#: initdb.c:2837
+#: initdb.c:2844
 #, c-format
 msgid "%s: WAL directory location must be an absolute path\n"
 msgstr "%s: Vị trí thư mục WAL phải là đường dẫn tuyệt đối\n"
 
-#: initdb.c:2891
+#: initdb.c:2898
 #, c-format
 msgid ""
 "If you want to store the WAL there, either remove or empty the directory\n"
 "\"%s\".\n"
 msgstr ""
-"Nếu bạn muốn lưu trữ WAL ở thư mục đã chỉ định, hãy xóa hoặc làm trống thư "
-"mục\n"
+"Nếu bạn muốn lưu trữ WAL ở thư mục đã chỉ định, hãy xóa hoặc làm trống thư mục\n"
 "\"%s\".\n"
 
-#: initdb.c:2906
+#: initdb.c:2913
 #, c-format
 msgid "%s: could not create symbolic link \"%s\": %s\n"
 msgstr "%s: không thể tạo symbolic link \"%s\": %s\n"
 
-#: initdb.c:2911
+#: initdb.c:2918
 #, c-format
 msgid "%s: symlinks are not supported on this platform"
 msgstr "%s: symlinks không được hỗ trợ trên hệ điều hành này"
 
-#: initdb.c:2935
+#: initdb.c:2942
 #, c-format
-msgid ""
-"It contains a dot-prefixed/invisible file, perhaps due to it being a mount "
-"point.\n"
-msgstr ""
-"Đường dẫn chứa tập tin có tiền tố . hoặc vô hình, có lẽ do nó là một mount "
-"point.\n"
+msgid "It contains a dot-prefixed/invisible file, perhaps due to it being a mount point.\n"
+msgstr "Đường dẫn chứa tập tin có tiền tố . hoặc vô hình, có lẽ do nó là một mount point.\n"
 
-#: initdb.c:2938
+#: initdb.c:2945
 #, c-format
-msgid ""
-"It contains a lost+found directory, perhaps due to it being a mount point.\n"
+msgid "It contains a lost+found directory, perhaps due to it being a mount point.\n"
 msgstr "Đường dẫn chứa thư mục lost+found, có lẽ do nó là một mount point.\n"
 
-#: initdb.c:2941
+#: initdb.c:2948
 #, c-format
 msgid ""
 "Using a mount point directly as the data directory is not recommended.\n"
 "Create a subdirectory under the mount point.\n"
 msgstr ""
-"Sử dụng trực tiếp mount point cho thư mục dữ liệu là không được khuyến "
-"nghị.\n"
+"Sử dụng trực tiếp mount point cho thư mục dữ liệu là không được khuyến nghị.\n"
 "Tạo một thư mục con dưới mount point.\n"
 
-#: initdb.c:2967
+#: initdb.c:2974
 #, c-format
 msgid "creating subdirectories ... "
 msgstr "tạo thư mục con ... "
 
-#: initdb.c:3014
+#: initdb.c:3021
 msgid "performing post-bootstrap initialization ... "
 msgstr "thực hiện khởi tạo sau-bootstrap ... "
 
-#: initdb.c:3173
+#: initdb.c:3180
 #, c-format
 msgid "Running in debug mode.\n"
 msgstr "Chạy trong chế độ debug.\n"
 
-#: initdb.c:3177
+#: initdb.c:3184
 #, c-format
 msgid "Running in no-clean mode.  Mistakes will not be cleaned up.\n"
 msgstr "Chạy ở chế độ không dọn dẹp.  lỗi xảy ra sẽ khộng được dọn dẹp.\n"
 
-#: initdb.c:3254
+#: initdb.c:3261
 #, c-format
 msgid "%s: too many command-line arguments (first is \"%s\")\n"
 msgstr "%s: quá nhiều đối số cho câu lệnh (đầu tiên là \"%s\")\n"
 
-#: initdb.c:3274 initdb.c:3367
+#: initdb.c:3281 initdb.c:3374
 msgid "syncing data to disk ... "
 msgstr "đồng bộ dữ liệu xuống đĩa cứng ... "
 
-#: initdb.c:3283
+#: initdb.c:3290
 #, c-format
 msgid "%s: password prompt and password file cannot be specified together\n"
 msgstr "%s: không thể chỉ định yêu cầu mật khẩu và tệp mật khẩu cùng lúc\n"
 
-#: initdb.c:3309
+#: initdb.c:3316
 #, c-format
 msgid "%s: argument of --wal-segsize must be a number\n"
 msgstr "%s: đối số của --wal-segsize phải là một số\n"
 
-#: initdb.c:3316
+#: initdb.c:3323
 #, c-format
-msgid ""
-"%s: argument of --wal-segsize must be a power of 2 between 1 and 1024\n"
+msgid "%s: argument of --wal-segsize must be a power of 2 between 1 and 1024\n"
 msgstr "%s: đối số của --wal-segsize phải là lũy thừa của 2 từ 1 đến 1024\n"
 
-#: initdb.c:3334
+#: initdb.c:3341
 #, c-format
-msgid ""
-"%s: superuser name \"%s\" is disallowed; role names cannot begin with \"pg_"
-"\"\n"
-msgstr ""
-"%s: tên superuser \"%s\" không được phép, tên role không thể bắt đầu bằng "
-"\"pg_\"\n"
+msgid "%s: superuser name \"%s\" is disallowed; role names cannot begin with \"pg_\"\n"
+msgstr "%s: tên superuser \"%s\" không được phép, tên role không thể bắt đầu bằng \"pg_\"\n"
 
-#: initdb.c:3338
+#: initdb.c:3345
 #, c-format
 msgid ""
 "The files belonging to this database system will be owned by user \"%s\".\n"
 "This user must also own the server process.\n"
 "\n"
 msgstr ""
-"Các tệp thuộc hệ thống cơ sở dữ liệu này sẽ được sở hữu bởi người dùng \"%s"
-"\".\n"
+"Các tệp thuộc hệ thống cơ sở dữ liệu này sẽ được sở hữu bởi người dùng \"%s\".\n"
 "Người dùng này cũng phải sở hữu tiến trình server.\n"
 "\n"
 
-#: initdb.c:3354
+#: initdb.c:3361
 #, c-format
 msgid "Data page checksums are enabled.\n"
 msgstr "Checksums cho page dữ liệu đã được thiết lập.\n"
 
-#: initdb.c:3356
+#: initdb.c:3363
 #, c-format
 msgid "Data page checksums are disabled.\n"
 msgstr "Thiết lập checksums cho page dữ liệu đã bị hủy.\n"
 
-#: initdb.c:3373
+#: initdb.c:3380
 #, c-format
 msgid ""
 "\n"
@@ -1023,11 +958,11 @@ msgstr ""
 "Thư mục dữ liệu có thể bị hỏng nếu hệ điều hành bị sự cố.\n"
 
 #. translator: This is a placeholder in a shell command.
-#: initdb.c:3399
+#: initdb.c:3406
 msgid "logfile"
 msgstr "logfile"
 
-#: initdb.c:3401
+#: initdb.c:3408
 #, c-format
 msgid ""
 "\n"
@@ -1037,8 +972,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Thành công. Bây giờ bạn có thể khởi động hệ thống cơ sở dữ liệu bằng cách "
-"sử dụng:\n"
+"Thành công. Bây giờ bạn có thể khởi động hệ thống cơ sở dữ liệu bằng cách sử dụng:\n"
 "\n"
 "    %s\n"
 "\n"

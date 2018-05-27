@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pg_basebackup (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
-"POT-Creation-Date: 2018-04-22 12:16+0000\n"
-"PO-Revision-Date: 2018-05-06 01:24+0900\n"
+"POT-Creation-Date: 2018-05-26 21:46+0000\n"
+"PO-Revision-Date: 2018-05-27 20:28+0900\n"
+"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
 "Language-Team: <pgvn_translators@postgresql.vn>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
-"Language: vi_VN\n"
 
 #: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
 #: ../../common/fe_memutils.c:98
@@ -129,25 +129,18 @@ msgstr "%s: nhiều dấu \"=\" trong ánh xạ tablespace\n"
 
 #: pg_basebackup.c:280
 #, c-format
-msgid ""
-"%s: invalid tablespace mapping format \"%s\", must be \"OLDDIR=NEWDIR\"\n"
-msgstr ""
-"%s: định dạng ánh xạ tablespace không hợp lệ \"%s\", phải là \"OLDDIR=NEWDIR"
-"\"\n"
+msgid "%s: invalid tablespace mapping format \"%s\", must be \"OLDDIR=NEWDIR\"\n"
+msgstr "%s: định dạng ánh xạ tablespace không hợp lệ \"%s\", phải là \"OLDDIR=NEWDIR\"\n"
 
 #: pg_basebackup.c:293
 #, c-format
 msgid "%s: old directory is not an absolute path in tablespace mapping: %s\n"
-msgstr ""
-"%s: thư mục cũ không phải là đường dẫn tuyệt đối trong ánh xạ tablespace: "
-"%s\n"
+msgstr "%s: thư mục cũ không phải là đường dẫn tuyệt đối trong ánh xạ tablespace: %s\n"
 
 #: pg_basebackup.c:300
 #, c-format
 msgid "%s: new directory is not an absolute path in tablespace mapping: %s\n"
-msgstr ""
-"%s: thư mục mới không phải là đường dẫn tuyệt đối trong ánh xạ tablespace: "
-"%s\n"
+msgstr "%s: thư mục mới không phải là đường dẫn tuyệt đối trong ánh xạ tablespace: %s\n"
 
 #: pg_basebackup.c:339
 #, c-format
@@ -236,10 +229,8 @@ msgstr "  -z, --gzip             nén đầu ra định dạng tar\n"
 
 #: pg_basebackup.c:356
 #, c-format
-msgid ""
-"  -Z, --compress=0-9     compress tar output with given compression level\n"
-msgstr ""
-"  -Z, --compress=0-9     nén đầu ra định dạng tar với mức nén nhất định\n"
+msgid "  -Z, --compress=0-9     compress tar output with given compression level\n"
+msgstr "  -Z, --compress=0-9     nén đầu ra định dạng tar với mức nén nhất định\n"
 
 #: pg_basebackup.c:357
 #, c-format
@@ -277,9 +268,7 @@ msgstr "  -n, --no-clean         không dọn dẹp sau khi có lỗi\n"
 
 #: pg_basebackup.c:363
 #, c-format
-msgid ""
-"  -N, --no-sync          do not wait for changes to be written safely to "
-"disk\n"
+msgid "  -N, --no-sync          do not wait for changes to be written safely to disk\n"
 msgstr ""
 "  -N, --no-sync          không đợi những thay đổi được ghi một cách an toàn\n"
 "                         vào đĩa\n"
@@ -294,31 +283,29 @@ msgstr "  -P, --progress         hiển thị thông tin về tiến độ\n"
 msgid "  -S, --slot=SLOTNAME    replication slot to use\n"
 msgstr "  -S, --slot=SLOTNAME    chỉ định replication slot\n"
 
-#: pg_basebackup.c:366
-#, c-format
-msgid ""
-"      --no-slot          prevent creation of temporary replication slot\n"
-msgstr ""
-"      --no-slot          ngăn chặn tạo ra các slot tạm thời cho replication\n"
-
-#: pg_basebackup.c:367
-#, c-format
-msgid ""
-"  -k, --no-verify-checksums\n"
-"                         do not verify checksums\n"
-msgstr ""
-"  -k, --no-verify-checksums\n"
-"                         không xác minh checksum\n"
-
-#: pg_basebackup.c:369 pg_receivewal.c:91 pg_recvlogical.c:99
+#: pg_basebackup.c:366 pg_receivewal.c:91 pg_recvlogical.c:99
 #, c-format
 msgid "  -v, --verbose          output verbose messages\n"
 msgstr "  -v, --verbose          xuất thông báo chi tiết\n"
 
-#: pg_basebackup.c:370 pg_receivewal.c:92 pg_recvlogical.c:100
+#: pg_basebackup.c:367 pg_receivewal.c:92 pg_recvlogical.c:100
 #, c-format
 msgid "  -V, --version          output version information, then exit\n"
 msgstr "  -V, --version          hiển thị thông tin phiên bản, sau đó thoát\n"
+
+#: pg_basebackup.c:368
+#, c-format
+msgid "      --no-slot          prevent creation of temporary replication slot\n"
+msgstr "      --no-slot          ngăn chặn tạo ra các slot tạm thời cho replication\n"
+
+#: pg_basebackup.c:369
+#, c-format
+msgid ""
+"      --no-verify-checksums\n"
+"                         do not verify checksums\n"
+msgstr ""
+"  --no-verify-checksums\n"
+"                         không xác minh checksum\n"
 
 #: pg_basebackup.c:371 pg_receivewal.c:94 pg_recvlogical.c:101
 #, c-format
@@ -353,8 +340,7 @@ msgstr "  -p, --port=PORT        số port của database server\n"
 #, c-format
 msgid ""
 "  -s, --status-interval=INTERVAL\n"
-"                         time between status packets sent to server (in "
-"seconds)\n"
+"                         time between status packets sent to server (in seconds)\n"
 msgstr ""
 "  -s, --status-interval=INTERVAL\n"
 "                         thời gian giữa các gói trạng thái được gửi tới\n"
@@ -363,8 +349,7 @@ msgstr ""
 #: pg_basebackup.c:378 pg_receivewal.c:99 pg_recvlogical.c:106
 #, c-format
 msgid "  -U, --username=NAME    connect as specified database user\n"
-msgstr ""
-"  -U, --username=NAME    kết nối với người dùng cơ sở dữ liệu được chỉ định\n"
+msgstr "  -U, --username=NAME    kết nối với người dùng cơ sở dữ liệu được chỉ định\n"
 
 #: pg_basebackup.c:379 pg_receivewal.c:100 pg_recvlogical.c:107
 #, c-format
@@ -373,9 +358,7 @@ msgstr "  -w, --no-password      không bao giờ nhắc mật khẩu\n"
 
 #: pg_basebackup.c:380 pg_receivewal.c:101 pg_recvlogical.c:108
 #, c-format
-msgid ""
-"  -W, --password         force password prompt (should happen "
-"automatically)\n"
+msgid "  -W, --password         force password prompt (should happen automatically)\n"
 msgstr "  -W, --password         yêu cầu nhập mật khẩu (sẽ xảy ra tự động)\n"
 
 #: pg_basebackup.c:381 pg_receivewal.c:105 pg_recvlogical.c:109
@@ -393,7 +376,7 @@ msgid "%s: could not read from ready pipe: %s\n"
 msgstr "%s: không thể đọc từ pipe đã sẵn sàng: %s\n"
 
 #: pg_basebackup.c:432 pg_basebackup.c:563 pg_basebackup.c:2064
-#: streamutil.c:458
+#: streamutil.c:460
 #, c-format
 msgid "%s: could not parse write-ahead log location \"%s\"\n"
 msgstr "%s: không thể phân tích cú pháp vị trí WAL \"%s\"\n"
@@ -590,7 +573,8 @@ msgid "%s: initiating base backup, waiting for checkpoint to complete\n"
 msgstr "%s: bắt đầu sao lưu cơ sở, chờ checkpoint để hoàn thành\n"
 
 #: pg_basebackup.c:1829 pg_recvlogical.c:271 receivelog.c:493 receivelog.c:546
-#: receivelog.c:586 streamutil.c:428 streamutil.c:542 streamutil.c:588
+#: receivelog.c:586 streamutil.c:303 streamutil.c:377 streamutil.c:430
+#: streamutil.c:544 streamutil.c:590
 #, c-format
 msgid "%s: could not send replication command \"%s\": %s"
 msgstr "%s: không thể gửi lệnh replication \"%s\": %s"
@@ -602,12 +586,8 @@ msgstr "%s: không thể bắt đầu sao lưu cơ sở: %s"
 
 #: pg_basebackup.c:1847
 #, c-format
-msgid ""
-"%s: server returned unexpected response to BASE_BACKUP command; got %d rows "
-"and %d fields, expected %d rows and %d fields\n"
-msgstr ""
-"%s: server trả về phản hồi không mong muốn cho lệnh BASE_BACKUP, có %d hàng "
-"và %d trường, dự kiến %d hàng và %d trường\n"
+msgid "%s: server returned unexpected response to BASE_BACKUP command; got %d rows and %d fields, expected %d rows and %d fields\n"
+msgstr "%s: server trả về phản hồi không mong muốn cho lệnh BASE_BACKUP, có %d hàng và %d trường, dự kiến %d hàng và %d trường\n"
 
 #: pg_basebackup.c:1855
 #, c-format
@@ -717,17 +697,12 @@ msgstr "%s: sao lưu cơ sở đã hoàn thành\n"
 #: pg_basebackup.c:2208
 #, c-format
 msgid "%s: invalid output format \"%s\", must be \"plain\" or \"tar\"\n"
-msgstr ""
-"%s: định dạng đầu ra không hợp lệ \"%s\", phải là \"plain\" hoặc \"tar\"\n"
+msgstr "%s: định dạng đầu ra không hợp lệ \"%s\", phải là \"plain\" hoặc \"tar\"\n"
 
 #: pg_basebackup.c:2253
 #, c-format
-msgid ""
-"%s: invalid wal-method option \"%s\", must be \"fetch\", \"stream\", or "
-"\"none\"\n"
-msgstr ""
-"%s: tùy chọn phương thức wal không hợp lệ \"%s\", phải là \"fetch\", \"stream"
-"\" hoặc \"none\"\n"
+msgid "%s: invalid wal-method option \"%s\", must be \"fetch\", \"stream\", or \"none\"\n"
+msgstr "%s: tùy chọn phương thức wal không hợp lệ \"%s\", phải là \"fetch\", \"stream\" hoặc \"none\"\n"
 
 #: pg_basebackup.c:2281 pg_receivewal.c:585
 #, c-format
@@ -736,11 +711,8 @@ msgstr "%s: mức độ nén không hợp lệ \"%s\"\n"
 
 #: pg_basebackup.c:2293
 #, c-format
-msgid ""
-"%s: invalid checkpoint argument \"%s\", must be \"fast\" or \"spread\"\n"
-msgstr ""
-"%s: đối số cho checkpoint không hợp lệ \"%s\", phải là \"fast\" hoặc \"spread"
-"\"\n"
+msgid "%s: invalid checkpoint argument \"%s\", must be \"fast\" or \"spread\"\n"
+msgstr "%s: đối số cho checkpoint không hợp lệ \"%s\", phải là \"fast\" hoặc \"spread\"\n"
 
 #: pg_basebackup.c:2320 pg_receivewal.c:557 pg_recvlogical.c:826
 #, c-format
@@ -783,18 +755,18 @@ msgstr "%s: không thể truyền WAL ở chế độ tar qua stdout\n"
 #: pg_basebackup.c:2395
 #, c-format
 msgid "%s: replication slots can only be used with WAL streaming\n"
-msgstr ""
-"%s: các replication slots chỉ có thể được sử dụng với việc truyền WAL\n"
+msgstr "%s: các replication slots chỉ có thể được sử dụng với việc truyền WAL\n"
 
 #: pg_basebackup.c:2407
 #, c-format
 msgid "%s: --no-slot cannot be used with slot name\n"
 msgstr "%s: --no-slot không thể được sử dụng với tên slot\n"
 
-#: pg_basebackup.c:2421
+#. translator: second %s is an option name
+#: pg_basebackup.c:2421 pg_receivewal.c:641
 #, c-format
-msgid "%s: --create-slot needs a slot to be specified using --slot\n"
-msgstr "%s: --create-slot cần một slot được chỉ định để sử dụng --slot\n"
+msgid "%s: %s needs a slot to be specified using --slot\n"
+msgstr "%s: %s cần một slot được chỉ định để sử dụng --slot\n"
 
 #: pg_basebackup.c:2431
 #, c-format
@@ -846,21 +818,17 @@ msgstr ""
 
 #: pg_receivewal.c:82
 #, c-format
-msgid ""
-"  -D, --directory=DIR    receive write-ahead log files into this directory\n"
+msgid "  -D, --directory=DIR    receive write-ahead log files into this directory\n"
 msgstr "  -D, --directory=DIR    nhận tệp WAL vào thư mục này\n"
 
 #: pg_receivewal.c:83 pg_recvlogical.c:85
 #, c-format
 msgid "  -E, --endpos=LSN       exit after receiving the specified LSN\n"
-msgstr ""
-"  -E, --endpos=LSN       kết thúc trước khi nhật LSN đã được chỉ định\n"
+msgstr "  -E, --endpos=LSN       kết thúc trước khi nhật LSN đã được chỉ định\n"
 
 #: pg_receivewal.c:84 pg_recvlogical.c:89
 #, c-format
-msgid ""
-"      --if-not-exists    do not error if slot already exists when creating a "
-"slot\n"
+msgid "      --if-not-exists    do not error if slot already exists when creating a slot\n"
 msgstr "      --if-not-exists    không xuất lỗi khi tạo slot đã có sẵn\n"
 
 #: pg_receivewal.c:85 pg_recvlogical.c:91
@@ -870,9 +838,7 @@ msgstr "  -n, --no-loop          không lặp khi bị mất kết nối\n"
 
 #: pg_receivewal.c:86
 #, c-format
-msgid ""
-"      --no-sync          do not wait for changes to be written safely to "
-"disk\n"
+msgid "      --no-sync          do not wait for changes to be written safely to disk\n"
 msgstr ""
 "      --no-sync          không đợi những thay đổi được ghi một cách an toàn\n"
 "                         vào đĩa\n"
@@ -881,8 +847,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  -s, --status-interval=SECS\n"
-"                         time between status packets sent to server "
-"(default: %d)\n"
+"                         time between status packets sent to server (default: %d)\n"
 msgstr ""
 "  -s, --status-interval=SECS\n"
 "                         thời gian giữa các gói trạng thái được gửi tới\n"
@@ -890,8 +855,7 @@ msgstr ""
 
 #: pg_receivewal.c:90
 #, c-format
-msgid ""
-"      --synchronous      flush write-ahead log immediately after writing\n"
+msgid "      --synchronous      flush write-ahead log immediately after writing\n"
 msgstr "      --synchronous      flush WAL ngay sau khi write\n"
 
 #: pg_receivewal.c:93
@@ -910,19 +874,13 @@ msgstr ""
 
 #: pg_receivewal.c:103 pg_recvlogical.c:81
 #, c-format
-msgid ""
-"      --create-slot      create a new replication slot (for the slot's name "
-"see --slot)\n"
-msgstr ""
-"      --create-slot      tạo replication slot mới (về tên slot xem --slot)\n"
+msgid "      --create-slot      create a new replication slot (for the slot's name see --slot)\n"
+msgstr "      --create-slot      tạo replication slot mới (về tên slot xem --slot)\n"
 
 #: pg_receivewal.c:104 pg_recvlogical.c:82
 #, c-format
-msgid ""
-"      --drop-slot        drop the replication slot (for the slot's name see "
-"--slot)\n"
-msgstr ""
-"      --drop-slot        xóa replication slot (về tên slot xem --slot)\n"
+msgid "      --drop-slot        drop the replication slot (for the slot's name see --slot)\n"
+msgstr "      --drop-slot        xóa replication slot (về tên slot xem --slot)\n"
 
 #: pg_receivewal.c:116
 #, c-format
@@ -931,8 +889,8 @@ msgstr "%s: kết thúc phân đoạn tại %X/%X (timeline %u)\n"
 
 #: pg_receivewal.c:123
 #, c-format
-msgid "%s: stopped streaming at %X/%X (timeline %u)\n"
-msgstr "%s: kết thúc truyền tại %X/%X (timeline %u)\n"
+msgid "%s: stopped log streaming at %X/%X (timeline %u)\n"
+msgstr "%s: đã kết thúc streaming tại %X/%X (timeline %u)\n"
 
 #: pg_receivewal.c:139
 #, c-format
@@ -971,11 +929,8 @@ msgstr "%s: không thể đọc tệp nén \"%s\": %s\n"
 
 #: pg_receivewal.c:317
 #, c-format
-msgid ""
-"%s: compressed segment file \"%s\" has incorrect uncompressed size %d, "
-"skipping\n"
-msgstr ""
-"%s: tệp phân đoạn nén \"%s\" có kích thước giải nén không đúng %d, bỏ qua\n"
+msgid "%s: compressed segment file \"%s\" has incorrect uncompressed size %d, skipping\n"
+msgstr "%s: tệp phân đoạn nén \"%s\" có kích thước giải nén không đúng %d, bỏ qua\n"
 
 #: pg_receivewal.c:423
 #, c-format
@@ -997,12 +952,6 @@ msgstr "%s: không thể phân tích cú pháp vị trí kết thúc \"%s\"\n"
 msgid "%s: cannot use --create-slot together with --drop-slot\n"
 msgstr "%s: không thể sử dụng --create-slot cùng với --drop-slot\n"
 
-#. translator: second %s is an option name
-#: pg_receivewal.c:641
-#, c-format
-msgid "%s: %s needs a slot to be specified using --slot\n"
-msgstr "%s: %s cần một slot được chỉ định để sử dụng --slot\n"
-
 #: pg_receivewal.c:650
 #, c-format
 msgid "%s: cannot use --synchronous together with --no-sync\n"
@@ -1010,12 +959,8 @@ msgstr "%s: không thể sử dụng --synchronous cùng với --no-sync\n"
 
 #: pg_receivewal.c:728
 #, c-format
-msgid ""
-"%s: replication connection using slot \"%s\" is unexpectedly database "
-"specific\n"
-msgstr ""
-"%s: kết nối replication sử dụng slot \"%s\" không mong đợi database-"
-"specific\n"
+msgid "%s: replication connection using slot \"%s\" is unexpectedly database specific\n"
+msgstr "%s: kết nối replication sử dụng slot \"%s\" không mong đợi database-specific\n"
 
 #: pg_receivewal.c:740 pg_recvlogical.c:978
 #, c-format
@@ -1058,9 +1003,7 @@ msgstr ""
 
 #: pg_recvlogical.c:83
 #, c-format
-msgid ""
-"      --start            start streaming in a replication slot (for the "
-"slot's name see --slot)\n"
+msgid "      --start            start streaming in a replication slot (for the slot's name see --slot)\n"
 msgstr ""
 "      --start            bắt đầu truyền trong một replication slot\n"
 "                         (về tên slot xem --slot)\n"
@@ -1074,18 +1017,14 @@ msgstr "  -f, --file=FILE        nhận log vào tệp này, - cho stdout\n"
 #, c-format
 msgid ""
 "  -F  --fsync-interval=SECS\n"
-"                         time between fsyncs to the output file (default: "
-"%d)\n"
+"                         time between fsyncs to the output file (default: %d)\n"
 msgstr ""
 "  -F  --fsync-interval=SECS\n"
-"                         thời gian giữa các fsync cho tệp xuất (mặc định: "
-"%d)\n"
+"                         thời gian giữa các fsync cho tệp xuất (mặc định: %d)\n"
 
 #: pg_recvlogical.c:90
 #, c-format
-msgid ""
-"  -I, --startpos=LSN     where in an existing slot should the streaming "
-"start\n"
+msgid "  -I, --startpos=LSN     where in an existing slot should the streaming start\n"
 msgstr "  -I, --startpos=LSN     nơi trong một slot cho điểm bắt đầu truyền\n"
 
 #: pg_recvlogical.c:92
@@ -1102,8 +1041,7 @@ msgstr ""
 #: pg_recvlogical.c:95
 #, c-format
 msgid "  -P, --plugin=PLUGIN    use output plugin PLUGIN (default: %s)\n"
-msgstr ""
-"  -P, --plugin=PLUGIN    sử dụng plugin đầu ra là PLUGIN (mặc định: %s)\n"
+msgstr "  -P, --plugin=PLUGIN    sử dụng plugin đầu ra là PLUGIN (mặc định: %s)\n"
 
 #: pg_recvlogical.c:98
 #, c-format
@@ -1219,8 +1157,7 @@ msgstr "%s: không thể sử dụng --create-slot hay --start cùng với --dro
 #: pg_recvlogical.c:917
 #, c-format
 msgid "%s: cannot use --create-slot or --drop-slot together with --startpos\n"
-msgstr ""
-"%s: không thể sử dụng --create-slot hay --drop-slot cùng với --startpos\n"
+msgstr "%s: không thể sử dụng --create-slot hay --drop-slot cùng với --startpos\n"
 
 #: pg_recvlogical.c:926
 #, c-format
@@ -1255,8 +1192,7 @@ msgstr "%s: không thể đồng bộ (fsync) tệp WAL đang tồn tại \"%s\"
 #: receivelog.c:154
 #, c-format
 msgid "%s: write-ahead log file \"%s\" has %d byte, should be 0 or %d\n"
-msgid_plural ""
-"%s: write-ahead log file \"%s\" has %d bytes, should be 0 or %d\n"
+msgid_plural "%s: write-ahead log file \"%s\" has %d bytes, should be 0 or %d\n"
 msgstr[0] "%s: Tệp WAL \"%s\" có %d byte, phải nên là 0 hoặc %d\n"
 
 #: receivelog.c:170
@@ -1277,8 +1213,7 @@ msgstr "%s: không đổi tên \"%s%s\", phân đoạn chưa hoàn thành\n"
 #: receivelog.c:281
 #, c-format
 msgid "%s: server reported unexpected history file name for timeline %u: %s\n"
-msgstr ""
-"%s: server báo cáo tên tệp lịch sử không mong đợi cho timeline %u: %s\n"
+msgstr "%s: server báo cáo tên tệp lịch sử không mong đợi cho timeline %u: %s\n"
 
 #: receivelog.c:289
 #, c-format
@@ -1292,40 +1227,25 @@ msgstr "%s: không thể ghi tệp lịch sử timeline \"%s\": %s\n"
 
 #: receivelog.c:386
 #, c-format
-msgid ""
-"%s: incompatible server version %s; client does not support streaming from "
-"server versions older than %s\n"
-msgstr ""
-"%s: phiên bản server không tương thích %s; client không hỗ trợ truyền từ "
-"phiên bản server cũ hơn %s\n"
+msgid "%s: incompatible server version %s; client does not support streaming from server versions older than %s\n"
+msgstr "%s: phiên bản server không tương thích %s; client không hỗ trợ truyền từ phiên bản server cũ hơn %s\n"
 
 #: receivelog.c:396
 #, c-format
-msgid ""
-"%s: incompatible server version %s; client does not support streaming from "
-"server versions newer than %s\n"
+msgid "%s: incompatible server version %s; client does not support streaming from server versions newer than %s\n"
 msgstr ""
-"%s: phiên bản server không tương thích %s; client không hỗ trợ truyền từ "
-"phiên bản server mới hơn %s\n"
+"%s: phiên bản server không tương thích %s; client không hỗ trợ truyền từ phiên bản server mới hơn %s\n"
 "\n"
 
-#: receivelog.c:501 streamutil.c:437 streamutil.c:476
+#: receivelog.c:501 streamutil.c:439 streamutil.c:478
 #, c-format
-msgid ""
-"%s: could not identify system: got %d rows and %d fields, expected %d rows "
-"and %d or more fields\n"
-msgstr ""
-"%s: không thể xác định hệ thống: có %d hàng và %d trường, kỳ vọng %d hàng và "
-"%d hay nhiều hơn trường\n"
+msgid "%s: could not identify system: got %d rows and %d fields, expected %d rows and %d or more fields\n"
+msgstr "%s: không thể xác định hệ thống: có %d hàng và %d trường, kỳ vọng %d hàng và %d hay nhiều hơn trường\n"
 
 #: receivelog.c:509
 #, c-format
-msgid ""
-"%s: system identifier does not match between base backup and streaming "
-"connection\n"
-msgstr ""
-"%s: số nhận dạng hệ thống không khớp giữa sao lưu cơ sở và kết nối luồng "
-"truyền\n"
+msgid "%s: system identifier does not match between base backup and streaming connection\n"
+msgstr "%s: số nhận dạng hệ thống không khớp giữa sao lưu cơ sở và kết nối luồng truyền\n"
 
 #: receivelog.c:517
 #, c-format
@@ -1334,28 +1254,19 @@ msgstr "%s: timeline bắt đầu %u không tồn tại trong server\n"
 
 #: receivelog.c:559
 #, c-format
-msgid ""
-"%s: unexpected response to TIMELINE_HISTORY command: got %d rows and %d "
-"fields, expected %d rows and %d fields\n"
-msgstr ""
-"%s: phản hồi không mong muốn đối với lệnh TIMELINE_HISTORY: có %d hàng và %d "
-"trường, kỳ vọng %d hàng và %d trường\n"
+msgid "%s: unexpected response to TIMELINE_HISTORY command: got %d rows and %d fields, expected %d rows and %d fields\n"
+msgstr "%s: phản hồi không mong muốn đối với lệnh TIMELINE_HISTORY: có %d hàng và %d trường, kỳ vọng %d hàng và %d trường\n"
 
 #: receivelog.c:631
 #, c-format
-msgid ""
-"%s: server reported unexpected next timeline %u, following timeline %u\n"
-msgstr ""
-"%s: server báo cáo không mong đợi timeline tiếp theo %u, timeline sau %u\n"
+msgid "%s: server reported unexpected next timeline %u, following timeline %u\n"
+msgstr "%s: server báo cáo không mong đợi timeline tiếp theo %u, timeline sau %u\n"
 
 #: receivelog.c:638
 #, c-format
-msgid ""
-"%s: server stopped streaming timeline %u at %X/%X, but reported next "
-"timeline %u to begin at %X/%X\n"
+msgid "%s: server stopped streaming timeline %u at %X/%X, but reported next timeline %u to begin at %X/%X\n"
 msgstr ""
-"%s: server ngừng phát timeline %u ở %X/%X, nhưng đã báo cáo timeline tiếp "
-"theo %u để bắt đầu ở %X/%X\n"
+"%s: server ngừng phát timeline %u ở %X/%X, nhưng đã báo cáo timeline tiếp theo %u để bắt đầu ở %X/%X\n"
 "\n"
 
 #: receivelog.c:680
@@ -1365,18 +1276,13 @@ msgstr "%s: luồng replication đã bị chấm dứt trước điểm dừng\n
 
 #: receivelog.c:729
 #, c-format
-msgid ""
-"%s: unexpected result set after end-of-timeline: got %d rows and %d fields, "
-"expected %d rows and %d fields\n"
-msgstr ""
-"%s: tập hợp kết quả không mong muốn sau end-of-timeline: có %d hàng và %d "
-"trường, kỳ vọng %d hàng và %d trường\n"
+msgid "%s: unexpected result set after end-of-timeline: got %d rows and %d fields, expected %d rows and %d fields\n"
+msgstr "%s: tập hợp kết quả không mong muốn sau end-of-timeline: có %d hàng và %d trường, kỳ vọng %d hàng và %d trường\n"
 
 #: receivelog.c:739
 #, c-format
 msgid "%s: could not parse next timeline's starting point \"%s\"\n"
-msgstr ""
-"%s: không thể phân tích cú pháp điểm bắt đầu của timeline tiếp theo \"%s\"\n"
+msgstr "%s: không thể phân tích cú pháp điểm bắt đầu của timeline tiếp theo \"%s\"\n"
 
 #: receivelog.c:1110
 #, c-format
@@ -1413,8 +1319,9 @@ msgid "%s: could not connect to server: %s"
 msgstr "%s: không thể kết nối tới server: %s"
 
 #: streamutil.c:233
-#, c-format
-msgid "%s: could not clear search_path: %s\n"
+#, fuzzy, c-format
+#| msgid "%s: could not clear search_path: %s\n"
+msgid "%s: could not clear search_path: %s"
 msgstr "%s: không thể xóa search_path: %s\n"
 
 #: streamutil.c:250
@@ -1427,19 +1334,10 @@ msgstr "%s: không thể xác định thiết lập ở server cho integer_datet
 msgid "%s: integer_datetimes compile flag does not match server\n"
 msgstr "%s: flag biên dịch integer_datetimes không khớp với server\n"
 
-#: streamutil.c:303 streamutil.c:375
-#, c-format
-msgid "%s: could not send replication command \"%s\": %s\n"
-msgstr "%s: không thể gửi lệnh replication \"%s\": %s\n"
-
 #: streamutil.c:312
 #, c-format
-msgid ""
-"%s: could not fetch WAL segment size: got %d rows and %d fields, expected %d "
-"rows and %d or more fields\n"
-msgstr ""
-"%s: không thể fetch kích thước phân đoạn WAL: có %d hàng và %d trường, kỳ "
-"vọng %d hàng và %d hoặc nhiều hơn trường\n"
+msgid "%s: could not fetch WAL segment size: got %d rows and %d fields, expected %d rows and %d or more fields\n"
+msgstr "%s: không thể fetch kích thước phân đoạn WAL: có %d hàng và %d trường, kỳ vọng %d hàng và %d hoặc nhiều hơn trường\n"
 
 #: streamutil.c:322
 #, c-format
@@ -1448,44 +1346,29 @@ msgstr "%s: Không thể phân tích cú pháp kích thước phân đoạn WAL\
 
 #: streamutil.c:339
 #, c-format
-msgid ""
-"%s: WAL segment size must be a power of two between 1MB and 1GB, but the "
-"remote server reported a value of %d bytes\n"
-msgstr ""
-"%s: kích thước phân đoạn WAL phải là lũy thừa của hai giữa 1MB và 1GB, nhưng "
-"remote server đã báo cáo giá trị %d byte\n"
+msgid "%s: WAL segment size must be a power of two between 1 MB and 1 GB, but the remote server reported a value of %d byte\n"
+msgid_plural "%s: WAL segment size must be a power of two between 1 MB and 1 GB, but the remote server reported a value of %d bytes\n"
+msgstr[0] "%s: kích thước phân đoạn WAL phải là lũy thừa của hai giữa 1MB và 1GB, nhưng remote server đã báo cáo giá trị %d byte\n"
 
-#: streamutil.c:384
+#: streamutil.c:386
 #, c-format
-msgid ""
-"%s: could not fetch group access flag: got %d rows and %d fields, expected "
-"%d rows and %d or more fields\n"
-msgstr ""
-"%s: không thể fetch cờ truy cập nhóm: có %d hàng và %d trường, kỳ vọng %d "
-"hàng và %d hoặc nhiều hơn trường\n"
+msgid "%s: could not fetch group access flag: got %d rows and %d fields, expected %d rows and %d or more fields\n"
+msgstr "%s: không thể fetch cờ truy cập nhóm: có %d hàng và %d trường, kỳ vọng %d hàng và %d hoặc nhiều hơn trường\n"
 
-#: streamutil.c:393
+#: streamutil.c:395
 #, c-format
 msgid "%s: group access flag could not be parsed: %s\n"
 msgstr "%s: không thể phân tích cú pháp cờ truy cập nhóm: %s\n"
 
-#: streamutil.c:554
+#: streamutil.c:556
 #, c-format
-msgid ""
-"%s: could not create replication slot \"%s\": got %d rows and %d fields, "
-"expected %d rows and %d fields\n"
-msgstr ""
-"%s: không thể tạo replication slot \"%s\": có %d hàng và %d trường, kỳ vọng "
-"%d hàng và %d trường\n"
+msgid "%s: could not create replication slot \"%s\": got %d rows and %d fields, expected %d rows and %d fields\n"
+msgstr "%s: không thể tạo replication slot \"%s\": có %d hàng và %d trường, kỳ vọng %d hàng và %d trường\n"
 
-#: streamutil.c:599
+#: streamutil.c:601
 #, c-format
-msgid ""
-"%s: could not drop replication slot \"%s\": got %d rows and %d fields, "
-"expected %d rows and %d fields\n"
-msgstr ""
-"%s: không thể xóa replication slot \"%s\": có %d hàng và %d trường, kỳ vọng "
-"%d hàng và %d trường\n"
+msgid "%s: could not drop replication slot \"%s\": got %d rows and %d fields, expected %d rows and %d fields\n"
+msgstr "%s: không thể xóa replication slot \"%s\": có %d hàng và %d trường, kỳ vọng %d hàng và %d trường\n"
 
 #: walmethods.c:436 walmethods.c:906
 msgid "could not compress data"
@@ -1518,3 +1401,9 @@ msgstr "hủy liên kết không được hỗ trợ với nén"
 #: walmethods.c:922
 msgid "could not close compression stream"
 msgstr "không thể đóng luồng nén"
+
+#~ msgid "%s: could not send replication command \"%s\": %s\n"
+#~ msgstr "%s: không thể gửi lệnh replication \"%s\": %s\n"
+
+#~ msgid "%s: --create-slot needs a slot to be specified using --slot\n"
+#~ msgstr "%s: --create-slot cần một slot được chỉ định để sử dụng --slot\n"

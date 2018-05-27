@@ -3,20 +3,19 @@
 # This file is distributed under the same license as the pg_upgrade (PostgreSQL) package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pg_upgrade (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
-"POT-Creation-Date: 2018-04-22 12:16+0000\n"
-"PO-Revision-Date: 2018-04-23 02:31+0900\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2018-05-26 21:46+0000\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
-"Last-Translator: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
 
 #: check.c:66
 #, c-format
@@ -98,35 +97,27 @@ msgstr ""
 
 #: check.c:260
 #, c-format
-msgid ""
-"This utility cannot be used to downgrade to older major PostgreSQL "
-"versions.\n"
+msgid "This utility cannot be used to downgrade to older major PostgreSQL versions.\n"
 msgstr ""
 
 #: check.c:265
 #, c-format
-msgid ""
-"Old cluster data and binary directories are from different major versions.\n"
+msgid "Old cluster data and binary directories are from different major versions.\n"
 msgstr ""
 
 #: check.c:268
 #, c-format
-msgid ""
-"New cluster data and binary directories are from different major versions.\n"
+msgid "New cluster data and binary directories are from different major versions.\n"
 msgstr ""
 
 #: check.c:285
 #, c-format
-msgid ""
-"When checking a pre-PG 9.1 live old server, you must specify the old "
-"server's port number.\n"
+msgid "When checking a pre-PG 9.1 live old server, you must specify the old server's port number.\n"
 msgstr ""
 
 #: check.c:289
 #, c-format
-msgid ""
-"When checking a live server, the old and new port numbers must be "
-"different.\n"
+msgid "When checking a live server, the old and new port numbers must be different.\n"
 msgstr ""
 
 #: check.c:304
@@ -136,14 +127,12 @@ msgstr ""
 
 #: check.c:309
 #, c-format
-msgid ""
-"lc_collate values for database \"%s\" do not match:  old \"%s\", new \"%s\"\n"
+msgid "lc_collate values for database \"%s\" do not match:  old \"%s\", new \"%s\"\n"
 msgstr ""
 
 #: check.c:312
 #, c-format
-msgid ""
-"lc_ctype values for database \"%s\" do not match:  old \"%s\", new \"%s\"\n"
+msgid "lc_ctype values for database \"%s\" do not match:  old \"%s\", new \"%s\"\n"
 msgstr ""
 
 #: check.c:385
@@ -171,16 +160,14 @@ msgstr ""
 #, c-format
 msgid ""
 "\n"
-"WARNING:  new data directory should not be inside the old data directory, e."
-"g. %s\n"
+"WARNING:  new data directory should not be inside the old data directory, e.g. %s\n"
 msgstr ""
 
 #: check.c:561
 #, c-format
 msgid ""
 "\n"
-"WARNING:  user-defined tablespace locations should not be inside the data "
-"directory, e.g. %s\n"
+"WARNING:  user-defined tablespace locations should not be inside the data directory, e.g. %s\n"
 msgstr ""
 
 #: check.c:571
@@ -215,16 +202,12 @@ msgstr ""
 
 #: check.c:727
 #, c-format
-msgid ""
-"template0 must not allow connections, i.e. its pg_database.datallowconn must "
-"be false\n"
+msgid "template0 must not allow connections, i.e. its pg_database.datallowconn must be false\n"
 msgstr ""
 
 #: check.c:737
 #, c-format
-msgid ""
-"All non-template0 databases must allow connections, i.e. their pg_database."
-"datallowconn must be true\n"
+msgid "All non-template0 databases must allow connections, i.e. their pg_database.datallowconn must be true\n"
 msgstr ""
 
 #: check.c:762
@@ -292,10 +275,8 @@ msgstr ""
 #, c-format
 msgid ""
 "Your installation contains the \"jsonb\" data type in user tables.\n"
-"The internal format of \"jsonb\" changed during 9.4 beta so this cluster "
-"cannot currently\n"
-"be upgraded.  You can remove the problem tables and restart the upgrade.  A "
-"list\n"
+"The internal format of \"jsonb\" changed during 9.4 beta so this cluster cannot currently\n"
+"be upgraded.  You can remove the problem tables and restart the upgrade.  A list\n"
 "of the problem columns is in the file:\n"
 "    %s\n"
 "\n"
@@ -340,7 +321,7 @@ msgstr ""
 #: relfilenode.c:244 util.c:80
 #, c-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: controldata.c:148
 #, c-format
@@ -477,49 +458,37 @@ msgstr ""
 
 #: controldata.c:563
 #, c-format
-msgid ""
-"old and new pg_controldata maximum relation segment sizes are invalid or do "
-"not match\n"
+msgid "old and new pg_controldata maximum relation segment sizes are invalid or do not match\n"
 msgstr ""
 
 #: controldata.c:566
 #, c-format
-msgid ""
-"old and new pg_controldata WAL block sizes are invalid or do not match\n"
+msgid "old and new pg_controldata WAL block sizes are invalid or do not match\n"
 msgstr ""
 
 #: controldata.c:569
 #, c-format
-msgid ""
-"old and new pg_controldata WAL segment sizes are invalid or do not match\n"
+msgid "old and new pg_controldata WAL segment sizes are invalid or do not match\n"
 msgstr ""
 
 #: controldata.c:572
 #, c-format
-msgid ""
-"old and new pg_controldata maximum identifier lengths are invalid or do not "
-"match\n"
+msgid "old and new pg_controldata maximum identifier lengths are invalid or do not match\n"
 msgstr ""
 
 #: controldata.c:575
 #, c-format
-msgid ""
-"old and new pg_controldata maximum indexed columns are invalid or do not "
-"match\n"
+msgid "old and new pg_controldata maximum indexed columns are invalid or do not match\n"
 msgstr ""
 
 #: controldata.c:578
 #, c-format
-msgid ""
-"old and new pg_controldata maximum TOAST chunk sizes are invalid or do not "
-"match\n"
+msgid "old and new pg_controldata maximum TOAST chunk sizes are invalid or do not match\n"
 msgstr ""
 
 #: controldata.c:583
 #, c-format
-msgid ""
-"old and new pg_controldata large-object chunk sizes are invalid or do not "
-"match\n"
+msgid "old and new pg_controldata large-object chunk sizes are invalid or do not match\n"
 msgstr ""
 
 #: controldata.c:586
@@ -592,95 +561,93 @@ msgstr ""
 #, c-format
 msgid "%s\n"
 msgstr ""
+"%s\n"
+"\n"
 
-#: exec.c:148 exec.c:202 option.c:101 option.c:217
+#: exec.c:149 exec.c:204 option.c:101 option.c:217
 #, c-format
 msgid "could not write to log file \"%s\"\n"
 msgstr ""
 
-#: exec.c:177
+#: exec.c:178
 #, c-format
 msgid ""
 "\n"
 "*failure*"
 msgstr ""
 
-#: exec.c:180
+#: exec.c:181
 #, c-format
 msgid "There were problems executing \"%s\"\n"
 msgstr ""
 
-#: exec.c:183
+#: exec.c:184
 #, c-format
 msgid ""
 "Consult the last few lines of \"%s\" or \"%s\" for\n"
 "the probable cause of the failure.\n"
 msgstr ""
 
-#: exec.c:188
+#: exec.c:189
 #, c-format
 msgid ""
 "Consult the last few lines of \"%s\" for\n"
 "the probable cause of the failure.\n"
 msgstr ""
 
-#: exec.c:228
+#: exec.c:230
 #, c-format
 msgid "could not open file \"%s\" for reading: %s\n"
 msgstr ""
 
-#: exec.c:255
+#: exec.c:257
 #, c-format
 msgid "You must have read and write access in the current directory.\n"
 msgstr ""
 
-#: exec.c:308 exec.c:370 exec.c:425
+#: exec.c:310 exec.c:372 exec.c:427
 #, c-format
 msgid "check for \"%s\" failed: %s\n"
 msgstr ""
 
-#: exec.c:311 exec.c:373
+#: exec.c:313 exec.c:375
 #, c-format
 msgid "\"%s\" is not a directory\n"
 msgstr ""
 
-#: exec.c:428
+#: exec.c:430
 #, c-format
 msgid "check for \"%s\" failed: not a regular file\n"
 msgstr ""
 
-#: exec.c:440
+#: exec.c:442
 #, c-format
 msgid "check for \"%s\" failed: cannot read file (permission denied)\n"
 msgstr ""
 
-#: exec.c:448
+#: exec.c:450
 #, c-format
 msgid "check for \"%s\" failed: cannot execute (permission denied)\n"
 msgstr ""
 
 #: file.c:44 file.c:147
 #, c-format
-msgid ""
-"error while copying relation \"%s.%s\": could not open file \"%s\": %s\n"
+msgid "error while copying relation \"%s.%s\": could not open file \"%s\": %s\n"
 msgstr ""
 
 #: file.c:49 file.c:156
 #, c-format
-msgid ""
-"error while copying relation \"%s.%s\": could not create file \"%s\": %s\n"
+msgid "error while copying relation \"%s.%s\": could not create file \"%s\": %s\n"
 msgstr ""
 
 #: file.c:63 file.c:187
 #, c-format
-msgid ""
-"error while copying relation \"%s.%s\": could not read file \"%s\": %s\n"
+msgid "error while copying relation \"%s.%s\": could not read file \"%s\": %s\n"
 msgstr ""
 
 #: file.c:75 file.c:265
 #, c-format
-msgid ""
-"error while copying relation \"%s.%s\": could not write file \"%s\": %s\n"
+msgid "error while copying relation \"%s.%s\": could not write file \"%s\": %s\n"
 msgstr ""
 
 #: file.c:89
@@ -690,28 +657,24 @@ msgstr ""
 
 #: file.c:108
 #, c-format
-msgid ""
-"error while creating link for relation \"%s.%s\" (\"%s\" to \"%s\"): %s\n"
+msgid "error while creating link for relation \"%s.%s\" (\"%s\" to \"%s\"): %s\n"
 msgstr ""
 
 #: file.c:151
 #, c-format
-msgid ""
-"error while copying relation \"%s.%s\": could not stat file \"%s\": %s\n"
+msgid "error while copying relation \"%s.%s\": could not stat file \"%s\": %s\n"
 msgstr ""
 
 #: file.c:190
 #, c-format
-msgid ""
-"error while copying relation \"%s.%s\": partial page found in file \"%s\"\n"
+msgid "error while copying relation \"%s.%s\": partial page found in file \"%s\"\n"
 msgstr ""
 
 #: file.c:293
 #, c-format
 msgid ""
 "could not create hard link between old and new data directories: %s\n"
-"In link mode the old and new data directories must be on the same file "
-"system.\n"
+"In link mode the old and new data directories must be on the same file system.\n"
 msgstr ""
 
 #: function.c:110
@@ -770,9 +733,7 @@ msgstr ""
 
 #: info.c:133
 #, c-format
-msgid ""
-"Relation names for OID %u in database \"%s\" do not match: old name \"%s.%s"
-"\", new name \"%s.%s\"\n"
+msgid "Relation names for OID %u in database \"%s\" do not match: old name \"%s.%s\", new name \"%s.%s\"\n"
 msgstr ""
 
 #: info.c:153
@@ -802,16 +763,12 @@ msgstr ""
 
 #: info.c:276
 #, c-format
-msgid ""
-"No match found in old cluster for new relation with OID %u in database \"%s"
-"\": %s\n"
+msgid "No match found in old cluster for new relation with OID %u in database \"%s\": %s\n"
 msgstr ""
 
 #: info.c:279
 #, c-format
-msgid ""
-"No match found in new cluster for old relation with OID %u in database \"%s"
-"\": %s\n"
+msgid "No match found in new cluster for old relation with OID %u in database \"%s\": %s\n"
 msgstr ""
 
 #: info.c:291
@@ -878,7 +835,7 @@ msgstr ""
 #: option.c:207
 #, c-format
 msgid "Try \"%s --help\" for more information.\n"
-msgstr ""
+msgstr "Hãy thử \"%s --help\" để biết thêm thông tin.\n"
 
 #: option.c:242
 msgid "old cluster binaries reside"
@@ -903,8 +860,7 @@ msgstr ""
 
 #: option.c:268
 #, c-format
-msgid ""
-"cannot run pg_upgrade from inside the new cluster data directory on Windows\n"
+msgid "cannot run pg_upgrade from inside the new cluster data directory on Windows\n"
 msgstr ""
 
 #: option.c:277
@@ -917,7 +873,7 @@ msgstr ""
 #: option.c:278
 #, c-format
 msgid "Usage:\n"
-msgstr ""
+msgstr "Cách sử dụng:\n"
 
 #: option.c:279
 #, c-format
@@ -929,7 +885,7 @@ msgstr ""
 #: option.c:280
 #, c-format
 msgid "Options:\n"
-msgstr ""
+msgstr "Tùy chọn:\n"
 
 #: option.c:281
 #, c-format
@@ -943,8 +899,7 @@ msgstr ""
 
 #: option.c:283
 #, c-format
-msgid ""
-"  -c, --check                   check clusters only, don't change any data\n"
+msgid "  -c, --check                   check clusters only, don't change any data\n"
 msgstr ""
 
 #: option.c:284
@@ -959,28 +914,22 @@ msgstr ""
 
 #: option.c:286
 #, c-format
-msgid ""
-"  -j, --jobs                    number of simultaneous processes or threads "
-"to use\n"
+msgid "  -j, --jobs                    number of simultaneous processes or threads to use\n"
 msgstr ""
 
 #: option.c:287
 #, c-format
-msgid ""
-"  -k, --link                    link instead of copying files to new "
-"cluster\n"
+msgid "  -k, --link                    link instead of copying files to new cluster\n"
 msgstr ""
 
 #: option.c:288
 #, c-format
-msgid ""
-"  -o, --old-options=OPTIONS     old cluster options to pass to the server\n"
+msgid "  -o, --old-options=OPTIONS     old cluster options to pass to the server\n"
 msgstr ""
 
 #: option.c:289
 #, c-format
-msgid ""
-"  -O, --new-options=OPTIONS     new cluster options to pass to the server\n"
+msgid "  -O, --new-options=OPTIONS     new cluster options to pass to the server\n"
 msgstr ""
 
 #: option.c:290
@@ -995,8 +944,7 @@ msgstr ""
 
 #: option.c:292
 #, c-format
-msgid ""
-"  -r, --retain                  retain SQL and log files after success\n"
+msgid "  -r, --retain                  retain SQL and log files after success\n"
 msgstr ""
 
 #: option.c:293
@@ -1011,8 +959,7 @@ msgstr ""
 
 #: option.c:295
 #, c-format
-msgid ""
-"  -V, --version                 display version information, then exit\n"
+msgid "  -V, --version                 display version information, then exit\n"
 msgstr ""
 
 #: option.c:296
@@ -1046,8 +993,7 @@ msgstr ""
 msgid ""
 "\n"
 "For example:\n"
-"  pg_upgrade -d oldCluster/data -D newCluster/data -b oldCluster/bin -B "
-"newCluster/bin\n"
+"  pg_upgrade -d oldCluster/data -D newCluster/data -b oldCluster/bin -B newCluster/bin\n"
 "or\n"
 msgstr ""
 
@@ -1077,6 +1023,8 @@ msgid ""
 "\n"
 "Report bugs to <pgsql-bugs@postgresql.org>.\n"
 msgstr ""
+"\n"
+"Báo cáo bugs qua email <pgsql-bugs@postgresql.org>.\n"
 
 #: option.c:358
 #, c-format
@@ -1127,7 +1075,7 @@ msgstr ""
 
 #: pg_upgrade.c:106
 #, c-format
-msgid "unable to read permissions from \"%s\"\n"
+msgid "could not read permissions of directory \"%s\": %s\n"
 msgstr ""
 
 #: pg_upgrade.c:123
@@ -1173,7 +1121,7 @@ msgstr ""
 #: pg_upgrade.c:249
 #, c-format
 msgid "%s: could not find own program executable\n"
-msgstr ""
+msgstr "%s: không thể tìm thấy chương trình có thể thực thi\n"
 
 #: pg_upgrade.c:266
 #, c-format
@@ -1257,8 +1205,7 @@ msgstr ""
 
 #: relfilenode.c:231
 #, c-format
-msgid ""
-"error while checking for file existence \"%s.%s\" (\"%s\" to \"%s\"): %s\n"
+msgid "error while checking for file existence \"%s.%s\" (\"%s\" to \"%s\"): %s\n"
 msgstr ""
 
 #: relfilenode.c:249
@@ -1343,7 +1290,7 @@ msgstr ""
 #: server.c:365
 #, c-format
 msgid "out of memory\n"
-msgstr ""
+msgstr "hết bộ nhớ\n"
 
 #: server.c:378
 #, c-format
