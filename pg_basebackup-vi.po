@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pg_basebackup (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-05-26 21:46+0000\n"
-"PO-Revision-Date: 2018-05-27 20:28+0900\n"
+"PO-Revision-Date: 2018-05-27 20:39+0900\n"
 "Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
 "Language-Team: <pgvn_translators@postgresql.vn>\n"
 "Language: vi\n"
@@ -1319,10 +1319,9 @@ msgid "%s: could not connect to server: %s"
 msgstr "%s: không thể kết nối tới server: %s"
 
 #: streamutil.c:233
-#, fuzzy, c-format
-#| msgid "%s: could not clear search_path: %s\n"
+#, c-format
 msgid "%s: could not clear search_path: %s"
-msgstr "%s: không thể xóa search_path: %s\n"
+msgstr "%s: không thể xóa giá trị trong search_path: %s"
 
 #: streamutil.c:250
 #, c-format
