@@ -1,22 +1,22 @@
 # LANGUAGE message translation file for pg_resetwal
 # Copyright (C) 2018 PostgreSQL Global Development Group
 # This file is distributed under the same license as the pg_resetwal (PostgreSQL) package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <kakalot49@gmail.com>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pg_resetwal (PostgreSQL) 11\n"
 "Report-Msgid-Bugs-To: pgsql-bugs@postgresql.org\n"
 "POT-Creation-Date: 2018-05-26 21:46+0000\n"
-"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-05-27 22:34+0900\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: Dang Minh Huong <kakalot49@gmail.com>\n"
+"Language-Team: <pgvn_translators@postgresql.vn>\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ../../common/restricted_token.c:68
 #, c-format
@@ -59,7 +59,7 @@ msgstr "%s: không thể lấy giá trị trả về của tiến trình con: m�
 #: pg_resetwal.c:284
 #, c-format
 msgid "%s: invalid argument for option %s\n"
-msgstr ""
+msgstr "%s: đối số không hợp lệ cho tùy chọn %s\n"
 
 #: pg_resetwal.c:161 pg_resetwal.c:176 pg_resetwal.c:191 pg_resetwal.c:198
 #: pg_resetwal.c:222 pg_resetwal.c:237 pg_resetwal.c:245 pg_resetwal.c:271
@@ -71,37 +71,37 @@ msgstr "Hãy thử \"%s --help\" để biết thêm thông tin.\n"
 #: pg_resetwal.c:166
 #, c-format
 msgid "%s: transaction ID epoch (-e) must not be -1\n"
-msgstr ""
+msgstr "%s: transaction ID epoch (-e) không thể là -1\n"
 
 #: pg_resetwal.c:181
 #, c-format
 msgid "%s: transaction ID (-x) must not be 0\n"
-msgstr ""
+msgstr "%s: transaction ID (-x) không thể là 0\n"
 
 #: pg_resetwal.c:205 pg_resetwal.c:212
 #, c-format
 msgid "%s: transaction ID (-c) must be either 0 or greater than or equal to 2\n"
-msgstr ""
+msgstr "%s: transaction ID (-c) phải bằng 0 hoặc lớn hơn hoặc bằng 2\n"
 
 #: pg_resetwal.c:227
 #, c-format
 msgid "%s: OID (-o) must not be 0\n"
-msgstr ""
+msgstr "%s: OID (-o) không thể bằng 0\n"
 
 #: pg_resetwal.c:250
 #, c-format
 msgid "%s: multitransaction ID (-m) must not be 0\n"
-msgstr ""
+msgstr "%s: ID của transaction đa nhiệm (-m) không thể bằng 0\n"
 
 #: pg_resetwal.c:260
 #, c-format
 msgid "%s: oldest multitransaction ID (-m) must not be 0\n"
-msgstr ""
+msgstr "%s: ID của transaction đa nhiệm cũ nhất (-m) không thể là 0\n"
 
 #: pg_resetwal.c:276
 #, c-format
 msgid "%s: multitransaction offset (-O) must not be -1\n"
-msgstr ""
+msgstr "%s: offset (-O) của transaction đa nhiệm không thể là -1\n"
 
 #: pg_resetwal.c:301
 #, c-format
@@ -126,22 +126,22 @@ msgstr "%s: không có thư mục dữ liệu nào được chỉ định\n"
 #: pg_resetwal.c:349
 #, c-format
 msgid "%s: cannot be executed by \"root\"\n"
-msgstr ""
+msgstr "%s: không thể được thực hiện bởi \"root\"\n"
 
 #: pg_resetwal.c:351
 #, c-format
 msgid "You must run %s as the PostgreSQL superuser.\n"
-msgstr ""
+msgstr "Bạn phải chạy %s bằng PostgreSQL superuser.\n"
 
 #: pg_resetwal.c:362
 #, c-format
 msgid "%s: could not read permissions of directory \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể đọc quyền của thư mục \"%s\": %s\n"
 
 #: pg_resetwal.c:371
 #, c-format
 msgid "%s: could not change directory to \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể thay đổi thư mục thành \"%s\": %s\n"
 
 #: pg_resetwal.c:387 pg_resetwal.c:548 pg_resetwal.c:611
 #, c-format
@@ -154,6 +154,8 @@ msgid ""
 "%s: lock file \"%s\" exists\n"
 "Is a server running?  If not, delete the lock file and try again.\n"
 msgstr ""
+"%s: tệp khóa \"%s\" đang tồn tại\n"
+"Server vẫn đang hoạt động? Nếu không, hãy xóa tệp khóa và thử lại.\n"
 
 #: pg_resetwal.c:495
 #, c-format
@@ -161,6 +163,8 @@ msgid ""
 "\n"
 "If these values seem acceptable, use -f to force reset.\n"
 msgstr ""
+"\n"
+"Nếu các giá trị này có vẻ chấp nhận được, hãy sử dụng - f để buộc reset.\n"
 
 #: pg_resetwal.c:507
 #, c-format
@@ -169,16 +173,19 @@ msgid ""
 "Resetting the write-ahead log might cause data to be lost.\n"
 "If you want to proceed anyway, use -f to force reset.\n"
 msgstr ""
+"Máy chủ cơ sở dữ liệu không được tắt hoàn toàn.\n"
+"Reset lại WAL có thể khiến dữ liệu bị mất.\n"
+"Nếu bạn vẫn muốn tiếp tục, hãy sử dụng tùy chọn -f để bắt buộc reset.\n"
 
 #: pg_resetwal.c:521
 #, c-format
 msgid "Write-ahead log reset\n"
-msgstr ""
+msgstr "Reset WAL\n"
 
 #: pg_resetwal.c:558
 #, c-format
 msgid "%s: unexpected empty file \"%s\"\n"
-msgstr ""
+msgstr "%s: tệp trống không mong muốn \"%s\"\n"
 
 #: pg_resetwal.c:563 pg_resetwal.c:627
 #, c-format
@@ -191,6 +198,8 @@ msgid ""
 "%s: data directory is of wrong version\n"
 "File \"%s\" contains \"%s\", which is not compatible with this program's version \"%s\".\n"
 msgstr ""
+"%s: thư mục dữ liệu có phiên bản sai\n"
+"Tệp \"%s\" chứa \"%s\", không tương thích với phiên bản \"%s\" của chương trình này.\n"
 
 #: pg_resetwal.c:614
 #, c-format
@@ -199,23 +208,24 @@ msgid ""
 "  touch %s\n"
 "and try again.\n"
 msgstr ""
+"Nếu bạn chắc chắn đường dẫn thư mục dữ liệu là chính xác, \n"
+"hãy thi hành touch %s và thử lại.\n"
 
 #: pg_resetwal.c:647
 #, c-format
 msgid "%s: pg_control exists but has invalid CRC; proceed with caution\n"
-msgstr ""
+msgstr "%s: pg_control tồn tại nhưng có CRC không hợp lệ; tiếp tục với cảnh báo\n"
 
 #: pg_resetwal.c:658
 #, c-format
 msgid "%s: pg_control specifies invalid WAL segment size (%d byte); proceed with caution\n"
 msgid_plural "%s: pg_control specifies invalid WAL segment size (%d bytes); proceed with caution\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s: pg_control chỉ định kích thước phân đoạn WAL không hợp lệ (%d byte); tiếp tục với cảnh báo\n"
 
 #: pg_resetwal.c:669
 #, c-format
 msgid "%s: pg_control exists but is broken or wrong version; ignoring it\n"
-msgstr ""
+msgstr "%s: pg_control tồn tại nhưng bị hỏng hoặc sai phiên bản, bỏ qua\n"
 
 #: pg_resetwal.c:767
 #, c-format
@@ -223,6 +233,8 @@ msgid ""
 "Guessed pg_control values:\n"
 "\n"
 msgstr ""
+"Giá trị ước tình của pg_control:\n"
+"\n"
 
 #: pg_resetwal.c:769
 #, c-format
@@ -230,6 +242,8 @@ msgid ""
 "Current pg_control values:\n"
 "\n"
 msgstr ""
+"Giá trị pg_control hiện tại:\n"
+"\n"
 
 #: pg_resetwal.c:778
 #, c-format
@@ -404,81 +418,85 @@ msgid ""
 "Values to be changed:\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"Giá trị sẽ thay đổi::\n"
+"\n"
 
 #: pg_resetwal.c:855
 #, c-format
 msgid "First log segment after reset:        %s\n"
-msgstr ""
+msgstr "Phân đoạn log đầu tiên sau reset:                %s\n"
 
 #: pg_resetwal.c:859
 #, c-format
 msgid "NextMultiXactId:                      %u\n"
-msgstr ""
+msgstr "NextMultiXactId:                                 %u\n"
 
 #: pg_resetwal.c:861
 #, c-format
 msgid "OldestMultiXid:                       %u\n"
-msgstr ""
+msgstr "OldestMultiXid:                                  %u\n"
 
 #: pg_resetwal.c:863
 #, c-format
 msgid "OldestMulti's DB:                     %u\n"
-msgstr ""
+msgstr "OldestMulti's DB:                                %u\n"
 
 #: pg_resetwal.c:869
 #, c-format
 msgid "NextMultiOffset:                      %u\n"
-msgstr ""
+msgstr "NextMultiOffset:                                 %u\n"
 
 #: pg_resetwal.c:875
 #, c-format
 msgid "NextOID:                              %u\n"
-msgstr ""
+msgstr "NextOID:                                         %u\n"
 
 #: pg_resetwal.c:881
 #, c-format
 msgid "NextXID:                              %u\n"
-msgstr ""
+msgstr "NextXID:                                         %u\n"
 
 #: pg_resetwal.c:883
 #, c-format
 msgid "OldestXID:                            %u\n"
-msgstr ""
+msgstr "OldestXID:                                       %u\n"
 
 #: pg_resetwal.c:885
 #, c-format
 msgid "OldestXID's DB:                       %u\n"
-msgstr ""
+msgstr "OldestXID's DB:                                  %u\n"
 
 #: pg_resetwal.c:891
 #, c-format
 msgid "NextXID epoch:                        %u\n"
-msgstr ""
+msgstr "NextXID epoch:                                   %u\n"
 
 #: pg_resetwal.c:897
 #, c-format
 msgid "oldestCommitTsXid:                    %u\n"
-msgstr ""
+msgstr "oldestCommitTsXid:                               %u\n"
 
 #: pg_resetwal.c:902
 #, c-format
 msgid "newestCommitTsXid:                    %u\n"
-msgstr ""
+msgstr "newestCommitTsXid:                               %u\n"
 
 #: pg_resetwal.c:986
 #, c-format
 msgid "%s: could not create pg_control file: %s\n"
-msgstr ""
+msgstr "%s: không thể mở tệp pg_control: %s\n"
 
 #: pg_resetwal.c:997
 #, c-format
 msgid "%s: could not write pg_control file: %s\n"
-msgstr ""
+msgstr "%s: không thể ghi file pg_control: %s\n"
 
 #: pg_resetwal.c:1004 pg_resetwal.c:1301
 #, c-format
 msgid "%s: fsync error: %s\n"
-msgstr ""
+msgstr "%s: lỗi fsync: %s\n"
 
 #: pg_resetwal.c:1044 pg_resetwal.c:1115 pg_resetwal.c:1166
 #, c-format
@@ -498,7 +516,7 @@ msgstr "%s: không thể đóng thư mục \"%s\": %s\n"
 #: pg_resetwal.c:1128 pg_resetwal.c:1182
 #, c-format
 msgid "%s: could not delete file \"%s\": %s\n"
-msgstr ""
+msgstr "%s: không thể xóa tệp \"%s\": %s\n"
 
 #: pg_resetwal.c:1268
 #, c-format
@@ -515,7 +533,7 @@ msgstr "%s: không thể ghi tệp \"%s\": %s\n"
 msgid ""
 "%s resets the PostgreSQL write-ahead log.\n"
 "\n"
-msgstr ""
+msgstr "%s đặt lại WAL cho PostgreSQL.\n"
 
 #: pg_resetwal.c:1313
 #, c-format
@@ -524,6 +542,9 @@ msgid ""
 "  %s [OPTION]... DATADIR\n"
 "\n"
 msgstr ""
+"Cách sử dụng:\n"
+"  %s [OPTION]... DATADIR\n"
+"\n"
 
 #: pg_resetwal.c:1314
 #, c-format
@@ -537,66 +558,69 @@ msgid ""
 "                                 set oldest and newest transactions bearing\n"
 "                                 commit timestamp (zero means no change)\n"
 msgstr ""
+"  -c, --commit-timestamp-ids=XID,XID\n"
+"                                 thiết lập các giao dịch cũ nhất và mới nhất mang\n"
+"                                 dấu thời gian commit (số không có nghĩa là không có thay đổi)\n"
 
 #: pg_resetwal.c:1318
 #, c-format
 msgid " [-D, --pgdata=]DATADIR          data directory\n"
-msgstr ""
+msgstr " [-D, --pgdata=]DATADIR          thư mục dữ liệu\n"
 
 #: pg_resetwal.c:1319
 #, c-format
 msgid "  -e, --epoch=XIDEPOCH           set next transaction ID epoch\n"
-msgstr ""
+msgstr "  -e, --epoch=XIDEPOCH           đặt epoch cho giao dịch ID tiếp theo\n"
 
 #: pg_resetwal.c:1320
 #, c-format
 msgid "  -f, --force                    force update to be done\n"
-msgstr ""
+msgstr "  -f, --force                    bắt buộc cập nhật để hoàn thành\n"
 
 #: pg_resetwal.c:1321
 #, c-format
 msgid "  -l, --next-wal-file=WALFILE    set minimum starting location for new WAL\n"
-msgstr ""
+msgstr "  -l, --next-wal-file=WALFILE    đặt vị trí bắt đầu tối thiểu cho WAL mới\n"
 
 #: pg_resetwal.c:1322
 #, c-format
 msgid "  -m, --multixact-ids=MXID,MXID  set next and oldest multitransaction ID\n"
-msgstr ""
+msgstr "  -m, --multixact-ids=MXID,MXID  đặt transaction ID đa nhiệm tiếp theo và cũ nhất\n"
 
 #: pg_resetwal.c:1323
 #, c-format
 msgid "  -n, --dry-run                  no update, just show what would be done\n"
-msgstr ""
+msgstr "  -n, --dry-run                  không cập nhật, chỉ hiện thị những thứ sẽ hoàn thành\n"
 
 #: pg_resetwal.c:1324
 #, c-format
 msgid "  -o, --next-oid=OID             set next OID\n"
-msgstr ""
+msgstr "  -o, --next-oid=OID             đặt OID tiếp theo\n"
 
 #: pg_resetwal.c:1325
 #, c-format
 msgid "  -O, --multixact-offset=OFFSET  set next multitransaction offset\n"
-msgstr ""
+msgstr "  -O, --multixact-offset=OFFSET  đặt offset cho transaction đa nhiệm tiếp theo\n"
 
 #: pg_resetwal.c:1326
 #, c-format
 msgid "  -V, --version                  output version information, then exit\n"
-msgstr ""
+msgstr "  -V, --version                  hiển thị thông tin phiên bản, sau đó kết thúc\n"
 
 #: pg_resetwal.c:1327
 #, c-format
 msgid "  -x, --next-transaction-id=XID  set next transaction ID\n"
-msgstr ""
+msgstr "  -x, --next-transaction-id=XID  đặt transaction ID tiếp theo\n"
 
 #: pg_resetwal.c:1328
 #, c-format
 msgid "      --wal-segsize=SIZE         size of WAL segments, in megabytes\n"
-msgstr ""
+msgstr "      --wal-segsize=SIZE         kích thước phân mảnh WAL, tính bằng megabyte\n"
 
 #: pg_resetwal.c:1329
 #, c-format
 msgid "  -?, --help                     show this help, then exit\n"
-msgstr ""
+msgstr "  -?, --help                     hiển thị trợ giúp này, sau đó kết thúc\n"
 
 #: pg_resetwal.c:1330
 #, c-format
